@@ -1,0 +1,80 @@
+# Course Description
+
+Catalog Description: _Introduction to common procedures used to analyze data. Single and two-sample inference, analysis of variance, multiple regression, analysis of co-variance, experimental design, repeated measures, nonparametric procedures, and categorical data analysis. Examples will be drawn from Biology and related disciplines. Statistical computer packages will be introduced. Appropriate for biology, agriculture, nutrition, psychology, social science, and other majors. 3 hours discussion._
+
+## Learning Outcomes
+
+By the end of the semester students will be able to 
+
+* Collect data using online tools and record it in a format ready to analyze.
+* Process, screen, recode, transform, and clean data.
+* Describe data using visualizations and words. 
+* Select and carry out an appropriate statistical analysis.
+* Explain study results and limitations to a non-technical audience. 
+* Understand and Implement a reproducible research pipeline. 
+* Become a data nerd (Optional, but recommended).
+
+
+# Logistics
+**Instructor:** Dr. Robin Donatello  
+**Office Location:** Holt 202  
+**Phone Number:** 898-5767  
+**E-mail:** rdonatello at csuchico dot edu   
+**Prerequisites:** Basic computer literacy. Recent statistics course such as Math 105, MATH 315, or MATH 350.  
+**Meeting Days and Times** Tue/Thu 11-12:15, HOLT 155
+
+You can download the Syllabus in PDF form by clicking [this link](docs/syllabus_f17.pdf).
+
+
+## Required Materials
+
+* **Textbook**: _Practical Multivariate Analysis, 5th ed_ by Afifi, May Clark. Available at [Amazon](https://www.amazon.com/Practical-Multivariate-Analysis-Chapman-Statistical/dp/1439816808) or [CRC Press](https://www.crcpress.com/Practical-Multivariate-Analysis-Fifth-Edition/Afifi-Afifi-May-May-Donatello-Clark-Clark/p/book/9781439816806) _Note: I am **not** an author of the 5th edition._
+* **Reliable Laptop**: Expect to bring often. Contact me if this poses a problem or concern for you. 
+* **Reliable internet**: connection while on and off campus. ITSS can help you get this setup. 
+* **Computer Software:** Data Analysis is done using statistical analysis software. Common statistical programs include SAS, STATA, R and SPSS. I am fluent in SAS, STATA and R, but can provide limited support for SPSS. The choice of software you use for this class is up to you, but you will be expected to learn how to navigate the programs outside of class time. 
+    - If you choose to use `R`, see [here]() for resources to help you learn. 
+* **Blackboard Learn Use:** I will use Blackboard learn for
+    - Regular Announcements (which will also get emailed to your campus email)
+    - Submitting and returning assignments
+    - Grade book
+    - Discussion board for outside of class collaboration. 
+* **Google Apps:** We will use Google Docs/Drive/Forms occasionally throughout the class. All use of Gdrive items require you to log in using your campus @mail.csuchico.edu email account. 
+
+
+## Grading
+
+* Your final grade will be a straight sum of points earned and will be displayed as a running total in Blackboard Learn. 
+* The approximate contributions per category are: Preparation & Participation 20%, Assignments 20%, Exams 30%, and Projects 40%. 
+* I use a standard grade cutoff of 100-90\%: A, 89-80\%: B, 79-70\%: C, 69-60\%: D, 0-59\%: F. Plusses and minuses will be as displayed on Blackboard Learn. 
+
+
+# Schedule of Topics
+
+A more detailed schedule that is updated weekly can be found [here](). The general ordering of topics is:
+
+* Data Collection and recording
+* Preparing data for analysis
+* Data Visualization
+* Experimental Design & Selecting appropriate analyses
+* Foundations for Inference: Random variables, Parameters vs. Statistic, Confidence Intervals, Hypothesis Testing
+* Inference for a single sample (t-tests, $\chi^{2}$ tests)
+* Inference comparing multiple samples (t-tests, ANOVA, $\chi^{2}$ tests)
+* Linear regression analysis (Simple and Multiple, Categorical predictors and contrasts)
+* Logistic regression analysis
+
+## Adding and Dropping the course
+The last day to drop or add a course is 9/15/17. After this date, withdraws will only be allowed for serious and compelling reasons subject to department chair approval.
+
+## Americans with Disabilities Act
+If you need course adaptations or accommodations because of a disability or chronic illness,  or if you need to make special arrangements in case the building must be evacuated, please make an appointment with me as soon as possible, or see me during office hours. Please also contact Accessibility Resource Center (ARC) as they are the designated department responsible for approving and coordinating reasonable accommodations and services for students with disabilities. ARC will help you understand your rights and responsibilities under the Americans with Disabilities Act and provide you further assistance with requesting and arranging accommodations.
+
+Accessibility Resource Center  
+530-898-5959   
+Student Services Center 170  
+arcdept@csuchico.edu  
+
+
+
+
+_Last updated: `r format(Sys.time(), "%a %b %d %Y %X")`_
+
