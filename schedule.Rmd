@@ -1,37 +1,36 @@
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
-library(dplyr);library(readxl); library(kableExtra); library(stringr)
+library(dplyr);library(readxl); library(kableExtra)
 options(knitr.table.format = "html", knitr.kable.NA = '') 
 ```
 
 ```{r echo=FALSE}
-rawdat <- read_excel("schedule_615.xlsx")
+rawdat <- read_excel("schedule_315.xlsx")
 cdat   <- rawdat %>% mutate(Date = format(date, "%m/%d"), 
                             Topics = topic, Preparation = prep, Evaluation = eval) %>% 
-              filter(as.Date(date) > "2017-04-01") %>%
-              select(Wk, Date, Topics, Preparation, Evaluation, topic, prep, eval)
+              select(Week, Date, Topics, Preparation, Evaluation, topic, prep, eval)
 
 # parse topics
 topiclist <- which(!is.na(cdat$topic))
 cdat$Topics[topiclist] <- paste0("<ul><li>", cdat$topic[topiclist], "</li></ul>")
-cdat$Topics[topiclist] <- str_replace(cdat$Topics[topiclist], "\\*", '</li><li>')
+cdat$Topics[topiclist] <- gsub("(+.)\\*", "</li><li>", cdat$Topics[topiclist])
 
 # parse prep
 preplist <- which(!is.na(cdat$prep))
 cdat$Preparation[preplist] <- paste0("<ul><li>", cdat$prep[preplist], "</li></ul>")
-cdat$Preparation[preplist] <- str_replace(cdat$Preparation[preplist], "\\*", '</li><li>')
+cdat$Preparation[preplist] <- gsub("(+.)\\*", "</li><li>", cdat$Preparation[preplist])
 
 # parse evaluations
 evallist <- which(!is.na(cdat$eval))
 cdat$Evaluation[evallist] <- paste0("<ul><li>", cdat$eval[evallist], "</li></ul>")
-cdat$Evaluation[evallist] <- str_replace(cdat$Evaluation[evallist], "\\*", '</li><li>')
+cdat$Evaluation[evallist] <- gsub("(+.)\\*", "</li><li>", cdat$Evaluation[evallist])
 ```
 
 ```{r results='asis', echo=FALSE}
-out <- select(cdat, Wk, Date, Topics, Preparation, Evaluation)
+out <- select(cdat, Week, Date, Topics, Preparation, Evaluation)
 
 knitr::kable(out, align="l", escape=FALSE) %>% 
-  kable_styling(bootstrap_options = c("hover", "striped", "responsive")) %>% 
+  kable_styling(bootstrap_options = c("hover", "striped", "responsive", "bordered")) %>% 
   column_spec(1, width="1%") %>% column_spec(2, width="1%") %>%
   column_spec(3, width="20%") %>% column_spec(4, width="30%") %>%
   column_spec(5, width="30%")
