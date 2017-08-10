@@ -1,0 +1,146 @@
+---
+title: 'HW 1: Team Formation & Self Regulated Learning'
+author: "Course Number - STUDENT NAME"
+date: "Date"
+output:
+  pdf_document: default
+  html_notebook: default
+  html_document:
+    theme: journal
+  word_document: default
+---
+
+# Part I: Team Formation
+
+The [University of Minnesota](http://teamwork.umn.edu/) has a fantastic website devoted to surviving group projects. 
+You will have a group for immediate support in this class, but the project will be done in pairs. 
+I highly recommend you use this site as a resource for not just this, but other classes. 
+
+### Team Roster.
+Using the numbered list below, write the name of each team member and one interesting fact or tidbit you learned about them this week. 
+
+1.
+2. 
+3. 
+4. 
+
+### Team Identity
+
+Now pick a name for your team! Be as creative as you want, but do something other than
+"Team 1" or "Group ABC". 
+
+**From henceforth this gathering of people shall be called:** 
+
+\newpage
+
+# Part II: Self Regulated Learning
+
+From the [articles](http://www.norcalbiostat.com/articles/articles.html) page, download and read the "Learning (Your First Job)" article. 
+
+* Answer at least _3_ of the following questions in this document. 
+* Post one of your answers to the Blackboard discussion board under homework 1. 
+
+
+1. **What was the most important insight you gained from the reading? **
+
+2. **What surprised you most in the reading?**
+
+3. **What did you already know?**
+
+4. **Have you been taught how to learn before?  Where?  What did you learn about learning?**
+
+5. **What will you do differently during a lecture, if anything, given what you read?**
+
+6. **How will you prepare differently for exams, given what you read?**
+
+
+7. **Can you think of other good learning practices that the reading didn't mention?**
+
+
+\newpage
+
+# PART III: Chapter 1 Problem Sets.
+
+
+### Problem set 1.1: Sampling strategies
+A statistics student who is curious about the relationship between the amount of time students spend on social networking sites and their performance at school decides to conduct a survey. Three research strategies for collecting data are described below. In each, describe any potential problems and bias you might expect.
+
+  1. **He randomly samples 40 students from the study's population, gives them the survey, asks them to fill it out and bring it back the next day.**
+
+
+  2. **He gives out the survey only to his friends, and makes sure each one of them fills out the survey.**
+
+
+  3. **He posts a link to an online survey on his Facebook wall and asks his friends to fill out the survey.**
+
+
+
+
+### Problem set 1.2: Publication Bias
+**In addition to statistical significance, selective publication can also be due to the observed outcome. A recent review of 74 studies of antidepressant agents found 38 studies with positive results and 36 studies with negative or questionable results. All but 1 of the 38 positive studies were published. Of the remaining 36, 22 were not published, and 11 were published in such a way as to convey a positive outcome. Describe how this selective reporting can have adverse consequences on health care.**
+
+ 
+### Problem set 1.3: Identifying a type of study
+For each of the following situations, identify if it is an observational study or an experiment.
+
+  1. **Review medical or company records to attempt to identify fraud.**
+  
+  
+  2. **Follow a cohort of many similar individuals to study why certain diseases might develop.**
+  
+  
+  3. **Plant a specific type of native grass in select areas to see if the native species will out-compete an invasive species.**
+  
+
+
+
+
+### Problem set 1.4: Generalizability and causality, Assessing relationships
+  
+#### 1. OpenIntro 1.9: Air pollution and birth outcomes, scope of inference
+Researchers collected data to examine the relationship between air pollutants and preterm births in Southern California. During the study air pollution levels were measured by air quality monitoring stations. Length of gestation data were collected on 143,196 births between the years 1989 and 1993, and air pollution exposure during gestation was calculated for each birth.
+
+  a. **Identify the population of interest and the sample in this study.**
+  
+  
+  b. **Comment on whether or not the results of the study can be generalized to the population, and if the findings of the study can be used to establish causal relationships.**
+  
+  
+
+#### 2. OpenIntro 1.15: GPA and study hours
+A survey was conducted on 218 undergraduates from Duke University who took an introductory statistics course in Spring 2012. Among many other questions, this survey asked them about their GPA and the number of hours they spent studying per week. The scatterplot below displays the relationship between these two variables.
+
+  a. **What is the explanatory variable and what is the response variable?**
+  
+  
+  b. **Describe the relationship between the two variables. Make sure to discuss unusual observations, if any.**
+  
+  
+  c. **Is this an experiment or an observational study?**
+  
+  
+  d. **Can we conclude that studying longer hours leads to higher GPAs?**
+  
+
+### Problem set 1.5: Experimental Design: 
+Blackboard Learn problem set. 
+
+### Problem set 1.6: Fat Baby Hamsters
+A researcher is conducting an experiment to see the effect of diet and exercise on weight gain in baby hamsters. Two different diets (low fat and high fat) and three different levels of exercise (high, moderate, or none) will be used. Eight baby hamsters will be raised under each combination of diet and exercise and their weight gain after 4 weeks will be measured.
+
+  1. **What are the experimental units here?**
+  
+  
+  2. **What are the factors? List the levels of each factor.**
+  
+  
+  3. **How many different treatments are there? List them.**
+  
+  
+  4. **How many experimental units will this experiment require?**
+  
+
+
+> Knit this document to either PDF (requires LaTeX) or WORD and submit the resulting PDF or WORD file to BBLearn by the due date. 
+
+

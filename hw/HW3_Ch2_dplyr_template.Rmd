@@ -1,0 +1,230 @@
+---
+title: 'HW 3: Chapter 2. Study Design & Data Aggregation'
+author: "STUDENT NAME"
+date: "Date"
+output:
+  word_document: default
+  html_notebook: default
+  pdf_document: default
+  html_document:
+    highlight: pygments
+    theme: cerulean
+---
+
+
+# PART II: Data Aggregation with `dplyr`. 
+
+## Introduction 
+When working with data you must:
+
+1. Figure out what you want to do.
+2. Precisely describe what you want in the form of a computer program.
+3. Execute the code.
+
+The dplyr package makes each of these steps as fast and easy as possible by:
+
+1. Elucidating the most common data manipulation operations, so that your
+   options are helpfully constrained when thinking about how to tackle a problem.
+2. Providing simple functions that correspond to the most common data 
+   manipulation verbs, so that you can easily translate your thoughts into code.
+3. Using efficient data storage backends, so that you spend as little time 
+   waiting for the computer as possible.
+
+The goal of this lesson is to introduce you to the basic tools that dplyr provides, 
+and show how you to apply them to data frames. We will be demonstrating using
+the `PLANTS1` data set, available from the datasets page on the course website. 
+
+The full intro to `dplyr` can be found in the package vignette
+https://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html 
+
+**For each question, show the code used to answer the question and where 
+applicable answer the question in a full and complete sentence.**
+
+```{r, warning=FALSE, message=FALSE}
+library(dplyr)
+library(knitr)
+library(ggplot2)
+plants <- read.delim("C:/Github/Teaching/data/plants1.txt", sep="\t", header=TRUE)
+```
+
+## Exploring the plants1 data set
+This data set records the percent of nitrogen (`pctnit`) in different `species` of plants 
+grown in a laboratory under various amounts of `water` provided. 
+
+First let's practice some data exploration techniques. 
+```{r}
+head(plants)
+```
+
+1. **How many plants were measured?**
+
+
+ 
+
+2. **What are the experimental factors?**
+
+
+3. **How many factor levels are there?**
+
+
+4. **How many plants were measured for each treatment combination?**
+
+
+
+## The 5 basic verbs
+The `dplyr` package contains six key data manipulation functions, also called verbs:
+
+* `filter()`: Returns a subset of the rows.
+* `arrange()`: Reorders the rows according to single or multiple variables.
+* `select()`: Returns a subset of the columns.
+* `mutate()`: Adds columns from existing data.
+* `summarise()`: Reduces each group to a single row by calculating aggregate measures.
+* `group_by()`: Performs any of the above functions for each level of the grouping variable. 
+
+This is a quick intro, so we're not going to cover all five of these verbs in this lab.  
+
+### Filter
+`filter()` allows you to select a subset of the rows of a data frame. 
+The first argument is the name of the data frame, and the second and subsequent are filtering 
+expressions evaluated in the context of that data frame. For example, we can select all 
+plants from species 1 measured under 50mm water. 
+```{r}
+filter(plants, species == "1", water == "50")
+```
+
+5. **`filter()` the `plants` data set to only show species 3. _Wrap `head()` around
+your response so that you are not priting out the entire data set._ **
+
+
+### Arrange
+`arrange()` is your sorting function. It takes a data frame, and a set of column
+names (or more complicated expressions) to order by. If you provide more than
+one column name, each additional column will be used to break ties in the values
+of preceding columns. Here we arrange the plants data by water instead of species
+```{r}
+head(arrange(plants, water))
+```
+
+We can sort a variable in descending order (largest to smallest) by using `desc()`
+on the variable of interest. Additional variables to sort on can be included by
+writing each one after a comma. 
+```{r}
+head(arrange(plants, desc(species, pctnit)))
+```
+
+6. **`arrange()` the data by `water` and then descending `pctnit`.**
+
+
+### Select
+Often you work with large datasets with many columns where only a few are
+actually of interest to you. `select()` allows you to rapidly zoom in on
+a useful subset using operations that usually only work on numeric variable
+positions.
+```{r}
+head(select(plants, pctnit))
+```
+
+You can also drop variables easily by using a negative sign to select all 
+columns EXCEPT the one listed
+```{r}
+head(select(plants, -water))
+```
+
+
+### Mutate
+As well as selecting from the set of existing columns, it's often useful to 
+add new columns that are functions of existing columns. This is the job of mutate()!
+
+At this point, water and species are treated as numeric variables when we know
+that they really are factors. So let's convert them to proper factors. 
+```{r}
+plants <- plants %>% mutate(species= as.factor(species), 
+                            water = as.factor(water))
+```
+
+Notice i'm overwriting the `plants` data set. Also notice that it doesn't print out
+anything. 
+
+7. **Confirm that they are factors.**
+
+
+### Summarize
+The last verb is `summarise()`, which collapses a data frame to a single row. 
+It's not very useful yet. Here we calculate the average `pctnit` in the
+entire data set. This is more useful when combined with the `group_by()`
+helper function. 
+```{r}
+summarise(plants, mean = mean(pctnit))
+```
+
+### Grouped Operations
+The above verbs are useful, but they become really powerful when you combine them 
+with the idea of "group by", repeating the operation individually on groups of 
+observations within the dataset. In dplyr, you use the `group_by()` function to 
+describe how to break a dataset down into groups of rows. You can then use the 
+resulting object in exactly the same functions as above; they'll automatically 
+work "by group" when the input is a grouped.
+
+The most common thing we'll do is calculate grouped summary statistics. Let's
+demonstrate by calculating the mean `pctnit` per group. 
+
+```{r}
+by_spec <- group_by(plants, species)
+summarise(by_spec, avenit = mean(pctnit))
+```
+
+This output shows that group 1 has an average nitrogen content of 3.03%, 
+group 2 has 2.09 and so forth. 
+
+Other common summary statistics include the count of rows per group `n()`. 
+```{r}
+summarise(by_spec, count = n())
+```
+
+8. **Calculate the standard deviation (`sd`) of `pctnit` per water group.**
+
+
+### Chaining Operations
+Above we created a new data set `by_spec` that contained the grouped data set. 
+This is inefficient in that we just make an entire new copy of the data set. 
+Instead of doing commands on separate data sets, let's _chain_ them together
+using the _pipe_ `%>%` operator. 
+
+```{r}
+plants %>% group_by(species) %>% 
+           summarise(avenit = mean(pctnit), 
+                     sd = sd(pctnit))
+```
+
+You can read this is by thinking "and then" when you see the `%>%` 
+operator. So the above code takes the data set plants  
+.. and then groups by species
+.. and then calculates the mean AND sd for nitrogen
+
+**the most important thing to note is that the first argument, where the data set
+usually goes, does not go there anymore!** the _pipe_ operator does all the 
+function nesting for you. 
+
+9. **Calculate the grouped mean, variance and sample size for each level of water. 
+Save this result as a data set named `water_summary`.**
+
+
+
+### Printing nice tables
+Lastly, let's look at how to use the `kable()` function (part of the `knitr` package)
+to display tables nicely in your report. Here we calculate the mean, variance and 
+sample size of the percent nitrogen per species, and save it as a new data set `ss` 
+ Then we call `kable()` on this new data set with
+a `digits=3` argument to round the output to 3 decimal places. 
+
+```{r}
+ss <- plants %>% group_by(species) %>% 
+                 summarise(mean = mean(pctnit), 
+                           var = var(pctnit), 
+                           n = n())
+                           
+kable(ss, digits=3)
+```
+
+
+10. **Print out your `water_summary` table using `kable()`. Round the output to 2 decimal places**

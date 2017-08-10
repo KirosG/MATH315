@@ -7,18 +7,13 @@ options(knitr.table.format = "html", knitr.kable.NA = '')
 ```{r echo=FALSE}
 rawdat <- read_excel("schedule_315.xlsx")
 cdat   <- rawdat %>% mutate(Date = format(date, "%m/%d"), 
-                            Topics = topic, Preparation = prep, Evaluation = eval) %>% 
-              select(Week, Date, Topics, Preparation, Evaluation, topic, prep, eval)
+                            Topics = topic, Evaluation = eval) %>% 
+              select(Week, Date, Topics, Notes, Evaluation, topic, eval)
 
 # parse topics
 topiclist <- which(!is.na(cdat$topic))
 cdat$Topics[topiclist] <- paste0("<ul><li>", cdat$topic[topiclist], "</li></ul>")
 cdat$Topics[topiclist] <- gsub("(+.)\\*", "</li><li>", cdat$Topics[topiclist])
-
-# parse prep
-preplist <- which(!is.na(cdat$prep))
-cdat$Preparation[preplist] <- paste0("<ul><li>", cdat$prep[preplist], "</li></ul>")
-cdat$Preparation[preplist] <- gsub("(+.)\\*", "</li><li>", cdat$Preparation[preplist])
 
 # parse evaluations
 evallist <- which(!is.na(cdat$eval))
@@ -27,7 +22,7 @@ cdat$Evaluation[evallist] <- gsub("(+.)\\*", "</li><li>", cdat$Evaluation[evalli
 ```
 
 ```{r results='asis', echo=FALSE}
-out <- select(cdat, Week, Date, Topics, Preparation, Evaluation)
+out <- select(cdat, Week, Date, Topics, Notes, Evaluation)
 
 knitr::kable(out, align="l", escape=FALSE) %>% 
   kable_styling(bootstrap_options = c("hover", "striped", "responsive", "bordered")) %>% 
