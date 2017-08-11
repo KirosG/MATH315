@@ -3,8 +3,6 @@ title: 'HW 1: Team Formation & Self Regulated Learning'
 author: "Course Number - STUDENT NAME"
 date: "Date"
 output:
-  pdf_document: default
-  html_notebook: default
   html_document:
     theme: journal
   word_document: default

@@ -57,6 +57,7 @@ Goals:
 ## Friday: R Markdown and Data dictionaries
 Goals: 
 
+* Get your computer prepared for data analysis
 * Produce a reproducible document using R Markdown.
 * Understand how R markdown will be used to submit homework
 * Learn about the data set on Adolescents you will be using
