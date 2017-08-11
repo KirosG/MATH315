@@ -54,11 +54,54 @@ You can download the Syllabus in PDF form by clicking [this link](syllabus_f17.p
     - Discussion board for outside of class collaboration. 
 
 
+\newpage
+
+## Coursework
+
+There are 6 types of assignments that I use to help you learn, and to assess how well you have
+learned the material and can synthesize information. These categories are listed below, somewhat 
+ordered in roughly how prompt the feedback is (Top:immediate, Bottom: approx 1 week)
+
+1. **BBLearn**: Quizzes typically worth 1 point on Blackboard Learn. 
+      - These are a random set of questions from a pool of questions. 
+      - You have unlimited attempts to earn the score you desire. 
+      - Late submissions are accepted until EOD of the day before the upcoming exam. 
+2. **R**: You will spend a fair amount of time on Data Camp learning R. 
+      - There will be a corresponding BBLearn learn quiz associated with each lesson. 
+      - You will have multiple (but not unlimited) attempts at these quizes. 
+      - Questions can be conceptual, interpreting results, and asking you to write code to demonstrate a task. 
+      - The corresonding DC labs range in difficulty and length, so the points per assignment will range from 5-10. 
+3. **Learning**: These types of assignments are all designed to help you become aware of how you learn 
+    and how you can become a more active learner. 
+      - Learning assignments take the form of readiness assurance tests, team preparation, 
+      Exam error assessments and meta-cognition assessments and reading. 
+4. **Exams:** There will be 3 exams. 
+      - An Error Analysis can be conducted on Exam 1 and 2 to earn back up to half the credit missed. 
+5. **Written**: Includes problem sets from the course notes, and in-class worksheets. 
+      - Typically be submitted as either code files or compiled PDF/Word/HTML documents.
+      - These will take a considerable amount of time writing and are worth 5-10 pts. 
+      - The solutions are posted to the course website after the due date. 
+      - See comment about late homework below. 
+6. **Project:** You will be working in pairs on a project throughout the term. 
+      - There will be several check in points
+      - You will present your work as a poster at the end of the semester. 
+    
+  
+**Late work:** 
+
+* Written homework is due via Blackboard Learn every Sunday end of day (EOD). This means midnight. 
+* Late work and resubmission for assignments earning 0 pts will be accepted until EOD day before exam, 
+  for at most half credit. These are then not graded for correctness, just effort and completeness. 
+ 
+ 
 ## Grading
 
 * Your final grade will be a straight sum of points earned and will be displayed as a running total in Blackboard Learn. 
-* The approximate contributions per category are: Preparation & Participation 20%, Assignments 20%, Exams 30%, and Projects 40%. 
-* I use a standard grade cutoff of 100-90\%: A, 89-80\%: B, 79-70\%: C, 69-60\%: D, 0-59\%: F. Plusses and minuses will be as displayed on Blackboard Learn. 
+* The approximate contributions per category are: BBLearn, Reading, Learning, R are combined worth about 25\%, Written assignments 25\%, Exams 25\%, and the project 25\%. 
+* I use a standard grade cutoff of 100-90\%: A, 89-80\%: B, 79-70\%: C, 69-60\%: D, 0-59\%: F Plusses and minuses will be as displayed on Blackboard Learn. 
+
+
+
 
 
 # Schedule of Topics

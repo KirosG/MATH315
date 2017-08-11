@@ -16,7 +16,7 @@ navbar:
   right:
     - text: "Syllabus"
       icon: fa-info-circle
-      href: syllabus.html
+      href: docs/syllabus_f17.html
     - text: "Help/FAQ"
       icon: fa-question
       href: help.html

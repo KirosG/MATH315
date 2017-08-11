@@ -43,13 +43,18 @@ From the [articles](http://www.norcalbiostat.com/articles/articles.html) page, d
 
 1. **What was the most important insight you gained from the reading? **
 
+
 2. **What surprised you most in the reading?**
+
 
 3. **What did you already know?**
 
+
 4. **Have you been taught how to learn before?  Where?  What did you learn about learning?**
 
+
 5. **What will you do differently during a lecture, if anything, given what you read?**
+
 
 6. **How will you prepare differently for exams, given what you read?**
 
@@ -140,7 +145,11 @@ A researcher is conducting an experiment to see the effect of diet and exercise 
   4. **How many experimental units will this experiment require?**
   
 
+\newpage
 
-> Knit this document to either PDF (requires LaTeX) or WORD and submit the resulting PDF or WORD file to BBLearn by the due date. 
+# PART IV: Add Health Data Set
+
+**I am interested in learning more about these sections of the Add Health data set:**
+
 
 
