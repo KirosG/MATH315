@@ -40,6 +40,12 @@ By the end of the semester students will be able to
 ## Required Materials
 
 * **Textbook**: Open Intro Statistics https://www.openintro.org/stat/textbook.php?stat_book=os 
+* **Course Notes**: Purchase from Chico Packet Pro for $18. You will write directly into this inside and outside of class. 
+    - Chico Packet Pro store will be open from: 
+    - Friday, August 18 - Wednesday, September 6
+    - Mon-Thu 10-6, Fri 10-5, Sat 8/19 + 8/26 from 10-2
+    - 230 Salem Street and our entrance is on the city parking lot side of the building. We accept cash, debit and credit cards.
+    - Online at https://squareup.com/store/chico-packet-pro/item/math-course-notes-prof-donatello
 * **Reliable Laptop with internet connectivity**: Required to bring every day. Contact me if this poses a problem or concern for you. 
 * **Headphones:** In case you forget to watch a required video before class you may be asked to do so in class. 
 * **Computer Software:** All required software is free. Instructions on how to download and install can be found at this link: https://norcalbiostat.netlify.com/post/software-overview/
@@ -54,48 +60,43 @@ By the end of the semester students will be able to
 
 ## Coursework
 
-There are 6 types of assignments that I use to help you learn, and to assess how well you have
+There are 7 types of assignments that I use to help you learn, and to assess how well you have
 learned the material and can synthesize information. These categories are listed below, somewhat 
 ordered in roughly how prompt the feedback is (Top:immediate, Bottom: approx 1 week)
 
-1. **BBLearn**: Quizzes typically worth 1 point on Blackboard Learn. 
-      - These are a random set of questions from a pool of questions. 
-      - You have unlimited attempts to earn the score you desire. 
-      - Late submissions are accepted until EOD of the day before the upcoming exam. 
-2. **R**: You will spend a fair amount of time on Data Camp learning R. 
-      - There will be a corresponding BBLearn learn quiz associated with each lesson. 
-      - You will have multiple (but not unlimited) attempts at these quizes. 
-      - Questions can be conceptual, interpreting results, and asking you to write code to demonstrate a task. 
-      - The corresonding DC labs range in difficulty and length, so the points per assignment will range from 5-10. 
-3. **Learning**: These types of assignments are all designed to help you become aware of how you learn 
+1. **Participation**: I will frequently call on people to answer questions from the course notes. 
+    - Having an answer ready to go (correct or not) will earn you participation for that day. 
+2. **BBLearn**: These are a random set of questions from a pool of questions. 
+    - You have unlimited attempts to earn the score you desire. 
+    - Late submissions are accepted until EOD of the day before the upcoming exam. 
+3. **Online R**: You will spend a fair amount of time on Data Camp learning R. 
+    - There will be a corresponding BBLearn learn quiz associated with each lesson. 
+    - You will have multiple (but not unlimited) attempts at these quizzes. 
+    - Questions can be conceptual, interpreting results, and asking you to write code to demonstrate a task. 
+4. **Learning**: These types of assignments are all designed to help you become aware of how you learn 
     and how you can become a more active learner. 
-      - Learning assignments take the form of readiness assurance tests, team preparation, 
-      Exam error assessments and meta-cognition assessments and reading. 
-4. **Exams:** There will be 3 exams. 
-      - An Error Analysis can be conducted on Exam 1 and 2 to earn back up to half the credit missed. 
-5. **Written**: Includes problem sets from the course notes, and in-class worksheets. 
-      - Typically be submitted as either code files or compiled PDF/Word/HTML documents.
-      - These will take a considerable amount of time writing and are worth 5-10 pts. 
-      - The solutions are posted to the course website after the due date. 
-      - See comment about late homework below. 
-6. **Project:** You will be working in pairs on a project throughout the term. 
-      - There will be several check in points
-      - You will present your work as a poster at the end of the semester. 
+    - Learning assignments take the form of readiness assurance tests (RAT), Exam error assessments and meta-cognition assessments and reading. 
+5. **Written**: Written assignments are methods to demonstrate you have learned the material covered in class that day or that week. 
+    - These typically are worksheets and labs that we do together as a class. 
+6. **Exams:** There will be 3 exams. 
+    - An Error Analysis can be conducted on Exam 1 and 2 to earn back up to half the credit missed. 
+7. **Project:** You will be working in pairs on a project throughout the term. 
+    - There will be several assignments throughout the semester geared towards progressing your analysis project. 
+    - You will present your work as a poster at the end of the semester. 
     
 
 In addition to the above there will be general weekly participation points granted for answering questions in class. 
 
 **Late work:** 
 
-* Written homework is due via Blackboard Learn every Sunday end of day (EOD). This means midnight. 
-* Late work and resubmission for assignments earning 0 pts will be accepted until EOD day before exam, 
-  for at most half credit. These are then not graded for correctness, just effort and completeness. 
+* Unless otherwise specified, assignments are due by Sunday end of day (EOD). This means midnight. 
+* Late work is not accepted (with the exception of BBL quizzes)
  
  
 ## Grading
 
 * Your final grade will be a straight sum of points earned and will be displayed as a running total in Blackboard Learn. 
-* The approximate contributions per category are: In class participation, BBLearn, Reading, Learning and R are combined worth about 25\%, Written assignments 25\%, Exams 25\%, and the project 25\%. 
+* The approximate contributions per category are: In class participation, BBLearn, Reading, Learning and R are combined worth about 25\%, Written assignments 10\%, Exams 25\%, and the project 30\%. 
 * I use a standard grade cutoff of 100-90\%: A, 89-80\%: B, 79-70\%: C, 69-60\%: D, 0-59\%: F Plusses and minuses will be as displayed on Blackboard Learn. 
 
 # Topic Overview
