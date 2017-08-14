@@ -78,7 +78,7 @@ Goals:
 * Learn how to start a literature review to refine and support your research topic
 
 ## Prepare
-* Read [How to read a journal article](docs/How to read a journal article.pdf)
+* Read [How to read a journal article](docs/How to Read a Journal Article.pdf)
 * Watch PDS [Video 4](http://passiondrivenstatistics.com/2015/09/16/chapter-04/)
 
 ## In class

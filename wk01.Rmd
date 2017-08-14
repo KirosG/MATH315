@@ -32,7 +32,7 @@ Goals:
 
 ## Prepare 
 
-* Read the [Syllabus](syllabus_315.pdf)
+* Read the [Syllabus](docs/syllabus_315.pdf)
 * Complete the OH [Survey](https://goo.gl/forms/nPjWFAosETEflXP32)
 * Bookmark this class website 
 * Purchase the Course Notes (CN) packet (required) from Chico Packet Pro ($18.23)
@@ -41,9 +41,9 @@ Goals:
         - Mon-Thu 10-6, Fri 10-5, Sat 8/19 + 8/26 from 10-2
     - Chico Packet Pro is located at 230 Salem Street and our entrance is on the city parking lot side of the building. We accept cash, debit and credit cards.
     - Online at https://squareup.com/store/chico-packet-pro/item/math-course-notes-prof-donatello
-* Join the class Data Camp group [**Use this link**](https://www.datacamp.com/groups/898c8f395e0e69683d55ba3419116c349aa601ee/invite)
+* Join the class Data Camp group **Use link in email**
 * Create a MATH315 folder on your computer - all course related files go in here. 
-* Download the [color PDF version](RAD_course_notes.pdf) of the course notes for reference - This is not a replacement for the print version. 
+* Download the [color PDF version](docs/RAD_course_notes.pdf) of the course notes for reference - This is not a replacement for the print version. 
 * Download or purchase Open Intro (OI) [Textbook](https://www.openintro.org/stat/textbook.php?stat_book=os)
  
 
@@ -80,7 +80,7 @@ Goals:
 
 ## Prepare
 * Follow the [Software overview](https://norcalbiostat.netlify.com/post/software-overview/) blog post to install necessary programs onto your own computer
-* Right click and "save link as" to download the HW 1 [[RMD Template](hw/HW1.Rmd) and [[PDF]](hw/HW1.pdf) files into your class folder. 
+* Right click and "save link as" to download the HW 1 [[RMD Template]](hw/HW1.Rmd) and [[PDF]](hw/HW1.pdf) files into your class folder. 
 * Download and review the [Add Health](https://norcalbiostat.netlify.com/data/raw_data/) Wave IV PDF codebook and pick 3-5 sections you are interested in exploring. 
 
 ## In class
