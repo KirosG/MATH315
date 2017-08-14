@@ -1,0 +1,107 @@
+---
+title: 'HW 2: Chapter 1. Data Exploration'
+author: "Course Number - STUDENT NAME"
+date: "Date"
+output:
+  html_document:
+    theme: journal
+  word_document: default
+---
+
+# PART I: Chapter 2 Problem Sets.
+
+
+## PS 2.1: Data Basics
+
+1. **OI 1.7: Fisher's irises:** Sir Ronald Aylmer Fisher was an English statistician, evolutionary biologist, 
+    and geneticist who worked on a data set that contained sepal length and width, and petal length and width 
+    from three species of iris flowers (_setosa, versicolor_ and _virginica_). There were 50 flowers 
+    from each species in the data set.
+
+    a. **How many cases were included in the data?**
+    
+    b. **How many numerical variables are included in the data? Indicate what they are, and if they are continuous or discrete.**
+    
+    c. **How many categorical variables are included in the data, and what are they? List the corresponding levels (categories).**
+    
+
+<br>
+
+2. **OI 1.8: Smoking habits of UK Residents: ** A survey was conducted to study the smoking habits 
+   of UK residents. The textbook displays a data matrix displaying a portion of the data collected 
+   in this survey. Note that &#163; stands for British Pounds Sterling, _cig_ stands for 
+   cigarettes, and _N/A_ refers to a missing component of the data. 
+   
+    a. **What does each row of the data matrix represent?**
+  
+    b. **How many participants were included in the survey?**
+  
+    c. **Indicate whether each variable in the study is numerical or categorical. If numerical, identify as 
+    continuous or discrete. If categorical, indicate if the variable is ordinal.**
+  
+
+
+
+## PS 2.3 Mean vs. Median 
+A small accounting firm pays each of its six clerks $35,000, two junior accountants $70,000 each, 
+and the firm's owner $420,000. The salary data for the 6 clerks, 2 Jr. accountants and owner looks like
+```{r}
+# assign salary as an object here
+```
+
+1. **What is the mean salary paid at this firm?**
+```{r}
+# use the mean() function here
+```
+
+
+
+2. **How many of the employees earn less than the mean?**
+
+
+  
+3. **What is the median salary?**
+```{r}
+# use the median() function here
+```
+
+4. **Which measure tells you more about the typical amount earned at that firm?**
+
+
+
+## PS 2.8: Sample correlations
+The Organisation for Economic Co-operation and Development collects data on the central government debt for many countries. 
+The data for this problem is contained in the `debt` data set. 
+
+```{r}
+# Use read.delim() to import the data here by using the code found on the datasets page
+```
+
+1. **Draw a scatterplot of 2005(x) against 2006(y) data.**
+```{r, fig.height=4, fig.width=5, fig.align='center'}
+# create the scatterplot here. You can use plot(), qplot() or ggplot()
+
+```
+
+
+2. **Describe the direction,  strength and form of the relationship in context of the problem.**
+   
+   
+   
+3. **Calculate the correlation $r$.**
+```{r}
+# use the cor() function here
+
+```
+
+
+
+## PS 2.10: Spurious correlations
+Go to the Spurious Correlations website: http://tylervigen.com/discover and use the drop down menu to choose two interesting variables to examine the correlation between. Include the image into your homework document by replacing the URL in the example below with your URL. Write a sentence or two describing the trends observed in your example. Explain the difference in correlation and causation in context of your variables.
+
+![Divorce rate in Alabama vs US whole milk consumption](http://tylervigen.com/correlation_project/correlation_images/divorce-rate-in-alabama_per-capita-consumption-of-whole-milk-us.png)
+
+
+
+
+

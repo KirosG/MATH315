@@ -6,7 +6,7 @@ This is the landing page for <span style="color:blue">**Applied Statistical Meth
  
 
 ### 8/21/17 - Welcome!
-* This course website is currently being revamped, but be sure to acquaint yourself with the organiation. You will be here a lot. Bookmark this page.
+* This course website is currently being revamped, but be sure to acquaint yourself with the organization. You will be here a lot. Bookmark this page.
 * Specifically click on the _schedule_ link in the top navigation bar to see the daily outline of topics. This will fill in as we go. 
     - More importantly that page has links to all the weekly overview notes, materials and assignments
 

@@ -1,0 +1,41 @@
+---
+title: "PERSONAL CODE BOOK (AKA RESEARCH QUESTION) ASSIGNMENT "
+output:
+  html_document:
+    highlight: tango
+    theme: flatly
+css: ../css/customh5.css
+---
+
+Now it is time for you to formulate your own Research Question. Take this task seriously – it will guide your focus for the rest of the semester. 
+Follow the steps below to complete this assignment.
+
+
+## Step 1: (Statement): 
+Thoroughly review the codebook for the AddHealth database and make note of topics that interest you. Use this as a brainstorming session and identify as much as you can. Write a statement similar to the one below regarding what topic(s) you are interested in from the AddHealth database. You should also explain WHY you are interested in your topic. 
+
+> Example:
+After looking through the codebook for the U.S. Longitudinal Study of Adolescent to Adult Health study database, I have decided that I am particularly interested in nicotine dependence. I am not sure which variables I will use regarding nicotine dependence (e.g. symptoms or diagnosis) so for now I will include all of the relevant variables in my personal codebook. While nicotine dependence is a good starting point, I need to determine what it is about nicotine dependence that I am interested in. It strikes me that friends and acquaintances that I have known through the years that became hooked on cigarettes did so across very different periods of time. Some seemed to be dependent soon after their first few experiences with smoking and others after many years of generally irregular smoking behavior. I decided that I am most interested in exploring the association between level of smoking and nicotine dependence. Below I have added to my codebook variables reflecting smoking levels (e.g. smoking quantity and frequency). If my topic is too vague, I would like to bring suicide in. I would be interested to see if there is any relationship between level of smoking with nicotine dependence and suicide.
+
+
+## Step 2: (Personal Codebook): 
+Create or continue working on your personal codebook that we discussed in class. 
+* In your personal codebook, include the questions/items/variables from the AddHealth codebook that measure your selected topics. 
+* You can do this simply by using  “copy screen” and paste into a new document OR take a snapshot with the snipping tool. 
+    - In the pdf file, go to Edit, Take a Snap Shot, then click and drag over what you want. If you are on a MAC, press Shift+Command+Ctrl+4 to get the snip tool.
+
+## Step 3: (Research Questions): 
+Now that you have a few topics and picked out variables for each topic, what questions are you interested in trying to answer about your topics? One of the simplest research questions that can be asked is whether two constructs are associated.
+> Questions example:
+> a) Does smoking quantity relate to nicotine dependence?
+> b) Is there a relationship between smoking frequency and suicide?
+> c) Does a smoker have more suicidal behaviors than a non-smoker?
+
+
+##### How to submit
+* Submit your document Blackboard by the due date. 
+* You can complete this assignment in WORD or Google Doc if you choose to use screenshots. 
+    - If you are comfortable with taking screen shots, saving them to your computer and using Rmarkdown to insert images then I recommend you create complete this assignment as a `.MD` or `.RMD` file
+        - R Studio [R Markdown cheat sheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
+
+

@@ -1,0 +1,95 @@
+---
+title: 'Week 2: 8/28 - 9/3'
+date: "Last Updated `r Sys.time()`"
+output:
+  html_document:
+    highlight: tango
+    theme: cerulean
+    toc: yes
+    toc_float: yes
+css: css/customh5.css
+---
+
+```{r,echo=FALSE, warning=FALSE, message=FALSE}
+library(knitr)
+#library(rmarkdown)
+opts_chunk$set(warning=FALSE, message=FALSE) 
+```
+
+
+# Monday: 
+Goals: 
+
+* Learn how data is collected and some terminology. 
+* Continue to learn how to use R to explore data
+
+## Prepare 
+
+* Read OI 1.3-1.5
+* Read CN Ch1 - prepare answers to all questions and examples
+
+## In class
+* RAT on Ch 1
+* Discuss answers to questions in CN 2.1
+
+##### Assignments
+* Data Camp (2 lessons): Open Intro - Intro to R, and Intro to Data (Due 9/3)
+* Complete both corresponding BBL quizzes (Due 9/3)
+* PS 1.5 (Due 9/3)
+
+----
+
+# Wednesday:
+Goals: 
+
+* Learn how to use a codebook to identify variables of interest and how they are recorded
+* Import the Add Health data from Excel into R
+
+## Prepare
+* Start a new `projects` folder in your `MATH315` folder. 
+    - Download the AddHealth data set into this folder
+* Confirm you have the following packages installed by typing `library(package name)`. 
+    - `tidyverse`, `readxl`, `kableExtra`, `descr`, `rmarkdown`, `ggplot2`, `knitr`, `gridExtra`
+    - If you get the following error message `Error in library(package name) : there is no package called ‘package name’` then you need to install the package by typing: `install.packages("package name")`
+* Watch the R Markdown [Tutorial](http://rmarkdown.rstudio.com/lesson-1.html) by R Studio
+
+## In class
+* Learn how to read and create a codebook
+* Import the Add Health data into R
+    - Start a new R Markdown file, save it as **AddHealth_DM.Rmd** into your projects folder. 
+        - Delete the template material _below the first code chunk_.
+        - In the first code chunk, read in the AddHealth data into R. 
+        - Knit this file to make sure it works. 
+
+## Additional resources
+* R Studio [R Markdown cheat sheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
+
+
+##### Assignments
+* Research question assignment [[Instructions]](hw/RQ.html) (Due 9/3)
+
+
+----
+
+# Friday:
+Goals: 
+
+* Verbalize your research topic or area of interest
+* Learn how to start a literature review to refine and support your research topic
+
+## Prepare
+* Read [How to read a journal article](docs/How to read a journal article.pdf)
+* Watch PDS [Video 4](http://passiondrivenstatistics.com/2015/09/16/chapter-04/)
+
+## In class
+* Share your research topic with the class
+* Search primary sources, take notes of articles to further look into. 
+
+## Additional Resources
+* [Help using the library](http://library.csuchico.edu/help)
+* [Connecting to Meriam library from off campus](http://library.csuchico.edu/connecting-off-campus)
+
+
+##### Assignments
+* Citation assignment [[Instructions]](hw/Citation_Assignment.html) [[RMD Template]](hw/CA.Rmd)(Due 9/10)
+    - [Example assignment](docs/Citation Assignment Example.pdf)

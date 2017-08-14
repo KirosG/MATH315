@@ -1,0 +1,124 @@
+---
+title: 'Week 1: 8/21 - 8/27'
+date: "Last Updated `r Sys.time()`"
+output:
+  html_document:
+    highlight: tango
+    theme: cerulean
+    toc: yes
+    toc_float: yes
+css: css/customh5.css
+---
+
+```{r,echo=FALSE, warning=FALSE, message=FALSE}
+library(knitr)
+#library(rmarkdown)
+opts_chunk$set(warning=FALSE, message=FALSE) 
+```
+
+
+# Monday: Gearing up
+
+Goals: 
+
+* See an eclipse (10:17 am) 
+* Understand how the class is run, common acronyms (OI/CN/DC/RAT/BBL/PDS)
+* Understand how to navigate the course website
+* Understand how learning is your first responsibility in this class, and how it is hard. 
+* Understand the concept of metacognition and how being aware of your learning can improve your chances of success
+* Understand what it takes to get an A in this course, and what it takes "just to pass"
+* Get connected to online accounts and resources
+* Start learning R using Data Camp
+
+## Prepare 
+
+* Read the [Syllabus](syllabus_315.pdf)
+* Complete the OH [Survey](https://goo.gl/forms/nPjWFAosETEflXP32)
+* Bookmark this class website 
+* Purchase the Course Notes (CN) packet (required) from Chico Packet Pro ($18.23)
+    - Chico Packet Pro store will be open from: 
+        - Friday, August 18 - Wednesday, September 6
+        - Mon-Thu 10-6, Fri 10-5, Sat 8/19 + 8/26 from 10-2
+    - Chico Packet Pro is located at 230 Salem Street and our entrance is on the city parking lot side of the building. We accept cash, debit and credit cards.
+    - Online at https://squareup.com/store/chico-packet-pro/item/math-course-notes-prof-donatello
+* Join the class Data Camp group [**Use this link**](https://www.datacamp.com/groups/898c8f395e0e69683d55ba3419116c349aa601ee/invite)
+* Create a MATH315 folder on your computer - all course related files go in here. 
+* Download the [color PDF version](RAD_course_notes.pdf) of the course notes for reference - This is not a replacement for the print version. 
+* Download or purchase Open Intro (OI) [Textbook](https://www.openintro.org/stat/textbook.php?stat_book=os)
+ 
+
+## In class
+
+* <span style="color:orange">**10 am class will meet outside**</span>, behind Holt Hall. Go out the door that faces Mansion Ave. We can talk about the class logistics under the trees, then return to the classroom after the eclipse
+* Discuss class logistics
+* Website hierarchy
+    - My website vs. Class website
+    - Schedule overview
+    - Weekly overview for details, links and instructinos
+* Create support groups
+
+##### Assignments
+* Complete the Intro to R Data Camp Assignment (Assigned to you in the Data Camp Classroom). If you have completed any R Workshop prior to class you probably don't need to do this. 
+* Complete the Intro to R BBL quiz (follows from the data camp assignment). 
+* Watch Passion Driven Statistics (PDS) [Video 1](http://passiondrivenstatistics.com/2015/05/20/chapter-01-course-introduction/). 
+* Read [Adventures in R (Nature article)](http://www.norcalbiostat.com/articles/articles.html) 
+* Read [Learning - Your First Job](http://www.norcalbiostat.com/articles/articles.html)
+* Read [Metacognition and academic achievement](http://www.norcalbiostat.com/articles/articles.html)
+    - Take the [Metacognition Awareness Inventory](http://www.norcalbiostat.com/articles/articles.html)
+    - Complete the Metacognition Pre Assessment [Google Survey](https://goo.gl/forms/Rj1rZ9yGv14zIecC3) 
+
+-----
+
+
+# Wednesday: Starting R
+Goals: 
+
+* Get your computer prepared for data analysis
+* Produce a reproducible document using R Markdown.
+* Understand how R markdown will be used to submit homework
+* Learn what data set you will be exploring throughout the class
+
+## Prepare
+* Follow the [Software overview](https://norcalbiostat.netlify.com/post/software-overview/) blog post to install necessary programs onto your own computer
+* Right click and "save link as" to download the HW 1 [[RMD Template](hw/HW1.Rmd) and [[PDF]](hw/HW1.pdf) files into your class folder. 
+* Download and review the [Add Health](https://norcalbiostat.netlify.com/data/raw_data/) Wave IV PDF codebook and pick 3-5 sections you are interested in exploring. 
+
+## In class
+
+* Ask questions about class logistics and structure
+* [The data analysis life cycle](docs/PDS_Intro_Stat.pdf)
+* Introduction to the Add Health data
+* Form analysis pairs
+* Introduction to R Markdown. Or, "How do you turn in homework."
+
+##### Assignments
+* R Markdown Test file
+* HW1 - Upload knitted WORD or PDF file to BBL
+
+-----
+
+
+# Friday: Data architecture
+Goals: 
+
+* Learn how data is stored
+* Identify the different data types
+* Learn about the data set on Adolescents you will be using
+* Learn how to read a data dictionary (codebook)
+
+
+## Prepare
+* Watch PDS [Video 2](http://passiondrivenstatistics.com/2015/06/02/chapter-2-draft-version/)
+* Read Course Notes (CN) Section 2.1 and Open Intro Textbook (OI) Section 1.2. Write answers to questions and examples in the CN. 
+
+## In class
+* Reading assessment on class logistics, metacognition and data collection
+* Share answers to questions in CN
+* Medical records assignment
+
+##### Assignments
+* PS 2.2: Identifying Data
+* Read the Week 2 overview so you know how to prepare for Monday. (This is a recurring theme. Always look ahead to see how you need to manage your time.)
+
+
+

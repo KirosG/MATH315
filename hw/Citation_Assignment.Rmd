@@ -1,0 +1,49 @@
+---
+title: "Citation Assignment"
+output:
+  html_document:
+    highlight: tango
+    theme: flatly
+css: ../css/customh5.css
+---
+
+You need at least 4 primary source references that are directly related to your topic that are published in 2006 or more recent.
+**For each article, you will complete steps 1-3, in other words 4 times. Then complete the remaining steps.
+
+## Step 1: 
+* Put the reference for the article in APA style. Here is a link to Purdue Owl APA style references that will guide you. https://owl.english.purdue.edu/owl/resource/560/05/ 
+* NOTE: If you use a citation creator you still need to compare each part of all your references to make sure it was done correctly. The citation creator usually messes up on something.
+* Good/suggested bibliography managers
+    - BibDesk (Mac) http://bibdesk.sourceforge.net/ 
+    - Zotero (in browser) https://www.zotero.org/
+    - Mendeley (download) https://www.mendeley.com/ 
+* Using reference managers such as zotero and *.bib files with R Markdown
+    - https://tclavelle.github.io/blog/reference_tips/
+    - http://svmiller.com/blog/2016/02/svm-r-markdown-manuscript/
+    - http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html#citations_for_pdf_output
+
+    
+
+## Step 2: 
+Read an article, type up a brief summary (a few sentences) of what you learned about your topic from introduction/lit review and the discussion. This summary should convey the main themes and findings overall for the literature review and discussion in your own words.
+
+## Step 3: 
+Then explain how the article is going to help you with writing up your project. This is an explanation of what the article contributes to your project, not a restating of the summary. For example, is it going to help explain one or both of your topics, does it explain a key theory, what argument does it help you build for your project?
+
+## Step 4: 
+Based on reading this article, discuss what variables you are thinking of adding or deleting from your personal codebook? You would include these if you believe, based on your reading, that it will help you better understand the association/relationship you are going to test. If there are not any you want to add, then put that there are not any variables you want to add.
+Remember to do steps 1-4 for each of your articles.
+
+## Step 5: 
+Read over your summaries and develop one summary of information based on what you learned as overall themes and findings from the articles about your topics. Essentially, when pulling the 4 articles together, what do you now know about your topic, what do you still not know about your topic, what is unclear or not agreed upon in the articles, and so on?
+
+## Step 6: 
+Restate association/relationship you are interested in examining. It might be more specific based on the research articles you have been reading, or it could be the same as discussed previously.
+
+## Step 7: 
+Review the variables you considered adding and deleting based on what you read, then edit your personal codebook accordingly. 
+
+## Step 8: 
+Upload to Blackboard assignment your updated codebook and the separate document with your Citation Assignment.
+
+

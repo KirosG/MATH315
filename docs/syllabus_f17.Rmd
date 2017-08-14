@@ -1,30 +1,13 @@
 ---
 title: "Syllabus for Applied Statistical Methods I"
 author: "Dr. Robin Donatello"
-date: "MATH 315-01, Fall 2017"
+date: "MATH 315, Fall 2017"
 output:
   html_document: default
   pdf_document: default
 geometry: margin=0.75in
 urlcolor: blue
 ---
-
-# Course Description
-
-Catalog Description: 
-
-## Learning Outcomes
-
-By the end of the semester students will be able to 
-
-* Collect data using online tools and record it in a format ready to analyze.
-* Process, screen, recode, transform, and clean data.
-* Describe data using visualizations and words. 
-* Select and carry out an appropriate statistical analysis.
-* Explain study results and limitations to a non-technical audience. 
-* Understand and implement a reproducible research pipeline. 
-* Become a data nerd (Optional, but recommended).
-
 
 # Logistics
 * **Instructor:** Dr. Robin Donatello  
@@ -39,6 +22,19 @@ By the end of the semester students will be able to
 
     
 You can download the Syllabus in PDF form by clicking [this link](syllabus_f17.pdf).
+
+
+## Learning Outcomes
+
+By the end of the semester students will be able to 
+
+* Collect data using online tools and record it in a format ready to analyze.
+* Process, screen, recode, transform, and clean data.
+* Describe data using visualizations and words. 
+* Select and carry out an appropriate statistical analysis.
+* Explain study results and limitations to a non-technical audience. 
+* Understand and implement a reproducible research pipeline. 
+* Become a data nerd (Optional, but recommended).
 
 
 ## Required Materials
@@ -86,7 +82,9 @@ ordered in roughly how prompt the feedback is (Top:immediate, Bottom: approx 1 w
       - There will be several check in points
       - You will present your work as a poster at the end of the semester. 
     
-  
+
+In addition to the above there will be general weekly participation points granted for answering questions in class. 
+
 **Late work:** 
 
 * Written homework is due via Blackboard Learn every Sunday end of day (EOD). This means midnight. 
@@ -97,16 +95,10 @@ ordered in roughly how prompt the feedback is (Top:immediate, Bottom: approx 1 w
 ## Grading
 
 * Your final grade will be a straight sum of points earned and will be displayed as a running total in Blackboard Learn. 
-* The approximate contributions per category are: BBLearn, Reading, Learning, R are combined worth about 25\%, Written assignments 25\%, Exams 25\%, and the project 25\%. 
+* The approximate contributions per category are: In class participation, BBLearn, Reading, Learning and R are combined worth about 25\%, Written assignments 25\%, Exams 25\%, and the project 25\%. 
 * I use a standard grade cutoff of 100-90\%: A, 89-80\%: B, 79-70\%: C, 69-60\%: D, 0-59\%: F Plusses and minuses will be as displayed on Blackboard Learn. 
 
-
-
-
-
-# Schedule of Topics
-
-A more detailed schedule that is updated weekly can be found on the course website. The general ordering of topics is:
+# Topic Overview
 
 * Data Collection and recording
 * Preparing data for analysis

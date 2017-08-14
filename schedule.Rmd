@@ -7,28 +7,46 @@ options(knitr.table.format = "html", knitr.kable.NA = '')
 ```{r echo=FALSE}
 rawdat <- read_excel("schedule_315.xlsx")
 cdat   <- rawdat %>% mutate(Date = format(date, "%m/%d"), 
-                            Topics = topic, Evaluation = eval) %>% 
-              select(Week, Date, Topics, Notes, Evaluation, topic, eval)
+                            Topics = topic, Materials = notes,
+                            Prepare = before, Together=during,
+                            HW = after, Wk=Week) %>% 
+              select(Wk, Date, Topics, Materials, Prepare, Together, HW, topic, notes, before, during, after)
 
 # parse topics
 topiclist <- which(!is.na(cdat$topic))
 cdat$Topics[topiclist] <- paste0("<ul><li>", cdat$topic[topiclist], "</li></ul>")
 cdat$Topics[topiclist] <- gsub("(+.)\\*", "</li><li>", cdat$Topics[topiclist])
 
-# parse evaluations
-evallist <- which(!is.na(cdat$eval))
-cdat$Evaluation[evallist] <- paste0("<ul><li>", cdat$eval[evallist], "</li></ul>")
-cdat$Evaluation[evallist] <- gsub("(+.)\\*", "</li><li>", cdat$Evaluation[evallist])
+# parse notes
+notelist <- which(!is.na(cdat$notes))
+cdat$Materials[notelist] <- paste0("<ul><li>", cdat$notes[notelist], "</li></ul>")
+cdat$Materials[notelist] <- gsub("(+.)\\*", "</li><li>", cdat$Materials[notelist])
+
+# parse Prepare
+plist <- which(!is.na(cdat$before))
+cdat$Prepare[plist] <- paste0("<ul><li>", cdat$before[plist], "</li></ul>")
+cdat$Prepare[plist] <- gsub("(+.)\\*", "</li><li>", cdat$Prepare[plist])
+
+# parse in class
+dolist <- which(!is.na(cdat$during))
+cdat$Together[dolist] <- paste0("<ul><li>", cdat$during[dolist], "</li></ul>")
+cdat$Together[dolist] <- gsub("(+.)\\*", "</li><li>", cdat$Together[dolist])
+
+# parse hw
+hwlist <- which(!is.na(cdat$after))
+cdat$HW[hwlist] <- paste0("<ul><li>", cdat$after[hwlist], "</li></ul>")
+cdat$HW[hwlist] <- gsub("(+.)\\*", "</li><li>", cdat$HW[hwlist])
+
 ```
 
 ```{r results='asis', echo=FALSE}
-out <- select(cdat, Week, Date, Topics, Notes, Evaluation)
+out <- select(cdat, Wk, Date, Topics,  Materials, Prepare, Together, HW )
 
 knitr::kable(out, align="l", escape=FALSE) %>% 
   kable_styling(bootstrap_options = c("hover", "striped", "responsive", "bordered")) %>% 
   column_spec(1, width="1%") %>% column_spec(2, width="1%") %>%
-  column_spec(3, width="20%") %>% column_spec(4, width="30%") %>%
-  column_spec(5, width="30%")
+  column_spec(3, width="10%") %>% column_spec(4, width="10%") %>%
+  column_spec(5, width="20%") %>% column_spec(6, width="20%") %>% column_spec(7, width="20%")
 ```
 
 

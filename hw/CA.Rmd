@@ -1,0 +1,54 @@
+---
+title: "Citation Assignment"
+author: " NAME "
+date: " DATE"
+output: html_document
+---
+
+You need at least 4 primary source references that are directly related to your topic that are published in 2006 or more recent.
+**For each article, you will complete steps 1-3, in other words 4 times. Then complete the remaining steps.
+
+# Article 1
+
+2. 
+
+3. 
+
+4.
+
+
+
+# Article 2
+
+2. 
+
+3. 
+
+4.
+
+
+# Article 3
+
+2. 
+
+3. 
+
+4.
+
+
+# Article 4
+
+2. 
+
+3. 
+
+4.
+
+
+## Step 5: Reread. 
+
+
+
+## Step 6: Restate. 
+
+
