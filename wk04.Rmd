@@ -1,0 +1,70 @@
+---
+title: 'Week 0'
+date: "Last Updated `r Sys.time()`"
+output:
+  html_document:
+    highlight: tango
+    theme: cerulean
+    toc: yes
+    toc_float: yes
+css: css/customh5.css
+---
+
+```{r,echo=FALSE, warning=FALSE, message=FALSE}
+library(knitr)
+#library(rmarkdown)
+opts_chunk$set(warning=FALSE, message=FALSE) 
+```
+
+
+# Monday: Data Management
+Goals: 
+
+
+## Prepare 
+* Watch PDS Video 7
+* Replicate all code in the [[Data prep]](https://norcalbiostat.github.io/MATH615/docs/lec02_data_prep.html) lecture notes. 
+    - Some of these techniques to clean data take a different approach than what you will see in the PDS Video 7. That is fine!
+    - There are many different ways to approach and solve a problem. Being exposed to multiple ways of how to do things may seem confusing, but not everyone     thinks the same. 
+    - Some approaches may work better for some than for others. As you grow in being a scientist in charge of your own data you will find your own style of     coding. 
+
+
+
+## In class
+
+
+
+##### Assignments
+* Data management assignment
+
+
+# Wednesday:
+Goals: 
+
+## Prepare
+* Watch PDS Video 8
+* Review the 
+
+## In class
+
+
+
+##### Assignments
+* Univariate graphing assigment
+
+----
+
+# Friday:
+Goals: 
+
+## Prepare
+
+
+## In class
+
+
+
+##### Assignments
+* Research plan outline
+
+

@@ -1,0 +1,29 @@
+---
+title: "Thinking Ahead: Preparing for Data Management"
+output:
+  html_document:
+    highlight: tango
+    theme: cerulean
+css: ../css/customh5.css
+---
+
+You know what variables you want to use, and you've looked over the codebook enough now that you have an idea of some potential "things" that you will need to change. Answer the following questions in prepartion to learn how to tackle problems such as missing data and recoding variables in R next week. 
+Write your answers directly in here, knit to WORD or PDF and submit to BBLearn by the due date. 
+
+1. **Do you need to code out missing data? **
+
+
+2. **Do you need to code out skip patterns?**
+
+
+
+3. **Do you need to make response codes more logical?**
+
+
+4. **Do you need to recode categorical variables to quantitative?**
+
+
+
+5. **Do you need to create secondary variables?**
+
+

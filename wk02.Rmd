@@ -93,3 +93,4 @@ Goals:
 ##### Assignments
 * Citation assignment [[Instructions]](hw/Citation_Assignment.html) [[RMD Template]](hw/CA.Rmd)(Due 9/10)
     - [Example assignment](docs/Citation Assignment Example.pdf)
+* Data Camp: Intro to ggplot (first chapter only) (Due 9/5)

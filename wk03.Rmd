@@ -1,0 +1,68 @@
+---
+title: 'Week 3: 9/4 - 9/10'
+date: "Last Updated `r Sys.time()`"
+output:
+  html_document:
+    highlight: tango
+    theme: cerulean
+    toc: yes
+    toc_float: yes
+css: css/customh5.css
+---
+
+```{r,echo=FALSE, warning=FALSE, message=FALSE}
+library(knitr)
+#library(rmarkdown)
+opts_chunk$set(warning=FALSE, message=FALSE) 
+```
+
+# Wednesday: Describing Continuous Data
+Goals: 
+
+* Learn how to describe continuous data correctly using graphics, summary statistics and paragraphs. 
+* Learn how `ggplot` will be used to make effective graphics. 
+
+## Prepare
+* Read OI 1.6.2, 1.6.6
+* Read CN 2.2
+
+## In class
+* RAT on CN 2.2, 2.3 (Univariate descriptions)
+* Discuss answers to questions in CN 2.2
+
+##### Assignments
+* PS 2.4 Calculating summary statistics (Due 9/10)
+* PS 2.5 Interpreting univariate numerical distributions (Due 9/10)
+
+----
+
+# Friday: Describing Categorical Data
+Goals: 
+
+* Learn how to describe continuous data correctly using graphics, summary statistics and paragraphs. 
+
+
+## Prepare
+* Read OI 1.7
+* Read CN 2.3 - prepare answers
+* Watch PDS Video 6 (30 min - 1hr)
+    - Note this uses the NESARC data as an example, and the `descr` package. You can install the `descr` package, but I don't have access to the NESARC data.
+    - It is suggested that you follow along with this video using the Add Health data. (This is one of those things that will help you to achieve an "A" in this class. Not by points, but by putting effort into learning and practicing.)
+
+## In class
+* Discuss answers to questions in CN 2.3
+
+
+##### Assignments
+* PS 2.7 Interpreting univariate categorical distributions (Due 9/10)
+* Review your personal codebook. Answer the following [[preparation questions]](hw/Prep_for_DM.Rmd) (Due 9/10)
+
+##### IT IS HIGHLY ADVISED YOU LOOK AHEAD TO NEXT WEEK. 
+We are starting data management which is a difficult coding topic. 
+Your best chance of success with minimal strife is to replicate all code in the 
+[[DATA PREP LECTURE NOTES]](https://norcalbiostat.github.io/MATH615/docs/lec02_data_prep.html). 
+Some of these techniques to clean data take a different approach than what you will see in the PDS Video 7. That is fine!
+There are many different ways to approach and solve a problem. Being exposed to multiple ways of how to do things may seem confusing, but not everyone thinks the same. Some approaches may work better for some than for others. As you grow in being a scientist in charge of your own data you will find your own style of coding. 
+
+
+
