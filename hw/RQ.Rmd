@@ -3,7 +3,7 @@ title: "PERSONAL CODE BOOK (AKA RESEARCH QUESTION) ASSIGNMENT "
 output:
   html_document:
     highlight: tango
-    theme: flatly
+    theme: cerulean
 css: ../css/customh5.css
 ---
 
