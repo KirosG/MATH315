@@ -55,7 +55,7 @@ Goals:
 
 ##### Assignments
 * PS 2.7 Interpreting univariate categorical distributions (Due 9/10)
-* Review your personal codebook. Answer the following [[preparation questions]](hw/Prep_for_DM.Rmd) (Due 9/10)
+* Review your personal codebook. Answer the following preparation questions [[RMD Template]](hw/Prep_for_DM.Rmd) (Due 9/10)
 
 ##### IT IS HIGHLY ADVISED YOU LOOK AHEAD TO NEXT WEEK. 
 We are starting data management which is a difficult coding topic. 

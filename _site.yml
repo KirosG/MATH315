@@ -8,7 +8,7 @@ navbar:
       href: schedule.html
     - text: "Data"
       icon: fa-database
-      href: data.html
+      href: http://www.norcalbiostat.com/data/
     - text: "Projects"
       icon: fa-bar-chart
       href: project.html
@@ -25,7 +25,7 @@ navbar:
       href: mailto:rdonatello@csuchico.edu
     - text: "Dr. D's website"
       icon: fa-paw
-      href: http://www.norcalbiostat.com
+      href: http://www.norcalbiostat.com/
       
 output:
   html_document:
