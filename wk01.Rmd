@@ -19,9 +19,11 @@ opts_chunk$set(warning=FALSE, message=FALSE)
 
 # Monday: Gearing up
 
+##  <span style="color:red">Watch this Introduction Video. In class attendance is optional.</span>
+
 Goals: 
 
-* See an eclipse (10:17 am) 
+* See an eclipse
 * Understand how the class is run, common acronyms (OI/CN/DC/RAT/BBL/PDS)
 * Understand how to navigate the course website
 * Understand how learning is your first responsibility in this class, and how it is hard. 
@@ -32,6 +34,7 @@ Goals:
 
 ## Prepare 
 
+* Get your [eclipse viewing materials](https://www.google.com/search?newwindow=1&q=eclipse+viewing&oq=eclipse+viewing&gs_l=psy-ab.3..0i131k1l4.17103.18078.0.18326.7.7.0.0.0.0.137.579.4j2.6.0....0...1.1.64.psy-ab..1.6.577...0i20k1.k7WwLgNbPs0) prepared. 
 * Read the [Syllabus](docs/syllabus_315.pdf)
 * Complete the OH [Survey](https://goo.gl/forms/nPjWFAosETEflXP32)
 * Bookmark this class website 
@@ -42,6 +45,7 @@ Goals:
     - Chico Packet Pro is located at 230 Salem Street and our entrance is on the city parking lot side of the building. We accept cash, debit and credit cards.
     - Online at https://squareup.com/store/chico-packet-pro/item/math-course-notes-prof-donatello
 * Join the class Data Camp group **Use link in email**
+* Join the [Chico R Users Google Group](https://groups.google.com/forum/#!forum/chico-rug) - This is our discussion forum to ask (and answer) questions outside of class. 
 * Create a MATH315 folder on your computer - all course related files go in here. 
 * Download the [color PDF version](docs/RAD_course_notes.pdf) of the course notes for reference - This is not a replacement for the print version. 
 * Download or purchase Open Intro (OI) [Textbook](https://www.openintro.org/stat/textbook.php?stat_book=os)
@@ -49,13 +53,8 @@ Goals:
 
 ## In class
 
-* <span style="color:orange">**10 am class will meet outside**</span>, behind Holt Hall. Go out the door that faces Mansion Ave. We can talk about the class logistics under the trees, then return to the classroom after the eclipse
-* Discuss class logistics
-* Website hierarchy
-    - My website vs. Class website
-    - Schedule overview
-    - Weekly overview for details, links and instructinos
-* Create support groups
+Open to questions / help getting your preparation and HW tasks done before Wednesday. 
+
 
 ##### Assignments
 * Complete the Intro to R Data Camp Assignment (Assigned to you in the Data Camp Classroom). If you have completed any R Workshop prior to class you probably don't need to do this. 
@@ -73,6 +72,7 @@ Goals:
 # Wednesday: Starting R
 Goals: 
 
+* Create support groups
 * Get your computer prepared for data analysis
 * Produce a reproducible document using R Markdown.
 * Understand how R markdown will be used to submit homework
@@ -86,9 +86,9 @@ Goals:
 ## In class
 
 * Ask questions about class logistics and structure
+* Create support groups. 
 * [The data analysis life cycle](docs/PDS_Intro_Stat.pdf)
 * Introduction to the Add Health data
-* Form analysis pairs
 * Introduction to R Markdown. Or, "How do you turn in homework."
 
 ##### Assignments
@@ -107,12 +107,14 @@ Goals:
 * Learn how to read a data dictionary (codebook)
 
 
+
 ## Prepare
 * Watch PDS [Video 2](http://passiondrivenstatistics.com/2015/06/02/chapter-2-draft-version/)
 * Read Course Notes (CN) Section 2.1 and Open Intro Textbook (OI) Section 1.2. Write answers to questions and examples in the CN. 
 
 ## In class
 * Reading assessment on class logistics, metacognition and data collection
+* Form analysis pairs
 * Share answers to questions in CN
 * Medical records assignment
 

@@ -19,7 +19,7 @@ navbar:
       href: docs/syllabus_f17.html
     - text: "Help/FAQ"
       icon: fa-question
-      href: help.html
+      href: faq.html
     - text: "Contact"
       icon: fa-envelope-o
       href: mailto:rdonatello@csuchico.edu
