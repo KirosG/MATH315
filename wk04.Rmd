@@ -20,22 +20,28 @@ opts_chunk$set(warning=FALSE, message=FALSE)
 # Monday: Data Management
 Goals: 
 
+* Understand why data preparation takes the majority of your time, but is crucially important. 
+* Learn how to be the boss of your own data. 
+    - changing integers to factors
+    - recoding missing data and skip patterns
+    - subsetting, filtering, aggregating, summarizing, sorting. 
+
 
 ## Prepare 
 * Watch PDS Video 7
-* Replicate all code in the [[Data prep]](https://norcalbiostat.github.io/MATH615/docs/lec02_data_prep.html) lecture notes. 
-    - Some of these techniques to clean data take a different approach than what you will see in the PDS Video 7. That is fine!
-    - There are many different ways to approach and solve a problem. Being exposed to multiple ways of how to do things may seem confusing, but not everyone     thinks the same. 
-    - Some approaches may work better for some than for others. As you grow in being a scientist in charge of your own data you will find your own style of     coding. 
-
-
+* Download the `dplyr` lab [[RMD file]](docs/dplyr.Rmd). This is another approach to data cleaning that can seem more intuitive for some tasks.
+    - Check to see if you have the `dplyr`, `nycflights13` and `hflights` packages installed by trying to load the `library()`. 
 
 ## In class
 
+* Data manipulation with `dplyr`. Live coding follow-along example. 
+
+## Additional Resources
+* MATH 456/615 [[Data prep]](https://norcalbiostat.github.io/MATH615/docs/lec02_data_prep.html) lecture notes.
 
 
 ##### Assignments
-* Data management assignment
+* Data management assignment.
 
 
 # Wednesday:
@@ -54,15 +60,10 @@ Goals:
 
 ----
 
-# Friday:
+# Friday: Open work time
 Goals: 
 
-## Prepare
-
-
-## In class
-
-
+* Finish the two previous assignments on data management and graphing. 
 
 ##### Assignments
 * Research plan outline

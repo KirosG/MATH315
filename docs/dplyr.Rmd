@@ -1,0 +1,262 @@
+---
+title: 'Data cleaning with dplyr'
+date: "Last Updated `r Sys.time()`"
+output:
+  html_document:
+    highlight: tango
+    theme: cerulean
+    toc: yes
+    toc_float: yes
+css: css/customh5.css
+---
+
+# Introduction 
+When working with data you must:
+
+1. Figure out what you want to do.
+2. Precisely describe what you want in the form of a computer program.
+3. Execute the code.
+
+There are many different ways to approach and solve a problem. Being exposed to multiple ways of how to do things may seem confusing, but not everyone thinks the same. Some approaches may work better for some than for others. As you grow in being a scientist in charge of your own data you will find your own style of coding. 
+    
+    
+The dplyr package makes each of these steps as fast and easy as possible by:
+
+1. Elucidating the most common data manipulation operations, so that your
+   options are helpfully constrained when thinking about how to tackle a problem.
+2. Providing simple functions that correspond to the most common data 
+   manipulation verbs, so that you can easily translate your thoughts into code.
+3. Using efficient data storage back ends, so that you spend as little time 
+   waiting for the computer as possible.
+
+The goal of this lesson is to introduce you to the basic tools that dplyr provides, and show how you to apply them to data frames. You must have the `dplyr`,  `nycflights13` and `hflights` packages installed before you can proceed.  Install them now if you have not done so yet. 
+
+Let's load all the packages we will need for this lab. Add the _code chunk_ arguments: `warning=FALSE` & `message=FALSE` to suppress pesky warnings and messages. 
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(dplyr); library(nycflights13); library(hflights)
+```
+
+## Exploring airline flight data with dplyr. 
+
+The `nycflights13` package contains several data sets that can be used to help understand what causes delays. 
+
+* `flights`: information about all flights that departed from NYC (e.g. EWR, JFK and LGA) in 2013. 
+* `weather`: hourly meteorological data for each airport
+* `planes`: construction information about each plane
+* `airports`: airport names and locations
+* `airlines`: translation between two letter carrier codes and names
+
+**Special notice** These data sets, and any data set created with `dplyr`
+has a specific data type called a `tibble`. These are not as furry and prolific as their cousins the `tribbles`. `tibbles` behaves for all intents and purposes as a `data.frame`, just gets displayed differently. For example, the `flights` data set contains data on 19 characteristics (variables) from 336,776 flights. There's no way I would want to print out a data set that large. But I'm gonna....  
+
+```{r}
+
+```
+
+The output has been trimmed to something more reasonable for our viewing pleasure. 
+
+# The 5 basic verbs
+The `dplyr` package contains five key data manipulation functions, also called verbs:
+
+* `filter()`: Returns a subset of the rows.
+* `arrange()`: Reorders the rows according to single or multiple variables.
+* `select()`: Returns a subset of the columns.
+* `mutate()`: Adds columns from existing data.
+* `summarise()`: Reduces each group to a single row by calculating aggregate measures.
+
+You will learn how to use these verbs in the first part of this lab, then will have a chance to practice on new data. 
+
+## Filter
+`filter()` allows you to select a subset of the rows of a data frame. 
+The first argument is the name of the data frame, and the second and subsequent are filtering expressions evaluated in the context of that data frame. For example, we can select all flights on January 1st with 
+```{r}
+filter(flights, month == 1, day == 1)
+```
+
+
+`filter()` works similarly to `subset()` except that you can give it any number of filtering conditions which are joined together with &. You can use other Boolean operators explicitly. Fill in the blanks to filter the flights data set to only select flights in January or February.
+```{r}
+filter(flights, month == 1 | month == __)
+```
+
+
+## Slice
+To select rows by position, use `slice()`. You can slice off the top 5 rows by typing
+```{r}
+slice(_______, 1:5)
+```
+Don't forget the first argument is the data frame. 
+
+## Arrange
+`arrange()` works similarly to `filter()` except that instead of filtering or selecting rows, it reorders them. It takes a data frame, and a set of column names (or more complicated expressions) to order by. If you provide more than one column name, each additional column will be used to break ties in the values of preceding columns. Here we arrange the flights data in chronological order by typing 
+```{r}
+arrange(flights, year, _____, ___)
+```
+
+We can sort a variable in descending order (largest to smallest) by using `desc()` on the variable of interest. Fill in the blank to sort flights by descending arrival delay.
+```{r}
+arrange(_____, desc(_____)) 
+```
+
+## Select
+Often you work with large data sets with many columns where only a few are actually of interest to you. `select()` allows you to rapidly zoom in on a useful subset using operations that usually only work on numeric variable positions.
+```{r}
+select(flights, month, day, year)
+```
+
+You can use the colon `:` operator `select(flights, year:day)` to select all columns physically located between year and day.
+```{r}
+select(flights, sched_dep_time:carrier)
+```
+
+The `-` operator `select(flights, -carrier)` selects all columns EXCEPT the one listed. 
+```{r, eval=FALSE}
+select(flights, -carrier)
+```
+
+## Mutate
+As well as selecting from the set of existing columns, it's often useful to add new columns that are functions of existing columns. This is the job of mutate()!
+
+Here we create two variables: gain (as arrival delay minus departure delay) and speed (as distance divided by time, converted to hours). 
+```{r}
+a <- mutate(flights, gain = arr_delay - dep_delay, 
+                speed = distance / air_time * 60)
+select(a, gain, distance, air_time, speed)
+```
+
+
+One key advantage of mutate is that you can refer to the columns you just created. Mutate flights to create two variables, `gain = arr_delay - dep_delay` and `gain_per_hour = gain / (air_time / 60)`. 
+```{r}
+
+```  
+
+
+## Summarize
+The last verb is `summarise()`, which collapses a data frame to a single row. It's not very useful yet. We can create a new variable called delay that is the average departure delay on the entire flights data set. 
+```{r}
+summarise(flights, delay = mean(dep_delay, na.rm = TRUE))
+```
+
+##### Paired coding Practice
+For this exercise, at each step use the assignment operator `<-` to store the results into a new data table and use that data in the next step. You will use the `hflights` data set which is data on flights departing from two Houston airports in 2011. 
+
+1. Use `select()` to extract the following variables:  `Distance`, and `AirTime`. 
+
+
+2. Use `filter()` to select only the flights who traveled exactly 501 miles. 
+
+
+3. Use `mutate()` to create a new variable `Speed` that calculates speed of the plane as Distance/AirTime*60.
+
+
+4. Use `arrange()` to order the previous data frame by ascending `AirTime`. 
+
+
+5. Use `slice()` to select the flight with the shortest time in the air. (_Hint: the shortest flight should be in row 1 after you sort by ascending AirTime_). How fast did this plane go? 
+
+# Grouped Operations
+The above verbs are useful, but they become really powerful when you combine them with the idea of "group by", repeating the operation individually on groups of observations within the dataset. In dplyr, you use the `group_by()` function to describe how to break a dataset down into groups of rows. You can then use the resulting object in exactly the same functions as above; they'll automatically work "by group" when the input is a grouped.
+
+Let's demonstrate how some of these functions work after grouping the flights data set by month. First we'll create a new data set that is grouped by month. 
+
+```{r}
+by_month <- group_by(flights, month)
+```
+
+* If we want to sort the data, `arrange()` orders first by grouping variables, 
+  then by the sorting variable. 
+```{r}
+how_long <- arrange(by_month, distance)
+select(how_long, month, distance)
+```
+
+* Now that the data is sorted by shortest to longest distance, we can use 
+  `slice()` extract the shortest flight per month. 
+```{r}
+slice(how_long, 1)
+```
+
+* The `summarise()` verb allows you to calculate summary statistics for each 
+  group. This is probably the most common function that is used in conjunction 
+  with `group_by`. For example, the average distance flown per month. 
+```{r}
+summarise(by_month, avg_airtime = mean(distance, na.rm=TRUE))
+```
+Or simply the total number of flights per month. 
+```{r}
+summarize(by_month, count=n())
+```
+
+
+# Chaining Operations
+Consider the following group of operations that take the data set `flights`, and produce a final data set (`a4`) that contains only the flights where the daily average delay is greater than a half hour. 
+```{r}
+a1 <- group_by(flights, year, month, day)
+a2 <- select(a1, arr_delay, dep_delay)
+a3 <- summarise(a2,
+                arr = mean(arr_delay, na.rm = TRUE),
+                dep = mean(dep_delay, na.rm = TRUE))
+a4 <- filter(a3, arr > 30 | dep > 30)
+head(a4)
+```
+
+It does the trick, but what if you don't want to save all the intermediate results (`a1` - `a3`)? Well these verbs are `function`, so they can be wrapped inside other functions to create a nesting type structure.  
+```{r, eval=FALSE}
+filter(
+  summarise(
+    select(
+      group_by(flights, year, month, day),
+      arr_delay, dep_delay
+    ),
+    arr = mean(arr_delay, na.rm = TRUE),
+    dep = mean(dep_delay, na.rm = TRUE)
+  ),
+  arr > 30 | dep > 30
+)
+```
+
+Woah, that is HARD to read! This is difficult to read because the order of the operations is from inside to out, and the arguments are a long way away from the function. To get around this problem, dplyr provides the `%>%` operator. `x %>% f(y)` turns into `f(x, y)` so you can use it to rewrite multiple operations so you can read from left-to-right, top-to-bottom:
+
+```{r}
+flights %>%
+  group_by(year, month, day) %>%
+  select(arr_delay, dep_delay) %>%
+  summarise(
+    arr = mean(arr_delay, na.rm = TRUE),
+    dep = mean(dep_delay, na.rm = TRUE)
+  ) %>%
+  filter(arr > 30 | dep > 30)
+```
+
+Another way you can read this is by thinking "and then" when you see the `%>%` 
+operator. So the above code takes the data set flights  
+.. and then groups by day  
+.. and then selects the delay variables  
+.. and then calculates the means  
+.. and then filters on a delay over half hour. 
+
+The same 4 steps that resulted in the `a4` data set, but without all the intermediate data saved! This can be **very important** when dealing with Big Data. `R` stores all data in memory, so if your little computer only has 2G of RAM and you're working with a data set that is 500M in size, your computers memory will be used up fast. `a1` takes 500M, `a2` another 500M, by now your computer is getting slow. Make another copy at `a3` and it gets worse, `a4` now likely won't even be able to be created because you'll be out of memory. 
+
+
+##### Paired coding Practice
+Use dplyr functions and the pipe operator (` %>% `) to transform the following English sentences into R code:
+
+1. Take the `hflights` data set and then ...
+2. Add a variable named `diff` that is the result of subtracting `TaxiIn` from `TaxiOut`, and then ...
+3. Pick all of the rows whose `diff` value does not equal `NA`, and then ...
+4. Summarize the data set with a value named `avg` that is the mean diff value.  
+5. Store the result in the variable `p`.
+6. Print `p` to the screen. 
+
+
+
+
+# Additional Resources
+The ability to manipulate, arrange and clean up data is an extremely important skill to have. It is advised that you review at least one other tutorial method for using dplyr if you are still uncomfortable with it. Remember, it is all about practice. The more you use it the easier it will become!
+
+* R Studio's [Data Wrangling Cheat Sheet](http://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
+* [Data Camp](https://www.datacamp.com/courses/dplyr-data-manipulation-r-tutorial) has a dplyr lesson
+* [Dplyr vignette](https://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html)
+* [Hands-on dplyr tutorial for faster data manipulation in R](https://www.youtube.com/watch?v=jWjqLW-u3hc) You Tube video by Data School
+

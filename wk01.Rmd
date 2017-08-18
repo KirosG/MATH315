@@ -60,7 +60,7 @@ Open to questions / help getting your preparation and HW tasks done before Wedne
 * Complete the Intro to R Data Camp Assignment (Assigned to you in the Data Camp Classroom). If you have completed any R Workshop prior to class you probably don't need to do this. 
 * Complete the Intro to R BBL quiz (follows from the data camp assignment). 
 * Watch Passion Driven Statistics (PDS) [Video 1](http://passiondrivenstatistics.com/2015/05/20/chapter-01-course-introduction/). 
-* Read [Adventures in R (Nature article)](http://www.norcalbiostat.com/articles/articles.html) 
+* Read [Our path to better science in less time using open data science tools (Nature: Ecology and Evolution)](https://www.nature.com/articles/s41559-017-0160) 
 * Read [Learning - Your First Job](http://www.norcalbiostat.com/articles/articles.html)
 * Read [Metacognition and academic achievement](http://www.norcalbiostat.com/articles/articles.html)
     - Take the [Metacognition Awareness Inventory](http://www.norcalbiostat.com/articles/articles.html)

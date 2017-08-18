@@ -1,0 +1,37 @@
+---
+title: "Data Management Assignment"
+output:
+  html_document:
+    highlight: tango
+    theme: cerulean
+css: ../css/customh5.css
+---
+
+1. Add all of your variables under Label (i.e., give labels to All your variables). This includes adding in a note for each variable identifying if it is Quantitative or Categorical, and Level of Measurement (i.e., Nominal, Ordinal, Interval, and Ratio).
+
+2. Go through your codebook for each variable and treat ALL variables for missing data.
+
+3. If you plan to subset, enter the appropriate code (i.e., if you plan to use only participants of a certain age or sex or ethnicity, etc.). 
+
+4. If necessary, recode dummy codes to make them more logical. Some examples include: 
+•	Think about how the “yes” and “no” variables are coded 
+o	Does NO = 0 and YES = 1?
+•	Think about how the “strongly agree” to “strongly disagree” variables are coded
+o	Do the numbers make sense?
+•	Consider recoding a quantitative variable into a categorical variable
+•	Consider collapsing across categories - maybe going from 5 dummy codes for strongly agree, agree, neutral, disagree, strongly disagree to 2 dummy codes that represent strongly agree and agree as one dummy code and disagree and strongly disagree as another code, then neutral coded as missing
+•	Consider collapsing a quantitative variable into categories based on percentages of the data you find after examining the frequency table
+ 
+5. If necessary, create secondary variables from continuous variables. If you are working with a number of items that represent a single construct, it may be useful to create a composite variable/score. 
+•	For example, I want to use a list of nicotine dependence symptoms meant to address the presence or absence of nicotine dependence (i.e., tolerance, withdrawal, craving, etc.). Rather than using a dichotomous variable (i.e., nicotine dependence present/absent), I want to examine the construct as a dimensional scale (i.e., number of nicotine dependence symptoms). In this case, I would want to recode each symptom variable so that YES = 1 and NO = 0 and then sum the items so that they represent one composite score. In the code below, the nd_sum is the new variable I am creating and the variables after of are the variables I am totaling up.
+o	nd_sum=sum (of nd_symptom1 nd_symptom2 nd_symptom3 nd_symptom4);
+•	When creating secondary variables, you need to include a “proc print” to check that what you thought you did actually did what you wanted to.
+o	proc print; var variablename variablename;
+•	Once you have looked at the results and confirmed that the creation of the secondary variable worked correctly, remove the "proc print” line. I DO NOT want the table in your results uploaded with your assignment. 
+
+6. As detailed above, at the end of your code you should have a proc sort statement, then proc freq with all your variables in it including any new variables you created by recoding (note: take out old variable names from this statement), and then a “run” statement.
+
+7. Export your frequency tables to Microsoft Word. Copy and paste your code to below that. Go through FIVE frequency tables (these must be different variables from what you discussed in your Working with Data assignment.) To do this, ask yourself what you learned about your participants from the data for that variable. Upload your document CANVAS.
+ 
+Remember to ask any questions through the discussion board.
+
