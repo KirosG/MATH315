@@ -3,8 +3,8 @@ title: "Syllabus for Applied Statistical Methods I"
 author: "Dr. Robin Donatello"
 date: "MATH 315, Fall 2017"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 geometry: margin=0.75in
 urlcolor: blue
 ---
@@ -71,6 +71,7 @@ ordered in roughly how prompt the feedback is (Top:immediate, Bottom: could take
     - Having an answer ready to go (correct or not) will earn you participation for that day. 
     - I won't get to everyone every day, but count on being called upon at least 1x/week. 
 2. **BBLearn (BBL)**: These are a random set of questions from a pool of questions.
+    - Assigned as specific problem sets from the course notes. 
     - Typically conceptual, sometimes computational.
     - Designed to reinforce concepts we covered in class in a non-threatening way. 
     - You have unlimited attempts to earn the score you desire. 
@@ -98,24 +99,27 @@ ordered in roughly how prompt the feedback is (Top:immediate, Bottom: could take
 
 **Late work:** 
 
-* Unless otherwise specified, assignments are due by Sunday end of day (EOD). This means midnight. 
+* Unless otherwise specified, you have roughly a week to do each assignment. 
+    - Recall the due dates can be found in the BBL Calendar, or on the main schedule page. 
 * **Late work is not accepted** (with the exception of BBL quizzes)
  
 ## Extra Credit
+
 Yes I am putting EC in the syllabus. 
-* I do not answer programming/debugging questions via email. 
+
+* I do not answer programming/debugging questions via email.  
 * All questions **not pertaining to class logistics or assignments** and specifically about programming are to be posted to the [Chico R Users Group](https://groups.google.com/forum/#!forum/chico-rug). 
     - Contributing answers to this forum can earn you some Ec. 
-* Being public about your questions
-    - Helps you ask better questions
-    - Reminds you that you are not alone in your struggle
-    - Gives you a place to start to search for an answer to your question
+* Being public about your questions  
+    - Helps you ask better questions  
+    - Reminds you that you are not alone in your struggle  
+    - Gives you a place to start to search for an answer to your question  
 
 
 ## Grading
 
-* Your final grade will be a straight sum of points earned and will be displayed as a running total in Blackboard Learn. 
-* The approximate contributions per category are: In class participation, BBLearn, Reading, Learning and R are combined worth about 25\%, Written assignments 10\%, Exams 25\%, and the Project 30\%. 
+* Your final grade will be a straight sum of points earned and will be displayed as a running total in Blackboard Learn.  
+* The approximate contributions per category are: In class participation, BBLearn, Reading, Learning and R are combined worth about 25\%, Written assignments 10\%, Exams 25\%, and the Project 30\%.   
 * I use a standard grade cutoff of 100-90\%: A, 89-80\%: B, 79-70\%: C, 69-60\%: D, 0-59\%: F Plusses and minuses will be as displayed on Blackboard Learn. 
 
 # Topic Overview
