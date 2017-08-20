@@ -3,10 +3,14 @@ This is the landing page for <span style="color:blue">**Applied Statistical Meth
 
 
 # Announcements
- 
 
-### 8/21/17 - Welcome!
-* This course website is currently being revamped, but be sure to acquaint yourself with the organization. You will be here a lot. Bookmark this page.
-* Specifically click on the _schedule_ link in the top navigation bar to see the daily outline of topics. This will fill in as we go. 
-    - More importantly that page has links to all the weekly overview notes, materials and assignments
+### 8/20/17
+
+Happy Sunday and welcome to the Fall 2017 semester! 
+
+* Super important video for you to watch on the welcome page in Blackboard Learn. Go watch this asap!
+* I will be adding your emails to Data Camp shortly. You must use the link in the email to join our classroom for credit. 
+
+Enjoy the eclipse and I'll see you soon!
+
 
