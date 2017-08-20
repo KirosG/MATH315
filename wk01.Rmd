@@ -19,7 +19,7 @@ opts_chunk$set(warning=FALSE, message=FALSE)
 
 # Monday: Gearing up
 
-##  <span style="color:red">Watch this Introduction Video. In class attendance is optional.</span>
+##  <span style="color:red">Watch the Introduction Video in Blackboard learn. In class attendance is optional.</span>
 
 Goals: 
 
