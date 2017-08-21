@@ -1,0 +1,24 @@
+---
+title: "Medical Records"
+output:
+  html_document:
+    highlight: tango
+    theme: flatly
+css: ../css/customh5.css
+---
+
+## Purpose
+Although you will be working with previously collected data, it is important to understand what data looks like as well as how it is coded and entered into a spreadsheet or dataset for analysis.
+
+## Instructions
+Using medical records for 5 patients seeking treatment in a hospital emergency room.
+
+1. Select 4 variables recorded on the medical forms (one should be a unique identifier, at least one should be a quantitative variable and at least one should be a categorical variable)
+2. Select a brief name (ideally 8 characters or less) for each variable
+3. Determine what range of values is needed for recording eachvariable (create dummy codes as needed)
+4. Label variables within an Excel spreadsheet
+5. Enter data for each patient in the Excel spreadsheet
+6. List the variable names, labels, types, and, response codes below the data set (i.e. the code book).
+
+
+![](med_records.png)

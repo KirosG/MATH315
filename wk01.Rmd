@@ -35,7 +35,7 @@ Goals:
 ## Prepare 
 
 * Get your [eclipse viewing materials](https://www.google.com/search?newwindow=1&q=eclipse+viewing&oq=eclipse+viewing&gs_l=psy-ab.3..0i131k1l4.17103.18078.0.18326.7.7.0.0.0.0.137.579.4j2.6.0....0...1.1.64.psy-ab..1.6.577...0i20k1.k7WwLgNbPs0) prepared. 
-* Read the [Syllabus](docs/syllabus_315.pdf)
+* Read the [Syllabus](docs/syllabus_f17.pdf)
 * Complete the OH [Survey](https://goo.gl/forms/nPjWFAosETEflXP32)
 * Bookmark this class website 
 * Purchase the Course Notes (CN) packet (required) from Chico Packet Pro ($18.23)
@@ -111,12 +111,13 @@ Goals:
 ## Prepare
 * Watch PDS [Video 2](http://passiondrivenstatistics.com/2015/06/02/chapter-2-draft-version/)
 * Read Course Notes (CN) Section 2.1 and Open Intro Textbook (OI) Section 1.2. Write answers to questions and examples in the CN. 
+* Download the [medical records PDF](https://norcalbiostat.netlify.com/data/raw_data/) data from the raw data page. 
 
 ## In class
 * Reading assessment on class logistics, metacognition and data collection
 * Form analysis pairs
 * Share answers to questions in CN
-* Medical records assignment
+* Medical records assignment [[Instructions]](docs/MedRecords.html)
 
 ##### Assignments
 * PS 2.2: Identifying Data
