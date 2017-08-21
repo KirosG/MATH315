@@ -20,6 +20,8 @@ opts_chunk$set(warning=FALSE, message=FALSE)
 # Monday: Gearing up
 
 ##  <span style="color:red">Watch the Introduction Video in Blackboard learn. In class attendance is optional.</span>
+On the wait list? Here is a [[You Tube]](https://www.youtube.com/watch?v=cVQPU59h6OY) copy of the intro video. 
+
 
 Goals: 
 

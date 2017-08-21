@@ -1,5 +1,5 @@
 ---
-title: 'Week 0'
+title: 'Week 4: 9/11 - 9/17'
 date: "Last Updated `r Sys.time()`"
 output:
   html_document:
@@ -28,7 +28,7 @@ Goals:
 
 
 ## Prepare 
-* Watch PDS Video 7
+* Watch PDS [Video 7](http://passiondrivenstatistics.com/2016/01/08/r-chapter-7/)
 * Download the `dplyr` lab [[RMD file]](docs/dplyr.Rmd). This is another approach to data cleaning that can seem more intuitive for some tasks.
     - Check to see if you have the `dplyr`, `nycflights13` and `hflights` packages installed by trying to load the `library()`. 
 
