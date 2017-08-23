@@ -1,7 +1,23 @@
+---
+title: "Frequently Asked Questiosn"
+date: "Last Updated `r Sys.time()`"
+output: html_document
+---
 
-# Where to I go to get help....
+_page in development_
 
-This page is in development. 
+# Where can I get help using R outside of class time? 
+
+### Fall 17 office hours 
+* Mon 3-4pm, Holt 155: Robin, Eduardo
+* Tue 10-11am, Holt 155: Robin
+* Tue 2-4pm, BUTTE 211 (9/19-10/17), Robin (9/19), Edward (9/26-10/17)
+* Wed 3-4pm, Holt 155: Robin, Eduardo
+* Thu 10-11am, Holt 155: Robin
+
+
+# Other
+
 For now start here
 
 http://datascience.csuchico.edu/resources.html
