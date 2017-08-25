@@ -8,12 +8,18 @@ _page in development_
 
 # Where can I get help using R outside of class time? 
 
-### Fall 17 office hours 
-* Mon 3-4pm, Holt 155: Robin, Eduardo
+### Online
+* Chico [R User Group](https://groups.google.com/forum/#!forum/chico-rug)
+* UCLA IDRE
+
+### In Person: Fall 17 office hours 
+* Mon 3-4pm, Holt 155: _Robin_, Eduardo
 * Tue 10-11am, Holt 155: Robin
 * Tue 2-4pm, BUTTE 211 (9/19-10/17), Robin (9/19), Edward (9/26-10/17)
-* Wed 3-4pm, Holt 155: Robin, Eduardo
+* Wed 3-4pm, Holt 155: _Robin_, Eduardo
 * Thu 10-11am, Holt 155: Robin
+
+_Robin_ will not be available every MW at this time, but will be there as much as possible. 
 
 
 # Other
