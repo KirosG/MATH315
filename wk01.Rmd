@@ -61,7 +61,6 @@ Open to questions / help getting your preparation and HW tasks done before Wedne
 ##### Assignments
 * Complete the Intro to R Data Camp Assignment (Assigned to you in the Data Camp Classroom). If you have completed any R Workshop prior to class you probably don't need to do this. 
 * Complete the Intro to R BBL quiz (follows from the data camp assignment). 
-* Watch Passion Driven Statistics (PDS) [Video 1](http://passiondrivenstatistics.com/2015/05/20/chapter-01-course-introduction/). 
 * Read [Our path to better science in less time using open data science tools (Nature: Ecology and Evolution)](https://www.nature.com/articles/s41559-017-0160) 
 * Read [Learning - Your First Job](http://www.norcalbiostat.com/articles/articles.html)
 * Read [Metacognition and academic achievement](http://www.norcalbiostat.com/articles/articles.html)
@@ -83,14 +82,12 @@ Goals:
 ## Prepare
 * Follow the [Software overview](https://norcalbiostat.netlify.com/post/software-overview/) blog post to install necessary programs onto your own computer
 * Right click and "save link as" to download the HW 1 [[RMD Template]](hw/HW1.Rmd) and [[PDF]](hw/HW1.pdf) files into your class folder. 
-* Download and review the [Add Health](https://norcalbiostat.netlify.com/data/raw_data/) Wave IV PDF codebook and pick 3-5 sections you are interested in exploring. 
+
 
 ## In class
 
 * Ask questions about class logistics and structure
 * Create support groups. 
-* [The data analysis life cycle](docs/PDS_Intro_Stat.pdf)
-* Introduction to the Add Health data
 * Introduction to R Markdown. Or, "How do you turn in homework."
 
 ##### Assignments
@@ -103,26 +100,23 @@ Goals:
 # Friday: Data architecture
 Goals: 
 
-* Learn how data is stored
-* Identify the different data types
 * Learn about the data set on Adolescents you will be using
 * Learn how to read a data dictionary (codebook)
 
 
-
 ## Prepare
-* Watch PDS [Video 2](http://passiondrivenstatistics.com/2015/06/02/chapter-2-draft-version/)
-* Read Course Notes (CN) Section 2.1 and Open Intro Textbook (OI) Section 1.2. Write answers to questions and examples in the CN. 
-* Download the [medical records PDF](https://norcalbiostat.netlify.com/data/raw_data/) data from the raw data page. 
+* Watch Passion Driven Statistics (PDS) [Video 1](http://passiondrivenstatistics.com/2015/05/20/chapter-01-course-introduction/). 
+* [The data analysis life cycle](docs/PDS_Intro_Stat.pdf)
+* Download and review the [Add Health](https://norcalbiostat.netlify.com/data/raw_data/) Wave IV PDF codebook and pick 3-5 sections you are interested in exploring. 
 
 ## In class
-* Reading assessment on class logistics, metacognition and data collection
+
+* Reading assessment (RAT) on class logistics, and metacognition
+* Introduction to the Add Health data
 * Form analysis pairs
-* Share answers to questions in CN
-* Medical records assignment [[Instructions]](docs/MedRecords.html)
+
 
 ##### Assignments
-* PS 2.2: Identifying Data
 * Read the Week 2 overview so you know how to prepare for Monday. (This is a recurring theme. Always look ahead to see how you need to manage your time.)
 
 

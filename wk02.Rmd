@@ -17,56 +17,60 @@ opts_chunk$set(warning=FALSE, message=FALSE)
 ```
 
 
-# Monday: 
+# Monday: Data Archtecture
 Goals: 
 
-* Learn how data is collected and some terminology. 
-* Continue to learn how to use R to explore data
+* Identify the different data types
+* Learn how data is stored and tips on data entry to make analysis easier. 
+
 
 ## Prepare 
 
-* Read OI 1.3-1.5
-* Read CN Ch1 - prepare answers to all questions and examples
+* Watch PDS [Video 2](http://passiondrivenstatistics.com/2015/06/02/chapter-2-draft-version/)
+* Read Course Notes (CN) Section 2.1 and Open Intro Textbook (OI) Section 1.2. 
+* Write answers to questions and examples in the CN. 
+* Download the [medical records PDF](https://norcalbiostat.netlify.com/data/raw_data/) data from the raw data page. 
+
 
 ## In class
-* RAT on Ch 1
+* RAT on Data Types
 * Discuss answers to questions in CN 2.1
+* Medical records assignment [[Instructions]](docs/MedRecords.html)
 
 ##### Assignments
-* Data Camp (2 lessons): Open Intro - Intro to R, and Intro to Data (Due 9/3)
-* Complete both corresponding BBL quizzes (Due 9/3)
-* PS 1.5 (Due 9/3)
+* PS 2.2 (BBL Quiz)
+* Data Camp (2 lessons): Open Intro - Intro to R, and Intro to Data
+    - Complete both corresponding BBL quizzes 
+
 
 ----
 
 # Wednesday:
 Goals: 
 
-* Learn how to use a codebook to identify variables of interest and how they are recorded
-* Import the Add Health data from Excel into R
+* Import the Add Health data  into R
+* Start to narrow down your research area of interest to some specific questions. 
+* Start building your own personal codebook.
 
 ## Prepare
 * Start a new `projects` folder in your `MATH315` folder. 
-    - Download the AddHealth data set into this folder
-* Confirm you have the following packages installed by typing `library(package name)`. 
-    - `tidyverse`, `readxl`, `kableExtra`, `descr`, `rmarkdown`, `ggplot2`, `knitr`, `gridExtra`
-    - If you get the following error message `Error in library(package name) : there is no package called "package name"` then you need to install the package by typing: `install.packages("package name")`
-* Watch the R Markdown [Tutorial](http://rmarkdown.rstudio.com/lesson-1.html) by R Studio
+    - Download the AddHealth data set into a `data` subfolder 
+    - So your data should be in `MATH315/projects/data`
+* Start a new R Markdown file
+    - Delete the template material _below the first code chunk_.
+    - Update the author list to have both team members names
+    - Save it as **AddHealth_DM.Rmd** into your `projects/code` folder. 
+    - Knit to make sure there are no errors. 
 
 ## In class
 * Learn how to read and create a codebook
-* Import the Add Health data into R
-    - Start a new R Markdown file, save it as **AddHealth_DM.Rmd** into your projects folder. 
-        - Delete the template material _below the first code chunk_.
-        - In the first code chunk, read in the AddHealth data into R. 
-        - Knit this file to make sure it works. 
-
-## Additional resources
-* R Studio [R Markdown cheat sheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
-
+* Import the Add Health data into R. 
+    - We will be continually working in this file in the next few weeks. 
+    - You and your analysis buddy will have to work out a way to ensure that both of you have the exact same data management code at all times. 
+  
 
 ##### Assignments
-* Research question assignment [[Instructions]](hw/personal_codebook_assignment.html) (Due 9/3)
+* Research question / personal codebook assignment instructions as [[HTML]](hw/personal_codebook_assignment.html) and [[PDF]](hw/personal_codebook_assignment.pdf) 
 
 
 ----
@@ -79,6 +83,7 @@ Goals:
 
 ## Prepare
 * Read [How to read a journal article](docs/How to Read a Journal Article.pdf)
+* Read notes on conducting a literature review. Available as [[HTML]](docs/lec_lit_review.html) or [[PDF]](lec_lit_review.pdf).
 * Watch PDS [Video 4](http://passiondrivenstatistics.com/2015/09/16/chapter-04/)
 
 ## In class
@@ -91,6 +96,9 @@ Goals:
 
 
 ##### Assignments
-* Citation assignment [[Instructions]](hw/citation_assignment.html) [[RMD Template]](hw/citation_assignment_template.Rmd)(Due 9/10)
+* Citation assignment instructions as [[HTML]](hw/citation_assignment.html) and [[PDF]](hw/citation_assignment.pdf)
+    - Write your responses in this[[RMD Template]](hw/citation_assignment_template.Rmd)
     - [Example assignment](docs/Citation Assignment Example.pdf)
-* Data Camp: Intro to ggplot (first chapter only) & corresponding BBL Quiz (Due 9/5)
+    
+    
+    

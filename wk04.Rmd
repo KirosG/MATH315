@@ -38,7 +38,8 @@ Goals:
 
 ## Additional Resources
 * MATH 456/615 [[Data prep]](https://norcalbiostat.github.io/MATH615/docs/lec02_data_prep.html) lecture notes.
-
+* [[Data prep]](https://norcalbiostat.github.io/MATH615/docs/lec02_data_prep.html) lecture notes
+* [[dplyr lab]](https://norcalbiostat.github.io/MATH130/materials/day78-data-manipulation.html)
 
 ##### Assignments
 * Data management assignment.
@@ -57,6 +58,7 @@ Goals:
 
 ##### Assignments
 * Univariate graphing assigment
+[Data viz tutorial website](https://norcalbiostat.github.io/MATH130/materials/day56-data-viz.html)
 
 ----
 

@@ -1,14 +1,17 @@
 ---
 title: "Citation Assignment"
 output:
+  pdf_document: default
   html_document:
     highlight: tango
     theme: cerulean
 css: ../css/customh5.css
 ---
 
-You need at least 4 primary source references that are directly related to your topic that are published in 2006 or more recent.
-**For each article, you will complete steps 1-3, in other words 4 times. Then complete the remaining steps.
+* Work in your analysis pairs
+* Write your answers in the [[template]](citation_assignment_template.Rmd) provided. 
+* You need at least 4 primary source references that are directly related to your topic that are published in 2006 or more recent.
+* For each article, you will complete steps 1-3, in other words 4 times. Then complete the remaining steps.
 
 ## Step 1: 
 * Put the reference for the article in APA style. Here is a link to Purdue Owl APA style references that will guide you. https://owl.english.purdue.edu/owl/resource/560/05/ 
@@ -22,7 +25,6 @@ You need at least 4 primary source references that are directly related to your 
     - http://svmiller.com/blog/2016/02/svm-r-markdown-manuscript/
     - http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html#citations_for_pdf_output
 
-    
 
 ## Step 2: 
 Read an article, type up a brief summary (a few sentences) of what you learned about your topic from introduction/lit review and the discussion. This summary should convey the main themes and findings overall for the literature review and discussion in your own words.

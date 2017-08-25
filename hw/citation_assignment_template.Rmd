@@ -1,14 +1,16 @@
 ---
 title: "Citation Assignment"
-author: " NAME "
+author: " NAMES"
 date: " DATE"
 output: html_document
 ---
 
-You need at least 4 primary source references that are directly related to your topic that are published in 2006 or more recent.
+You need at least 4 primary source references that are directly related to your topic that are published in 2006 or more recent. 
 **For each article, you will complete steps 1-3, in other words 4 times. Then complete the remaining steps.
 
 # Article 1
+
+1. 
 
 2. 
 
@@ -20,6 +22,8 @@ You need at least 4 primary source references that are directly related to your 
 
 # Article 2
 
+1.
+
 2. 
 
 3. 
@@ -29,6 +33,8 @@ You need at least 4 primary source references that are directly related to your 
 
 # Article 3
 
+1.
+
 2. 
 
 3. 
@@ -37,6 +43,8 @@ You need at least 4 primary source references that are directly related to your 
 
 
 # Article 4
+
+1. 
 
 2. 
 

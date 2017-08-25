@@ -1,14 +1,14 @@
 ---
-title: "PERSONAL CODE BOOK (AKA RESEARCH QUESTION) ASSIGNMENT "
+title: 'PERSONAL CODE BOOK (AKA RESEARCH QUESTION) ASSIGNMENT '
 output:
+  pdf_document: default
   html_document:
     highlight: tango
     theme: cerulean
 css: ../css/customh5.css
 ---
 
-Now it is time for you to formulate your own Research Question. Take this task seriously – it will guide your focus for the rest of the semester. 
-Follow the steps below to complete this assignment.
+Now it is time for you and your teammate to formulate your own Research Question. Take this task seriously – it will guide your focus for the rest of the semester. Follow the steps below to complete this assignment.
 
 
 ## Step 1: (Statement): 
@@ -33,9 +33,10 @@ Now that you have a few topics and picked out variables for each topic, what que
 
 
 ##### How to submit
-* Submit your document Blackboard by the due date. 
-* You can complete this assignment in WORD or Google Doc if you choose to use screenshots. 
-    - If you are comfortable with taking screen shots, saving them to your computer and using Rmarkdown to insert images then I recommend you create complete this assignment as a `.MD` or `.RMD` file
-        - R Studio [R Markdown cheat sheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
+* Upload your work as a **WORD** or **PDF** document to Blackboard by the due date. 
+    - If you are comfortable with taking screen shots, saving them to your computer and using Rmarkdown to insert images then I recommend you create complete this assignment as a `.MD` or `.RMD` file. 
+        - Markdown basics http://rmarkdown.rstudio.com/authoring_basics.html 
+    
 
+  
 
