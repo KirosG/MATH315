@@ -46,7 +46,7 @@ Goals:
 * Read OI 1.7
 * Read CN 2.3 - prepare answers
 * Watch PDS Video 6 (30 min - 1hr)
-    - It is suggested that you follow along with the code in this video by installing the `descr` package and downloading the NESARC data from my [raw data](https://norcalbiostat.netlify.com/data/raw_data/) page. This is one of those things that will help you to achieve an "A" in this class. Not by points, but by putting effort into learning and practicing.
+    - It is suggested that you follow along with the code in this video by installing the `descr` package and downloading the NESARC data from [[this link]](https://drive.google.com/file/d/0B2-FPH8JVeuec29KQk5faENIMUk/view?usp=sharing), and the codebook from [[this link]](docs/). This is one of those things that will help you to achieve an "A" in this class. Not by points, but by putting effort into learning and practicing.
         - `install.packages("descr")`
 
 ## In class

@@ -12,6 +12,14 @@ _page in development_
 * Chico [R User Group](https://groups.google.com/forum/#!forum/chico-rug)
 * UCLA IDRE
 
+### PDS Helpful files for programming in R. 
+
+* Common errors [[DOCX]](R_Resources/Common Errors in R.docx)
+* Useful functions [[DOCX]](R_Resources/Useful functions in R.docx)
+* Navigataing data sets [[DOCX]](R_Resources/Navigating datasets in R.docx)
+* Graphing [[PDF]](R_Resources/QC201_Rgraphing.pdf)
+
+
 ### In Person: Fall 17 office hours 
 * Mon 3-4pm, Holt 155: _Robin_, Eduardo
 * Tue 10-11am, Holt 155: Robin
