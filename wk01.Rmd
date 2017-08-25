@@ -112,6 +112,7 @@ Goals:
 ## In class
 
 * Reading assessment (RAT) on class logistics, and metacognition
+* Show FAQ page. 
 * Introduction to the Add Health data
 * Form analysis pairs
 
