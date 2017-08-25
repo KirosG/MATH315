@@ -20,7 +20,16 @@ _page in development_
 * Graphing [[PDF]](R_Resources/QC201_Rgraphing.pdf)
 
 
-### In Person: Fall 17 office hours 
+### In Person: 
+
+* Robin Donatello - Me. Holt 204
+* Edward Roualdes - Stat professor. Holt 204
+* Eduardo Gomez - peer mentor
+* Ricardo Aguilar - peer mentor
+* Mariby Cruz - peer mentor
+
+
+#### Fall 17 office hours 
 * Mon 3-4pm, Holt 155: _Robin_, Eduardo
 * Tue 10-11am, Holt 155: Robin
 * Tue 2-4pm, BUTTE 211 (9/19-10/17), Robin (9/19), Edward (9/26-10/17)
@@ -28,6 +37,18 @@ _page in development_
 * Thu 10-11am, Holt 155: Robin
 
 _Robin_ will not be available every MW at this time, but will be there as much as possible. 
+
+
+
+Edward OH: MW 10-11, 1-2
+R 1-2
+
+
+# What other computers on campus have R? 
+
+* The three reserve computers in the first floor library. You have to ask to use these. (Confirmed 8/25/17)
+* Butte 211 has an open computer lab. R & R studio are not installed, but you can install it as
+    
 
 
 # Class Logistics
