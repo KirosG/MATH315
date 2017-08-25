@@ -20,7 +20,6 @@ opts_chunk$set(warning=FALSE, message=FALSE)
 Goals: 
 
 * Learn how to describe continuous data correctly using graphics, summary statistics and paragraphs. 
-* Learn how `ggplot` will be used to make effective graphics. 
 
 ## Prepare
 * Read OI 1.6.2, 1.6.6
@@ -31,8 +30,9 @@ Goals:
 * Discuss answers to questions in CN 2.2
 
 ##### Assignments
-* PS 2.4 Calculating summary statistics (Due 9/10)
-* PS 2.5 Interpreting univariate numerical distributions (Due 9/10)
+* PS 2.4 Calculating summary statistics 
+* PS 2.5 Interpreting univariate numerical distributions 
+* Data Camp: Intro to ggplot & corresponding BBL Quiz. 
 
 ----
 
@@ -46,16 +46,16 @@ Goals:
 * Read OI 1.7
 * Read CN 2.3 - prepare answers
 * Watch PDS Video 6 (30 min - 1hr)
-    - Note this uses the NESARC data as an example, and the `descr` package. You can install the `descr` package, but I don't have access to the NESARC data.
-    - It is suggested that you follow along with this video using the Add Health data. (This is one of those things that will help you to achieve an "A" in this class. Not by points, but by putting effort into learning and practicing.)
+    - It is suggested that you follow along with the code in this video by installing the `descr` package and downloading the NESARC data from my [raw data](https://norcalbiostat.netlify.com/data/raw_data/) page. This is one of those things that will help you to achieve an "A" in this class. Not by points, but by putting effort into learning and practicing.
+        - `install.packages("descr")`
 
 ## In class
 * Discuss answers to questions in CN 2.3
 
 
 ##### Assignments
-* PS 2.7 Interpreting univariate categorical distributions (Due 9/10)
-* Review your personal codebook. Answer the [following preparation questions](dm_assignment_prep.html) [[RMD Template]](hw/dm_assignment_prep.Rmd) (Due 9/10)
+* PS 2.7 Interpreting univariate categorical distributions 
+* Review your personal codebook. Answer the following preparation questions directly in the [[RMD Template]](hw/dm_assignment_prep.Rmd). Upload the knitted WORD or PDF by the due date.  
 
 ##### IT IS HIGHLY ADVISED YOU LOOK AHEAD TO NEXT WEEK. 
 We are starting data management which is a difficult coding topic. 

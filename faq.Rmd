@@ -22,12 +22,6 @@ _page in development_
 _Robin_ will not be available every MW at this time, but will be there as much as possible. 
 
 
-# Other
-
-For now start here
-
-http://datascience.csuchico.edu/resources.html
-
 # Class Logistics
 There was a survey done in Week 1 where I asked you to tell me what more you wanted to know regarding how this class is run and what is expected out of you? Here is a compilation of those responses. As more come in I will add to this list. 
 
@@ -64,6 +58,7 @@ There was a survey done in Week 1 where I asked you to tell me what more you wan
     - **Assignments will nearly always be uploaded to Blackboard Learn**
 * I'm a bit unclear of what to expect from this class. In high school we covered things such as chi squared test and I am curious if we will be going over equations like that or if this class will simply be mainly coding.
     - **We will be talking about some equations, but we will not be doing hand calculations that you may have done in HS. Our goal is to analyze real data using tests like the $\chi^2$ test, and focusing on how to interpret the results.**
+* I would like to know about how many suggested hours will we need outside of class in order to do well. 
 * How much time is expected to be spent practicing using R outside of class/doing homework in order to get an A?
     - **The general rule of thumb is 3 hours of workload outside of class for every 1 hour in class. This means you are expected to spend 9 hours doing work for this class. How fast you pick up on the R language will impact this time, but the assignments have been strucutred such that learning R should not dramatically increase your workload. The important thing is while you're learning R, to try to learn why something works, not just copy/paste/pray. That way you can apply it to a new problem with minimal errors.**
 * Will credit still be given to those who try to code and still fail?
@@ -74,10 +69,12 @@ How often homework is due?
     - **Approximately a week after we cover that material in class**
 * I'm hoping before you let us go at the end of the the day you could tell us where everything is, which so much already on the blackboard page I get a bit lost.
     - **I will always try to give you a reminder regarding what is due and when, and do so by pointing it out explicitly on the class website using the overhead projector. I even have alarm reminders on my fitbit watch to start wrapping things up at 10 min before the class ends. You can help me remember to do this by asking me to recap what is up next before everyone leaves.**
-
 * I want to know that the tools I need to get every assignment turned in properly are clear.
     - **So make sure you read instructions early on, and ask clarifying questions so you know exactly what to do**
-   
+* I was wondering if all the at home assignments will be discussed the following class or if we come back to them in later days or weeks.
+    - **We won't discuss the blackboard learn or data camp quizzes directly in class. We will be working on (at least starting) most homework assignments while in class. Most written assignments will be directly related to your project, so you will be coming back to it frequently.**
+* The only question I do not understand about the course is the way that the notes are structured, am I suppost to answer all the questions on the notes or is it only the designated Q section. 
+    - **The red Q's, and all blue Example boxes are things that you should prepare answers for before class**
 
 
 
@@ -87,7 +84,9 @@ How often homework is due?
 * Because statistical analysis is computer based, how will exams be structured?
 * I would like to know more about how the tests are going to be formated, computer based or paper?
     - **They will be paper exams. I will show a graph or an analysis result and ask you to explain a concept regarding that topic. I could ask you to fill in sample data. I will have a sample Exam 1 to help address this question of exam formatting.**
-
+* I am curious about how exams would occur in the class and what we would get tested on.
+    - **Interpretations, concepts. Thinking with data. **
+    
 
 
 
@@ -99,7 +98,6 @@ How often homework is due?
     - **I have done a survey in the past that weighted the project grade based on peer review of participation. I will also do a midterm check in with all teams to assess if all parties are doing OK. Since the project is only team based now (pairs of 2), there is less room for freeloaders. If it still becomes a major problem of non-equal distribution of effort then I can intervene. But for now see the answer to the question above.**
 * how many people per group project?
     - **You will work in pairs of two**
-    
 * Is it gonna be 10 projects with the same group or multiple different groups?
     - **The same pair of students will work on one single project the entire semester**
 
@@ -114,7 +112,8 @@ How often homework is due?
 * I would like to know if there is help offered for the programs we use to do our analysis. 
 * Would there be any extra help in the student service center or will it all be based on the groups you gave us.
     - **There is no formal tutoring for R on campus. I will have a peer mentor in both classes who will be there to help. I will also have a peer mentor helping me out during office hours, and monitoring the Google Group.**
-
+* Will it be a big barrier if we do not have a laptop to take to class.
+    - **I will try to not let it be, but it will be more difficult having to use a flash drive.**
 
     
     
