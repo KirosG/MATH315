@@ -4,6 +4,25 @@ This is the landing page for <span style="color:blue">**Applied Statistical Meth
 
 # Announcements
 
+### 8/27/17 - Week 2
+
+This week we're going to be talking about data, doing some data entry and importing data into R.
+You'll start to choose specific variables to address your research questions, conduct a literature review, and learn how to properly cite your sources. 
+
+Here are the highlights for the week. 
+
+* Monday
+    - RAT on data types (CN 2.1)
+    - Practice recording raw data and creating a codebook
+    - Two (2) Data camp lessons
+* Wednesday
+    - Getting the Add Health data into R
+    - Start to choose the variables you want to analyze
+* Friday
+    - Conducting a literature review
+    - Using proper citation styles
+
+
 ### 8/20/17
 
 Happy Sunday and welcome to the Fall 2017 semester! 
