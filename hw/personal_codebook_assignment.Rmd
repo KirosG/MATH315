@@ -8,7 +8,7 @@ output:
 css: ../css/customh5.css
 ---
 
-Now it is time for you and your teammate to formulate your own Research Question. Take this task seriously – it will guide your focus for the rest of the semester. Follow the steps below to complete this assignment.
+Now it is time for you and your teammate to formulate your own Research Question. Take this task seriously, it will guide your focus for the rest of the semester. Follow the steps below to complete this assignment.
 
 
 ## Step 1: (Statement): 
@@ -20,22 +20,28 @@ After looking through the codebook for the U.S. Longitudinal Study of Adolescent
 
 ## Step 2: (Personal Codebook): 
 Create or continue working on your personal codebook that we discussed in class. 
+
 * In your personal codebook, include the questions/items/variables from the AddHealth codebook that measure your selected topics. 
-* You can do this simply by using  “copy screen” and paste into a new document OR take a snapshot with the snipping tool. 
+* You can do this simply by using  "copy screen" and paste into a new document OR take a snapshot with the snipping tool. 
     - In the pdf file, go to Edit, Take a Snap Shot, then click and drag over what you want. If you are on a MAC, press Shift+Command+Ctrl+4 to get the snip tool.
 
 ## Step 3: (Research Questions): 
 Now that you have a few topics and picked out variables for each topic, what questions are you interested in trying to answer about your topics? One of the simplest research questions that can be asked is whether two constructs are associated.
-> Questions example:
-> a) Does smoking quantity relate to nicotine dependence?
-> b) Is there a relationship between smoking frequency and suicide?
-> c) Does a smoker have more suicidal behaviors than a non-smoker?
+
+> Questions example:  
+> a) Does smoking quantity relate to nicotine dependence?  
+> b) Is there a relationship between smoking frequency and suicide?  
+> c) Does a smoker have more suicidal behaviors than a non-smoker?  
 
 
 ##### How to submit
-* Upload your work as a **WORD** or **PDF** document to Blackboard by the due date. 
-    - If you are comfortable with taking screen shots, saving them to your computer and using Rmarkdown to insert images then I recommend you create complete this assignment as a `.MD` or `.RMD` file. 
-        - Markdown basics http://rmarkdown.rstudio.com/authoring_basics.html 
+* Use the template to answer questions #1 & #3. Knit your document to **WORD** or **PDF**. 
+* Create your personal codebook in a **WORD** (or Google Docs) file. 
+* Submit both files to Blackboard by the due date. 
+    - If you use a Google Doc, you can submit the link to the google doc in the submission text field for this assignment. 
+
+If you are comfortable with taking screen shots, saving them to your computer and using Rmarkdown to insert images then I recommend you create complete #2 as a `.MD` or `.RMD` file. 
+* Markdown basics http://rmarkdown.rstudio.com/authoring_basics.html 
     
 
   

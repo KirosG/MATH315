@@ -35,7 +35,7 @@ Goals:
 ## In class
 * RAT on Data Types
 * Discuss answers to questions in CN 2.1
-* Medical records assignment [[Instructions]](docs/MedRecords.html)
+* Learn how to read and create a codebook by doing the Medical records assignment [[Instructions]](docs/MedRecords.html)
 
 ##### Assignments
 * PS 2.2 (BBL Quiz)
@@ -45,10 +45,10 @@ Goals:
 
 ----
 
-# Wednesday:
+# Wednesday: Looking at variables
 Goals: 
 
-* Import the Add Health data  into R
+* Import the Add Health data into R
 * Start to narrow down your research area of interest to some specific questions. 
 * Start building your own personal codebook.
 
@@ -63,19 +63,22 @@ Goals:
     - Knit to make sure there are no errors. 
 
 ## In class
-* Learn how to read and create a codebook
+
+* Talk about file and folder organization. 
 * Import the Add Health data into R. 
     - We will be continually working in this file in the next few weeks. 
     - You and your analysis buddy will have to work out a way to ensure that both of you have the exact same data management code at all times. 
+* Start the personal codebook assignment. 
   
 
 ##### Assignments
-* Research question / personal codebook assignment instructions as [[HTML]](hw/personal_codebook_assignment.html) and [[PDF]](hw/personal_codebook_assignment.pdf) 
+* Research question / personal codebook assignment instructions as [[HTML]](hw/personal_codebook_assignment.html) and [[PDF]](hw/personal_codebook_assignment.pdf). 
+    - Use this [[RMD]](hw/personal_codebook_assignment_template.Rmd) template to write your answers to #1 and #3 in. 
 
 
 ----
 
-# Friday:
+# Friday: Lit Review
 Goals: 
 
 * Verbalize your research topic or area of interest
@@ -83,7 +86,7 @@ Goals:
 
 ## Prepare
 * Read [How to read a journal article](docs/How to Read a Journal Article.pdf)
-* Read notes on conducting a literature review. Available as [[HTML]](docs/lec_lit_review.html) or [[PDF]](lec_lit_review.pdf).
+* Read notes on conducting a literature review. Available as [[HTML]](docs/lec_lit_review.html) or [[PDF]](docs/lec_lit_review.pdf).
 * Watch PDS [Video 4](http://passiondrivenstatistics.com/2015/09/16/chapter-04/)
 
 ## In class

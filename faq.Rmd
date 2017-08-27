@@ -10,7 +10,10 @@ _page in development_
 
 ### Online
 * Chico [R User Group](https://groups.google.com/forum/#!forum/chico-rug)
-* UCLA IDRE
+* UCLA IDRE https://stats.idre.ucla.edu/r/ 
+* Cookbook for R http://www.cookbook-r.com/
+* R Examples repository http://dwoll.de/rexrepos/index.html 
+
 
 ### PDS Helpful files for programming in R. 
 
@@ -22,26 +25,24 @@ _page in development_
 
 ### In Person: 
 
-* Robin Donatello - Me. Holt 204
-* Edward Roualdes - Stat professor. Holt 204
-* Eduardo Gomez - peer mentor
-* Ricardo Aguilar - peer mentor
-* Mariby Cruz - peer mentor
-
-
-#### Fall 17 office hours 
-* Mon 3-4pm, Holt 155: _Robin_, Eduardo
-* Tue 10-11am, Holt 155: Robin
-* Tue 2-4pm, BUTTE 211 (9/19-10/17), Robin (9/19), Edward (9/26-10/17)
-* Wed 3-4pm, Holt 155: _Robin_, Eduardo
-* Thu 10-11am, Holt 155: Robin
-
-_Robin_ will not be available every MW at this time, but will be there as much as possible. 
-
-
-
-Edward OH: MW 10-11, 1-2
-R 1-2
+* **Robin Donatello** - Stat professor. Holt 202
+    - MWF 3-4pm, Holt 155 (most weeks I won't be avb either M or W)
+    - TR 10-11am, Holt 155
+    - T 9/19 2-4pm, BUTTE 211
+* **Edward Roualdes** - Stat professor. Holt 204
+    - MW 10-11am, 1-2pm
+    - R 1-2pm
+    - T 9/26 - 10/17, 2-4pm, BUTTE 211
+* **Eduardo Gomez** - peer mentor
+    - MW 3-4pm, Holt 155
+    - Occasionally during 10am class
+* **Ricardo Aguilar** - peer mentor
+    - Occasionally during 12pm class
+    - possibly available for personal tutoring
+* **Mariby Cruz** - peer mentor
+    - Occasionally during both 10 and 12 pm classes 
+    - TLC hours
+    - available for personal tutoring
 
 
 # What other computers on campus have R? 

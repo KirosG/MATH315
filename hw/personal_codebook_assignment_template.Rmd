@@ -1,0 +1,33 @@
+---
+title: "PERSONAL CODE BOOK (AKA RESEARCH QUESTION) ASSIGNMENT "
+author: " NAME "
+date: "DATE"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+## Step 1: (Statement): 
+
+
+
+
+
+
+
+
+
+
+
+## Step 3: (Research Questions): 
+
+
+
+
+
+
+
