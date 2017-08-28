@@ -3,8 +3,8 @@ title: "Syllabus for Applied Statistical Methods I"
 author: "Dr. Robin Donatello"
 date: "MATH 315, Fall 2017"
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
 geometry: margin=0.75in
 urlcolor: blue
 ---
@@ -19,6 +19,9 @@ urlcolor: blue
 * **Meeting Days and Times** 
     - Section 02 MWF 10-11 noon HOLT 257
     - Section 01 MWF 12-1 pm HOLT 277
+* **Office Hours**
+    - MW: 3-4pm Holt 155
+    - TR: 10-11am Holt 155
 
     
 You can download the Syllabus in PDF form by clicking [this link](syllabus_f17.pdf).
