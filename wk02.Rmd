@@ -99,7 +99,7 @@ Goals:
 
 
 ##### Assignments
-* Citation assignment instructions as [[HTML]](hw/citation_assignment.html) and [[PDF]](hw/citation_assignment.pdf)
+* Citation assignment instructions as [[HTML]](hw/citation_assignment_instructions.html) and [[PDF]](hw/citation_assignment_instructions.pdf)
     - Write your responses in this[[RMD Template]](hw/citation_assignment_template.Rmd)
     - [Example assignment](docs/Citation Assignment Example.pdf)
     
