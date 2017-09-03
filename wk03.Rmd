@@ -46,7 +46,7 @@ Goals:
 * Read OI 1.7
 * Read CN 2.3 - prepare answers
 * Watch PDS Video 6 (30 min - 1hr)
-    - It is suggested that you follow along with the code in this video by installing the `descr` package and downloading the NESARC data from [[this link]](https://drive.google.com/file/d/0B2-FPH8JVeuec29KQk5faENIMUk/view?usp=sharing), and the codebook from [[this link]](docs/). This is one of those things that will help you to achieve an "A" in this class. Not by points, but by putting effort into learning and practicing.
+    - It is suggested that you follow along with the code in this video by installing the `descr` package and downloading the NESARC data from [[this link]](https://drive.google.com/file/d/0B2-FPH8JVeuec29KQk5faENIMUk/view?usp=sharing), and the codebook from [[this link]](https://drive.google.com/open?id=0B2-FPH8JVeueY2c2WlgzcngwRlE). This is one of those things that will help you to achieve an "A" in this class. Not by points, but by putting effort into learning and practicing.
         - `install.packages("descr")`
 
 ## In class
@@ -55,14 +55,13 @@ Goals:
 
 ##### Assignments
 * PS 2.7 Interpreting univariate categorical distributions 
-* Review your personal codebook. Answer the following preparation questions directly in the [[RMD Template]](hw/dm_assignment_prep.Rmd). Upload the knitted WORD or PDF by the due date.  
+* Review your personal codebook. Answer the [[following]](hw/dm_assignment_prep.html) preparation questions directly in the [[RMD Template]](hw/dm_assignment_prep.Rmd). Upload the knitted WORD or PDF by the due date.  
 
 ##### IT IS HIGHLY ADVISED YOU LOOK AHEAD TO NEXT WEEK. 
 We are starting data management which is a difficult coding topic. 
-Your best chance of success with minimal strife is to replicate all code in the 
-[[DATA PREP LECTURE NOTES]](https://norcalbiostat.github.io/MATH615/docs/lec02_data_prep.html). 
-Some of these techniques to clean data take a different approach than what you will see in the PDS Video 7. That is fine!
-There are many different ways to approach and solve a problem. Being exposed to multiple ways of how to do things may seem confusing, but not everyone thinks the same. Some approaches may work better for some than for others. As you grow in being a scientist in charge of your own data you will find your own style of coding. 
+Your best chance of success with minimal strife is to follow along with the coding shown in PDS Video 7, replicate what they do in the video on your computer, and understand what the code means that you are writing. 
+
+Some of these techniques I will show you on how to clean data take a different approach than what you will see in the PDS Video 7. That is fine! There are many different ways to approach and solve a problem. Being exposed to multiple ways of how to do things may seem confusing, but not everyone thinks the same. Some approaches may work better for some than for others. As you grow in being a scientist in charge of your own data you will find your own style of coding. 
 
 
 

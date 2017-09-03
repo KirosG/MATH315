@@ -4,6 +4,13 @@ This is the landing page for <span style="color:blue">**Applied Statistical Meth
 
 # Announcements
 
+### 9/3/17 - Week 3
+
+* Have a great three day weekend!
+* We're going to be learning how to describe the distribution of data using words, summary statistics and appropriate graphics.
+* This is your last chance to get all your R/R Studio bugs resolved. Next week we're hitting the coding ground hard. 
+
+
 ### 8/27/17 - Week 2
 
 This week we're going to be talking about data, doing some data entry and importing data into R.

@@ -21,53 +21,85 @@ opts_chunk$set(warning=FALSE, message=FALSE)
 Goals: 
 
 * Understand why data preparation takes the majority of your time, but is crucially important. 
-* Learn how to be the boss of your own data. 
-    - changing integers to factors
-    - recoding missing data and skip patterns
-    - subsetting, filtering, aggregating, summarizing, sorting. 
+* Learn how to identify mistakes and missing data in data using tables and summaries
+* Learn how to correct certain mistakes
+* Learn how to recode variables into new ones
 
 
 ## Prepare 
 * Watch PDS [Video 7](http://passiondrivenstatistics.com/2016/01/08/r-chapter-7/)
-* Download the `dplyr` lab [[RMD file]](docs/dplyr.Rmd). This is another approach to data cleaning that can seem more intuitive for some tasks.
-    - Check to see if you have the `dplyr`, `nycflights13` and `hflights` packages installed by trying to load the `library()`. 
+    - Follow along with the NESARC data. Links to download the data can be found in [[Week 3]](https://norcalbiostat.github.io/MATH315/wk03.html)
+* Review the notes on [[doing data management]](https://norcalbiostat.github.io/MATH615/docs/lec02_doing_dm.html)
+    - Download this `dm_depress` [[RMD]](docs/dm_depress.Rmd) file into your `MATH315/code` folder. 
+    - Open the depression data set [[codebook]](https://norcalbiostat.netlify.com/data/DepressCodebook.txt) for use during class. 
 
 ## In class
-
-* Data manipulation with `dplyr`. Live coding follow-along example. 
+* RAT on data management
+* Go through the data cleaning code, and answer questions about what we're doing and why.
+    
 
 ## Additional Resources
-* MATH 456/615 [[Data prep]](https://norcalbiostat.github.io/MATH615/docs/lec02_data_prep.html) lecture notes.
-* [[Data prep]](https://norcalbiostat.github.io/MATH615/docs/lec02_data_prep.html) lecture notes
-* [[dplyr lab]](https://norcalbiostat.github.io/MATH130/materials/day78-data-manipulation.html)
+* R Cookbook http://www.cookbook-r.com/
+* QUick-R http://www.statmethods.net/
+
 
 ##### Assignments
-* Data management assignment.
+* Submit your `dm_addhealth.Rmd` code file to Blackboard by the due date. 
+    - Make sure it works on both people's computers before you submit. 
+    - I will download this file and run it on my machine. If it works it will be graded for correctness. 
+    - I do not expect you to have all of your variables cleaned and transformed by this date.
+        * But I do expect you to have at least a few variables done. 
 
 
-# Wednesday:
+# Wednesday: Data Viz
 Goals: 
 
+* Learn how to create univariate data graphics and summary statistics in R
+* Describe the distribution of a single variable in sentence form using summary statistics and pointing out specific features of the graphics as evidence to support your interpretation. 
+
+
 ## Prepare
-* Watch PDS Video 8
-* Review the 
+* Watch [[PDS Video 8]](http://passiondrivenstatistics.com/2016/01/20/r-chapter-8/). 
+    - As before, following along and replicating the code in the video is highly recommended. 
+* Start a new RMD file. Replicate all code to create **univariate graphics** from the [Data viz tutorial website](https://norcalbiostat.github.io/MATH130/materials/day56-data-viz.html). 
+
 
 ## In class
-
+* We will talk through the code to create the graphics in the data viz tutorial. 
 
 
 ##### Assignments
-* Univariate graphing assigment
-[Data viz tutorial website](https://norcalbiostat.github.io/MATH130/materials/day56-data-viz.html)
+* Univariate graphing assigment. [[HTML instructions]](hw/univ_graphing.html)
+    - [Example assignment](docs/Univariate Graping Assignment Examples.pdf)
+
 
 ----
 
-# Friday: Open work time
+# Friday: Research Outline
 Goals: 
 
+* Describe the difference between a research plan and an empirical paper.
 * Finish the two previous assignments on data management and graphing. 
 
-##### Assignments
-* Research plan outline
+## Prepare
 
+* Read PDS Chapter 5 [[PDF]](docs/pds_chapter5.pdf)
+
+## In class
+
+Notes
+
+  * What is the difference between a research plan and an empirical paper? 
+      - RP has title, introduction, methodology, predicted results, implications, and references
+      - Something to start constructing now piece by piece so you are ready to turn it in in about 3 weeks
+  * Purpose is to develop a blueprint of what you are going to do and expect outcomes so you have a guide
+      - Won’t do predicted results
+      - EP has actual results and a full discussion
+  * You will put this in a poster form at the end of the semester
+  * Hourglass shape – Broad to specific, specific to broad
+
+
+
+##### Assignments
+* Research plan outline [[HTML instructions]](hw/research_plan_outline.html)
 

@@ -321,7 +321,7 @@ div.tocify {
 
 
 <h1 class="title toc-ignore">Week 4: 9/11 - 9/17</h1>
-<h4 class="date"><em>Last Updated 2017-08-27 14:06:14</em></h4>
+<h4 class="date"><em>Last Updated 2017-09-02 21:22:33</em></h4>
 
 </div>
 
@@ -331,76 +331,123 @@ div.tocify {
 <p>Goals:</p>
 <ul>
 <li>Understand why data preparation takes the majority of your time, but is crucially important.</li>
-<li>Learn how to be the boss of your own data.
-<ul>
-<li>changing integers to factors</li>
-<li>recoding missing data and skip patterns</li>
-<li>subsetting, filtering, aggregating, summarizing, sorting.</li>
-</ul></li>
+<li>Learn how to identify mistakes and missing data in data using tables and summaries</li>
+<li>Learn how to correct certain mistakes</li>
+<li>Learn how to recode variables into new ones</li>
 </ul>
 <div id="prepare" class="section level2">
 <h2>Prepare</h2>
 <ul>
-<li>Watch PDS <a href="http://passiondrivenstatistics.com/2016/01/08/r-chapter-7/">Video 7</a></li>
-<li>Download the <code>dplyr</code> lab <a href="docs/dplyr.Rmd">[RMD file]</a>. This is another approach to data cleaning that can seem more intuitive for some tasks.
+<li>Watch PDS <a href="http://passiondrivenstatistics.com/2016/01/08/r-chapter-7/">Video 7</a>
 <ul>
-<li>Check to see if you have the <code>dplyr</code>, <code>nycflights13</code> and <code>hflights</code> packages installed by trying to load the <code>library()</code>.</li>
+<li>Follow along with the NESARC data. Links to download the data can be found in <a href="https://norcalbiostat.github.io/MATH315/wk03.html">[Week 3]</a></li>
+</ul></li>
+<li>Review the notes on <a href="https://norcalbiostat.github.io/MATH615/docs/lec02_doing_dm.html">[doing data management]</a>
+<ul>
+<li>Download this <code>dm_depress</code> <a href="docs/dm_depress.Rmd">[RMD]</a> file into your <code>MATH315/code</code> folder.</li>
+<li>Open the depression data set <a href="https://norcalbiostat.netlify.com/data/DepressCodebook.txt">[codebook]</a> for use during class.</li>
 </ul></li>
 </ul>
 </div>
 <div id="in-class" class="section level2">
 <h2>In class</h2>
 <ul>
-<li>Data manipulation with <code>dplyr</code>. Live coding follow-along example.</li>
+<li>RAT on data management</li>
+<li>Go through the data cleaning code, and answer questions about what we’re doing and why.</li>
 </ul>
 </div>
 <div id="additional-resources" class="section level2">
 <h2>Additional Resources</h2>
 <ul>
-<li>MATH 456/615 <a href="https://norcalbiostat.github.io/MATH615/docs/lec02_data_prep.html">[Data prep]</a> lecture notes.</li>
-<li><a href="https://norcalbiostat.github.io/MATH615/docs/lec02_data_prep.html">[Data prep]</a> lecture notes</li>
-<li><a href="https://norcalbiostat.github.io/MATH130/materials/day78-data-manipulation.html">[dplyr lab]</a></li>
+<li>R Cookbook <a href="http://www.cookbook-r.com/" class="uri">http://www.cookbook-r.com/</a></li>
+<li>QUick-R <a href="http://www.statmethods.net/" class="uri">http://www.statmethods.net/</a></li>
 </ul>
 <div id="assignments" class="section level5">
 <h5>Assignments</h5>
 <ul>
-<li>Data management assignment.</li>
+<li>Submit your <code>dm_addhealth.Rmd</code> code file to Blackboard by the due date.
+<ul>
+<li>Make sure it works on both people’s computers before you submit.</li>
+<li>I will download this file and run it on my machine. If it works it will be graded for correctness.</li>
+<li>I do not expect you to have all of your variables cleaned and transformed by this date.
+<ul>
+<li>But I do expect you to have at least a few variables done.</li>
+</ul></li>
+</ul></li>
 </ul>
 </div>
 </div>
 </div>
-<div id="wednesday" class="section level1">
-<h1>Wednesday:</h1>
+<div id="wednesday-data-viz" class="section level1">
+<h1>Wednesday: Data Viz</h1>
 <p>Goals:</p>
+<ul>
+<li>Learn how to create univariate data graphics and summary statistics in R</li>
+<li>Describe the distribution of a single variable in sentence form using summary statistics and pointing out specific features of the graphics as evidence to support your interpretation.</li>
+</ul>
 <div id="prepare-1" class="section level2">
 <h2>Prepare</h2>
 <ul>
-<li>Watch PDS Video 8</li>
-<li>Review the</li>
+<li>Watch <a href="http://passiondrivenstatistics.com/2016/01/20/r-chapter-8/">[PDS Video 8]</a>.
+<ul>
+<li>As before, following along and replicating the code in the video is highly recommended.</li>
+</ul></li>
+<li>Start a new RMD file. Replicate all code to create <strong>univariate graphics</strong> from the <a href="https://norcalbiostat.github.io/MATH130/materials/day56-data-viz.html">Data viz tutorial website</a>.</li>
 </ul>
 </div>
 <div id="in-class-1" class="section level2">
 <h2>In class</h2>
+<ul>
+<li>We will talk through the code to create the graphics in the data viz tutorial.</li>
+</ul>
 <div id="assignments-1" class="section level5">
 <h5>Assignments</h5>
 <ul>
-<li>Univariate graphing assigment <a href="https://norcalbiostat.github.io/MATH130/materials/day56-data-viz.html">Data viz tutorial website</a></li>
+<li>Univariate graphing assigment. <a href="hw/univ_graphing.html">[HTML instructions]</a>
+<ul>
+<li><a href="docs/Univariate%20Graping%20Assignment%20Examples.pdf">Example assignment</a></li>
+</ul></li>
 </ul>
 <hr />
 </div>
 </div>
 </div>
-<div id="friday-open-work-time" class="section level1">
-<h1>Friday: Open work time</h1>
+<div id="friday-research-outline" class="section level1">
+<h1>Friday: Research Outline</h1>
 <p>Goals:</p>
 <ul>
+<li>Describe the difference between a research plan and an empirical paper.</li>
 <li>Finish the two previous assignments on data management and graphing.</li>
+</ul>
+<div id="prepare-2" class="section level2">
+<h2>Prepare</h2>
+<ul>
+<li>Read PDS Chapter 5 <a href="docs/pds_chapter5.pdf">[PDF]</a></li>
+</ul>
+</div>
+<div id="in-class-2" class="section level2">
+<h2>In class</h2>
+<p>Notes</p>
+<ul>
+<li>What is the difference between a research plan and an empirical paper?
+<ul>
+<li>RP has title, introduction, methodology, predicted results, implications, and references</li>
+<li>Something to start constructing now piece by piece so you are ready to turn it in in about 3 weeks</li>
+</ul></li>
+<li>Purpose is to develop a blueprint of what you are going to do and expect outcomes so you have a guide
+<ul>
+<li>Won’t do predicted results</li>
+<li>EP has actual results and a full discussion</li>
+</ul></li>
+<li>You will put this in a poster form at the end of the semester</li>
+<li>Hourglass shape – Broad to specific, specific to broad</li>
 </ul>
 <div id="assignments-2" class="section level5">
 <h5>Assignments</h5>
 <ul>
-<li>Research plan outline</li>
+<li>Research plan outline <a href="hw/research_plan_outline.html">[HTML instructions]</a></li>
 </ul>
+</div>
 </div>
 </div>
 

@@ -8,7 +8,16 @@ css: ../css/customh5.css
 ---
 
 You know what variables you want to use, and you've looked over the codebook enough now that you have an idea of some potential "things" that you will need to change. Answer the following questions in prepartion to learn how to tackle problems such as missing data and recoding variables in R next week. 
+
 Write your answers directly in here, knit to WORD or PDF and submit to BBLearn by the due date. 
+
+Call out specific variable names. For example
+
+> I am going to use gender in my analysis, and the variable `BIO_SEX` currently is `=1` for males and `=2` for females, and `=6` for unknown. I want an indicator of female so I will create a new variable `female` where 
+> 
+> * `female==1` when `BIO_SEX==2`
+> * `female==0` when `BIO_SEX==1`. 
+> * `female==NA` when `BIO_SEX==6`. 
 
 1. **Do you need to code out missing data? **
 

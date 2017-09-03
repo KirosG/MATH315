@@ -1,0 +1,199 @@
+---
+title: 'Cleaning the Depression data set'
+date: "Last Updated `r Sys.time()`"
+output:
+  html_document:
+    highlight: tango
+    theme: flatly
+    toc: yes
+    toc_float: yes
+---
+
+```{r load2,echo=FALSE, warning=FALSE, message=FALSE}
+library(knitr)
+#library(rmarkdown)
+opts_chunk$set(warning=FALSE, message=FALSE) 
+```
+
+# Purpose
+Clean the depression data set. 
+Codebook can be found [[here]](https://norcalbiostat.netlify.com/data/DepressCodebook.txt)
+An annotated version of this data management file can be found [[here]](https://norcalbiostat.github.io/MATH615/docs/lec02_doing_dm.html)
+
+
+## Import data
+```{r, warning=FALSE, message=FALSE}
+library(ggplot2)  
+depress <- read.table("https://norcalbiostat.netlify.com/data/Depress.txt", 
+                      sep="\t", header=TRUE)  
+```
+
+## Look at the data
+
+```{r}
+str(depress)
+```
+
+
+## Missing data 
+Look for missing values
+```{r}
+table(depress$RELIG, useNA="always")
+```
+
+Change 6 to `NA`.
+```{r}
+depress$RELIG[depress$RELIG==6] <- NA
+```
+
+
+Confirm recode.
+```{r}
+table(depress$RELIG, useNA="always")
+```
+
+```{r}
+table(depress$RELIG)
+```
+
+Create a continuous measurement
+```{r}
+y <- c(1, 2, 3, NA, 4, NA, 6)
+y
+```
+
+try to calculate summary stats with missing data
+```{r}
+mean(y)
+summary(y)
+mean(y, na.rm=TRUE)
+```
+
+
+
+## Detecting and recoding outliers and/or errors
+
+```{r, fig.width=10, fig.height=6}
+par(mfrow=c(1,2)) # sets the grahpics grid 1 row by 2 columns
+boxplot(depress$AGE)
+hist(depress$AGE)
+```
+
+
+```{r}
+summary(depress$AGE)
+```
+
+
+```{r}
+depress$AGE <- ifelse(depress$AGE==9, 19, depress$AGE)
+```
+
+```{r}
+summary(depress$AGE)
+```
+
+
+
+
+## Identifying variable types (and fixing them)
+
+* What data type does R see this variable as? 
+```{r}
+table(depress$MARITAL)
+str(depress$MARITAL)
+is(depress$MARITAL)
+```
+
+
+Turn into a factor
+```{r}
+depress$MARITAL <- factor(depress$MARITAL, 
+                          labels = c("Never Married", "Married", "Divorced", "Separated", "Widowed"))
+```
+
+Confirm
+```{r}
+table(depress$MARITAL)
+is(depress$MARITAL)
+```
+
+## Creating secondary variables
+
+
+### Collapsing variables into fewer categories
+
+Collapse into a temp variable
+```{r, message=FALSE, warning=FALSE}
+library(car)
+MARITAL2 <- recode(depress$MARITAL, "'Divorced' = 'Sep/Div'; 'Separated' = 'Sep/Div'")
+```
+
+Confirm
+```{r}
+table(depress$MARITAL, MARITAL2, useNA="always")
+```
+
+Apply for real. 
+```{r}
+depress$MARITAL <- recode(depress$MARITAL, "'Divorced' = 'Sep/Div'; 'Separated' = 'Sep/Div'")
+rm(MARITAL2)
+```
+
+### Binning a continuous variable into categorical ranges. 
+
+```{r}
+depress$inc_cut <- Hmisc::cut2(depress$INCOME, cuts=c(30,40,50,60))
+table(depress$inc_cut)
+```
+
+### Dichotomizing
+Dichotomous variables tend to be binary indicator variables where a code of `1` is the level you're interested in. 
+
+```{r}
+depress$SEX <- depress$SEX -1 
+table(depress$SEX)
+```
+
+
+```{r}
+mean(depress$SEX)
+```
+
+```{r}
+table(depress$DRINK)
+```
+
+```{r}
+depress$DRINK <- ifelse(depress$DRINK==2, 0, depress$DRINK)
+table(depress$DRINK)
+``` 
+
+
+
+
+###  Sum or Average values across multiple variables
+
+```{r}
+depress$sleep <- depress$C5 + depress$C11 + depress$C19
+```
+
+```{r}
+summary(depress$sleep)
+```
+
+# Renaming varible names for sanity sake
+
+```{r}
+names(depress) <- tolower(names(depress))
+```
+
+
+# Saving your changes
+
+```{r, eval=FALSE}
+date <- format(Sys.Date(), "%m%d%y")
+filename <- paste("depress_", date, ".txt", sep="")
+write.table(depress, filename, sep="\t", row.names=FALSE)
+```
+
