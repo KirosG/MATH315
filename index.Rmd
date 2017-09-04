@@ -9,7 +9,7 @@ This is the landing page for <span style="color:blue">**Applied Statistical Meth
 * Have a great three day weekend!
 * We're going to be learning how to describe the distribution of data using words, summary statistics and appropriate graphics.
 * This is your last chance to get all your R/R Studio bugs resolved. Next week we're hitting the coding ground hard. 
-
+* Be sure you're watching the PDS Videos. They contain lecture material directly related to your project. 
 
 ### 8/27/17 - Week 2
 

@@ -10,12 +10,6 @@ output:
 css: css/customh5.css
 ---
 
-```{r,echo=FALSE, warning=FALSE, message=FALSE}
-library(knitr)
-#library(rmarkdown)
-opts_chunk$set(warning=FALSE, message=FALSE) 
-```
-
 
 # Monday: Data Management
 Goals: 
@@ -29,7 +23,7 @@ Goals:
 ## Prepare 
 * Watch PDS [Video 7](http://passiondrivenstatistics.com/2016/01/08/r-chapter-7/)
     - Follow along with the NESARC data. Links to download the data can be found in [[Week 3]](https://norcalbiostat.github.io/MATH315/wk03.html)
-* Review the notes on [[doing data management]](https://norcalbiostat.github.io/MATH615/docs/lec02_doing_dm.html)
+* Review the notes on [[doing data management]](https://norcalbiostat.netlify.com/lec/doing-dm/l)
     - Download this `dm_depress` [[RMD]](docs/dm_depress.Rmd) file into your `MATH315/code` folder. 
     - Open the depression data set [[codebook]](https://norcalbiostat.netlify.com/data/DepressCodebook.txt) for use during class. 
 
@@ -83,7 +77,7 @@ Goals:
 
 ## Prepare
 
-* Read PDS Chapter 5 [[PDF]](docs/pds_chapter5.pdf)
+* Read: Writing about empirical research [[HTML]](https://norcalbiostat.netlify.com/lec/lec_writing_em/)
 
 ## In class
 

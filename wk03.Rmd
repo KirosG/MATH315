@@ -10,11 +10,6 @@ output:
 css: css/customh5.css
 ---
 
-```{r,echo=FALSE, warning=FALSE, message=FALSE}
-library(knitr)
-#library(rmarkdown)
-opts_chunk$set(warning=FALSE, message=FALSE) 
-```
 
 # Wednesday: Describing Continuous Data
 Goals: 

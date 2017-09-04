@@ -86,7 +86,7 @@ Goals:
 
 ## Prepare
 * Read [How to read a journal article](docs/How to Read a Journal Article.pdf)
-* Read notes on conducting a literature review. Available as [[HTML]](docs/lec_lit_review.html) or [[PDF]](docs/lec_lit_review.pdf).
+* Read notes on conducting a literature review. [[HTML]](https://norcalbiostat.netlify.com/lec/lec_lit_review/).
 * Watch PDS [Video 4](http://passiondrivenstatistics.com/2015/09/16/chapter-04/)
 
 ## In class
