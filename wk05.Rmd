@@ -1,0 +1,59 @@
+---
+title: 'Week 5: 9/18 - 9/24'
+date: "Last Updated `r Sys.time()`"
+output:
+  html_document:
+    highlight: tango
+    theme: cerulean
+    toc: yes
+    toc_float: yes
+css: css/customh5.css
+---
+
+
+# Monday: Bivariate relationships
+Goals: 
+
+* Identify appropriate methods to graphically examine the relationship between two variables. 
+* Correctly describe the relationship between two variables in English sentences. 
+
+
+## Prepare 
+* Watch PDS Video [[Chapter 9]](http://passiondrivenstatistics.com/2016/03/28/r-chapter-9/)
+
+## In class
+* RAT on bivariate relationships (Course notes 2.4)
+* Answer questions in CN 2.4
+
+##### Assignments
+* Problem sets 2.8, 2.10 (blackboard learn quizzes)
+
+
+----
+
+# Wednesday: Bivariate graphics
+Goals: 
+
+* Identify methods to create bivariate graphics in R
+
+## Prepare
+* Review the bivariate graphing section of the [Data viz tutorial website](https://norcalbiostat.github.io/MATH130/materials/day56-data-viz.html). 
+
+
+## In class
+* Creating bivariate graphics in R - Walk through the tutorial. 
+
+##### Assignments
+* Bivariate graphing [assignment](hw/biv_graphing.html)
+
+    
+----
+
+# Friday: Analysis work time
+
+## In class
+
+Work on any open assignment
+
+* Research plan
+* Bivariate graphing assignment
