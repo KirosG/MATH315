@@ -64,7 +64,7 @@ Goals:
 
 ##### Assignments
 * Univariate graphing assigment. [[HTML instructions]](hw/univ_graphing.html)
-    - [Example assignment](docs/Univariate Graping Assignment Examples.pdf)
+    - [Example assignment](docs/Univariate Graphing Assignment Examples.pdf)
 
 
 ----
