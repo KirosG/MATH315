@@ -1,5 +1,5 @@
 ---
-title: "Univariate Descriptions"
+title: "Describing Univariate Distributions"
 output:
   html_document:
     highlight: tango
@@ -18,11 +18,11 @@ Because you know that to fully understand what is going on you need Twenty-seven
  
 ## Instructions
 
-0. Go through your variables and make sure that you know what variables are categorical and what are quantitative.
-1. Write a short summary paragraph as an intro letting the reader know what this post is about and what variables you are exploring. 
-2. Completely describe at least 2 of your categorical variables. 
+1. Go through your variables and make sure that you know what variables are categorical and what are quantitative.
+2. Write a short summary paragraph as an intro letting the reader know what this post is about and what variables you are exploring. 
+3. Completely describe at least 2 of your categorical variables. 
     - Be sure to apply appropriate titles and axes labels 
-3. Complete describe at least 2 of your quantitative variables. 
+4. Complete describe at least 2 of your quantitative variables. 
     - If you DO NOT have truly quantitative variables, then consider if the quantitative variable age or some other quantitative variable(s) would be a variable(s) to include. If not, then you need to do additional categorical variables to bring the total variables described to 4.
 
 
