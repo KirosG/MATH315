@@ -1,0 +1,45 @@
+---
+title: "Describing Univariate Distributions"
+output:
+  html_document:
+    highlight: tango
+    theme: cerulean
+css: ../css/customh5.css
+---
+
+There are a variety of conventional ways to visualize data - tables, histograms, bar graphs, etc. Now that your data have been managed, it is time to graph your variables one at a time and examine both center and spread. You will follow up each graphic with a table of summary statistics (for quantitative variables) or frequency and proportion table (for categorical), and then a summary paragraph that brings it all together. 
+
+So you display a graph, then a table, then words to describe that distribution. Then a graph, a table, paragraph etc. 
+Because you know that to fully understand what is going on you need Twenty-seven 8 x 10 colored glossy photographs with circles and arrows and a paragraph on the back of each one explainin' what each one was. Or something like that (brownie points if you get the reference).
+
+* Knit your file to HTML and submit as a blog post by the deadline.
+* You will review 3-4 other team graphics as a separate assignment. 
+ 
+ 
+## Instructions
+
+1. Go through your variables and make sure that you know what variables are categorical and what are quantitative.
+2. Write a short summary paragraph as an intro letting the reader know what this post is about and what variables you are exploring. 
+3. Completely describe at least 2 of your categorical variables. 
+    - Be sure to apply appropriate titles and axes labels 
+4. Complete describe at least 2 of your quantitative variables. 
+    - If you DO NOT have truly quantitative variables, then consider if the quantitative variable age or some other quantitative variable(s) would be a variable(s) to include. If not, then you need to do additional categorical variables to bring the total variables described to 4.
+
+
+### To write a short description of this graph ask yourself (and answer!) the following questions:
+1. What is the trend in the data? What exactly does the chart show? (Use the chart title to help you answer this question)
+2. What are the axes and what are the units?
+3. Describe the shape:
+    - Symmetry/Skewness - Is it symmetric, skewed right, or skewed left?
+    - Modality - Is it uniform, unimodal, or bimodal?             
+4. Describe the spread:
+    - Variability - What is the approximate range of the data (x-axis)?
+    - Does the variable have a lot of variability in the data (visually, are the participants responded to many different responses or mainly just one)?
+5. Describe the center:
+    - Midpoint - What is the approximate midpoint of the data?
+    - Mode - What is the approximate mode of the data?
+6. Describe the outliers (note: there may not be any for every graph):
+    - Are there any outliers for the variable?
+    - If yes, are these true outliers or false (due to data management or input error) outliers?
+
+
