@@ -4,6 +4,20 @@ This is the landing page for <span style="color:blue">**Applied Statistical Meth
 
 # Announcements
 
+### 9/11/17 - Week 4
+* Data Management, Graphing and Research Question Sharing, Oh My!
+* You should have been watching and following along with the PDS videos for about a week now. If you are not, do this ASAP or you will fall behind. Think of these as lecture, and in class as practice time. 
+* You Research questions are posted on [[THIS GOOGLE SPREADSHEET]](https://docs.google.com/a/mail.csuchico.edu/spreadsheets/d/17KyM74omyRXPa322ieiU0iv-hjiO7THhAD5TVkI1qgo/edit?usp=sharing)
+    - You must log in with your @mail.csuchico.edu email address to view and edit this file. 
+    - I have copied your RQ's as stated in your personal codebook assignment, and demonstrated how to take the variables chosen in the codebook, and align them with specific RQ's. 
+    - **I need you to help finish and/or adjust your entry!** 
+    - This is your opportunity to 
+        - see what others are doing
+        - find out who is using the same variables as you
+        - Align your RQ with actual variables in the codebook. 
+* The Project information page has been started. The link to the spreadsheet above is the first piece of info there. 
+    
+
 ### 9/3/17 - Week 3
 
 * Have a great three day weekend!
