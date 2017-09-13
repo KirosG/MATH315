@@ -11,7 +11,7 @@
 
 
 
-<title>Week 3: 9/4 - 9/10</title>
+<title>Week 4: 9/11 - 9/17</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -320,78 +320,127 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Week 3: 9/4 - 9/10</h1>
+<h1 class="title toc-ignore">Week 4: 9/11 - 9/17</h1>
 <h4 class="date"><em>Last Updated 2017-09-13 09:28:50</em></h4>
 
 </div>
 
 
-<div id="wednesday-describing-continuous-data" class="section level1">
-<h1>Wednesday: Describing Continuous Data</h1>
+<div id="monday-data-management" class="section level1">
+<h1>Monday: Data Management</h1>
 <p>Goals:</p>
 <ul>
-<li>Learn how to describe continuous data correctly using graphics, summary statistics and paragraphs.</li>
+<li>Understand why data preparation takes the majority of your time, but is crucially important.</li>
+<li>Learn how to identify mistakes and missing data in data using tables and summaries</li>
+<li>Learn how to correct certain mistakes</li>
+<li>Learn how to recode variables into new ones</li>
 </ul>
 <div id="prepare" class="section level2">
 <h2>Prepare</h2>
 <ul>
-<li>Read OI 1.6.2, 1.6.6</li>
-<li>Read CN 2.2</li>
+<li>Watch PDS <a href="http://passiondrivenstatistics.com/2016/01/08/r-chapter-7/">Video 7</a>
+<ul>
+<li>Follow along with the NESARC data. Links to download the data can be found in <a href="https://norcalbiostat.github.io/MATH315/wk03.html">[Week 3]</a></li>
+</ul></li>
+<li>Review the notes on <a href="https://norcalbiostat.netlify.com/lec/doing-dm">[doing data management]</a>
+<ul>
+<li>Download this <code>dm_depress</code> <a href="docs/dm_depress.Rmd">[RMD]</a> file into your <code>MATH315/code</code> folder.</li>
+<li>Open the depression data set <a href="https://norcalbiostat.netlify.com/data/DepressCodebook.txt">[codebook]</a> for use during class.</li>
+</ul></li>
 </ul>
 </div>
 <div id="in-class" class="section level2">
 <h2>In class</h2>
 <ul>
-<li>RAT on CN 2.2, 2.3 (Univariate descriptions)</li>
-<li>Discuss answers to questions in CN 2.2</li>
+<li>RAT on data management</li>
+<li>Go through the data cleaning code, and answer questions about what we’re doing and why.</li>
+</ul>
+</div>
+<div id="additional-resources" class="section level2">
+<h2>Additional Resources</h2>
+<ul>
+<li>R Cookbook <a href="http://www.cookbook-r.com/" class="uri">http://www.cookbook-r.com/</a></li>
+<li>QUick-R <a href="http://www.statmethods.net/" class="uri">http://www.statmethods.net/</a></li>
 </ul>
 <div id="assignments" class="section level5">
 <h5>Assignments</h5>
 <ul>
-<li>PS 2.4 Calculating summary statistics</li>
-<li>PS 2.5 Interpreting univariate numerical distributions</li>
-<li>Data Camp: Intro to ggplot &amp; corresponding BBL Quiz.</li>
+<li>Submit your <code>dm_addhealth.Rmd</code> code file to Blackboard by the due date.
+<ul>
+<li>Make sure it works on both people’s computers before you submit.</li>
+<li>I will download this file and run it on my machine. If it works it will be graded for correctness.</li>
+<li>I do not expect you to have all of your variables cleaned and transformed by this date.
+<ul>
+<li>But I do expect you to have at least a few variables done.</li>
+</ul></li>
+</ul></li>
 </ul>
-<hr />
 </div>
 </div>
 </div>
-<div id="friday-describing-categorical-data" class="section level1">
-<h1>Friday: Describing Categorical Data</h1>
+<div id="wednesday-data-viz" class="section level1">
+<h1>Wednesday: Data Viz</h1>
 <p>Goals:</p>
 <ul>
-<li>Learn how to describe continuous data correctly using graphics, summary statistics and paragraphs.</li>
+<li>Learn how to create univariate data graphics and summary statistics in R</li>
+<li>Describe the distribution of a single variable in sentence form using summary statistics and pointing out specific features of the graphics as evidence to support your interpretation.</li>
 </ul>
 <div id="prepare-1" class="section level2">
 <h2>Prepare</h2>
 <ul>
-<li>Read OI 1.7</li>
-<li>Read CN 2.3 - prepare answers</li>
-<li>Watch <a href="http://passiondrivenstatistics.com/2015/12/18/r-chapter-6/">PDS Video 6</a> (30 min - 1hr)
+<li>Watch <a href="http://passiondrivenstatistics.com/2016/01/20/r-chapter-8/">[PDS Video 8]</a>.
 <ul>
-<li>It is suggested that you follow along with the code in this video by installing the <code>descr</code> package and downloading the NESARC data from <a href="https://drive.google.com/file/d/0B2-FPH8JVeuec29KQk5faENIMUk/view?usp=sharing">[this link]</a>, and the codebook from <a href="https://drive.google.com/open?id=0B2-FPH8JVeueY2c2WlgzcngwRlE">[this link]</a>. This is one of those things that will help you to achieve an “A” in this class. Not by points, but by putting effort into learning and practicing.
-<ul>
-<li><code>install.packages(&quot;descr&quot;)</code></li>
+<li>As before, following along and replicating the code in the video is highly recommended.</li>
 </ul></li>
-</ul></li>
+<li>Start a new RMD file. Replicate all code to create <strong>univariate graphics</strong> from the <a href="https://norcalbiostat.github.io/MATH130/materials/day56-data-viz.html">Data viz tutorial website</a>.</li>
 </ul>
 </div>
 <div id="in-class-1" class="section level2">
 <h2>In class</h2>
 <ul>
-<li>Discuss answers to questions in CN 2.3</li>
+<li>Project overview to date</li>
+<li>Discuss graphing assignment</li>
+<li>Answer questions on how/why we produce what graphings</li>
+<li>2:1 meetings regarding RQ &amp; Variable selection</li>
+<li>Reminder that using language verbatim from the example assignments in your assignments is considered plagerism.</li>
+<li>Work on graphing assignment</li>
 </ul>
 <div id="assignments-1" class="section level5">
 <h5>Assignments</h5>
 <ul>
-<li>PS 2.7 Interpreting univariate categorical distributions</li>
-<li>Review your personal codebook. Answer the <a href="hw/dm_assignment_prep.html">[following]</a> preparation questions directly in the <a href="hw/dm_assignment_prep.Rmd">[RMD Template]</a>. Upload the knitted WORD or PDF by the due date.</li>
+<li>Univariate graphing assigment. <a href="hw/univ_graphing.html">[HTML instructions]</a>
+<ul>
+<li><a href="docs/Univariate%20Graphing%20Assignment%20Examples.pdf">Example assignment</a></li>
+</ul></li>
+</ul>
+<hr />
+</div>
+</div>
+</div>
+<div id="friday-research-outline" class="section level1">
+<h1>Friday: Research Outline</h1>
+<p>Goals:</p>
+<ul>
+<li>Describe the difference between a research plan and an empirical paper.</li>
+<li>Finish the two previous assignments on data management and graphing.</li>
+</ul>
+<div id="prepare-2" class="section level2">
+<h2>Prepare</h2>
+<ul>
+<li>Read: Writing about empirical research <a href="https://norcalbiostat.netlify.com/lec/lec_writing_em/">[HTML]</a></li>
 </ul>
 </div>
-<div id="it-is-highly-advised-you-look-ahead-to-next-week." class="section level5">
-<h5>IT IS HIGHLY ADVISED YOU LOOK AHEAD TO NEXT WEEK.</h5>
-<p>We are starting data management which is a difficult coding topic. Your best chance of success with minimal strife is to follow along with the coding shown in PDS Video 7, replicate what they do in the video on your computer, and understand what the code means that you are writing.</p>
-<p>Some of these techniques I will show you on how to clean data take a different approach than what you will see in the PDS Video 7. That is fine! There are many different ways to approach and solve a problem. Being exposed to multiple ways of how to do things may seem confusing, but not everyone thinks the same. Some approaches may work better for some than for others. As you grow in being a scientist in charge of your own data you will find your own style of coding.</p>
+<div id="in-class-2" class="section level2">
+<h2>In class</h2>
+<ul>
+<li>Introduce research plan outline assignment.</li>
+<li>Finish the two previous assignments on data management and graphing.</li>
+</ul>
+<div id="assignments-2" class="section level5">
+<h5>Assignments</h5>
+<ul>
+<li>Research plan outline <a href="hw/research_plan_outline.html">[HTML instructions]</a></li>
+</ul>
 </div>
 </div>
 </div>
