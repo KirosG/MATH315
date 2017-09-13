@@ -43,6 +43,7 @@ Goals:
     - I will download this file and run it on my machine. If it works it will be graded for correctness. 
     - I do not expect you to have all of your variables cleaned and transformed by this date.
         * But I do expect you to have at least a few variables done. 
+    - [Example File](hw/dm_addhealth.html) -- This is the knitted document. You will submit your code file!
 
 
 # Wednesday: Data Viz
