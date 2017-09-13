@@ -59,8 +59,12 @@ Goals:
 
 
 ## In class
-* We will talk through the code to create the graphics in the data viz tutorial. 
-
+* Project overview to date
+* Discuss graphing assignment
+* Answer questions on how/why we produce what graphings
+* 2:1 meetings regarding RQ & Variable selection
+  - Reminder that using language verbatim from the example assignments in your assignments is considered plagerism. 
+* Work on graphing assignment
 
 ##### Assignments
 * Univariate graphing assigment. [[HTML instructions]](hw/univ_graphing.html)
@@ -81,17 +85,8 @@ Goals:
 
 ## In class
 
-Notes
-
-  * What is the difference between a research plan and an empirical paper? 
-      - RP has title, introduction, methodology, predicted results, implications, and references
-      - Something to start constructing now piece by piece so you are ready to turn it in in about 3 weeks
-  * Purpose is to develop a blueprint of what you are going to do and expect outcomes so you have a guide
-      - Won’t do predicted results
-      - EP has actual results and a full discussion
-  * You will put this in a poster form at the end of the semester
-  * Hourglass shape – Broad to specific, specific to broad
-
+* Introduce research plan outline assignment. 
+* Finish the two previous assignments on data management and graphing. 
 
 
 ##### Assignments
