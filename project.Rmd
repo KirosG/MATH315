@@ -1,0 +1,29 @@
+---
+title: 'Project Information'
+date: "Last Updated `r Sys.time()`"
+output:
+  html_document:
+    highlight: tango
+    theme: cerulean
+    toc: yes
+    toc_float: yes
+css: css/customh5.css
+---
+
+# Research Questions
+
+Your Research questions are posted on [[THIS GOOGLE SPREADSHEET]](https://docs.google.com/a/mail.csuchico.edu/spreadsheets/d/17KyM74omyRXPa322ieiU0iv-hjiO7THhAD5TVkI1qgo/edit?usp=sharing)
+
+* You must log in with your @mail.csuchico.edu email address to view and edit this file. 
+* It will be helpful to everyone if you help keep your teams entry up to date. 
+* There are comments in here from me to you. Heed them. 
+    
+# Poster prep I 
+_tbd_
+
+# Poster prep II 
+_tbd_
+
+# Poster prep III
+_tbd_
+
