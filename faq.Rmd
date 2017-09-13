@@ -50,7 +50,7 @@ _page in development_
 # What other computers on campus have R? 
 
 * The three reserve computers in the first floor library. You have to ask to use these. (Confirmed 8/25/17)
-* Butte 211 has an open computer lab. R & R studio are not installed, but you can install it as
+* Butte 211 has an open computer lab. 
     
 
 
