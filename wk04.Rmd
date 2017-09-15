@@ -43,6 +43,7 @@ Goals:
     - I will download this file and run it on my machine. If it works it will be graded for correctness. 
     - I do not expect you to have all of your variables cleaned and transformed by this date.
         * But I do expect you to have at least a few variables done. 
+    - [Example File](hw/dm_addhealth.html) -- This is the knitted document. You will submit your code file!
 
 
 # Wednesday: Data Viz
@@ -59,8 +60,12 @@ Goals:
 
 
 ## In class
-* We will talk through the code to create the graphics in the data viz tutorial. 
-
+* Project overview to date
+* Discuss graphing assignment
+* Answer questions on how/why we produce what graphings
+* 2:1 meetings regarding RQ & Variable selection
+  - Reminder that using language verbatim from the example assignments in your assignments is considered plagerism. 
+* Work on graphing assignment
 
 ##### Assignments
 * Univariate graphing assigment. [[HTML instructions]](hw/univ_graphing.html)
@@ -75,5 +80,21 @@ Goals:
 * Talk with Robin about your RQ and selected variables. 
 * Finish the two previous assignments on data management and graphing. 
 
+<<<<<<< HEAD
 ## In Class
 Open analysis work time. 
+=======
+## Prepare
+
+* Read: Writing about empirical research [[HTML]](https://norcalbiostat.netlify.com/lec/lec_writing_em/)
+
+## In class
+
+* Introduce research plan outline assignment. 
+* Finish the two previous assignments on data management and graphing. 
+
+
+##### Assignments
+* Research plan outline [[HTML instructions]](hw/research_plan_outline.html)
+
+>>>>>>> 3490d7553f488689422b4d88c36cdc0666c2ae2e
