@@ -116,7 +116,7 @@ $(document).ready(function () {
 
 
 <h1 class="title toc-ignore">Add Health Data Management</h1>
-<h4 class="date"><em>Last Updated 2017-09-13 11:44:33</em></h4>
+<h4 class="date"><em>Last Updated 2017-09-15 14:54:18</em></h4>
 
 </div>
 
@@ -184,27 +184,30 @@ addhealth$H4SP1H[addhealth$H4SP1H %in% c(96, 98)] &lt;- NA</code></pre>
 ##    1    2 &lt;NA&gt; 
 ## 4843  258 1403</code></pre>
 <ul>
-<li>Now recode am/pm to numbers of hours to add (0 for AM, 12 for PM).</li>
+<li>Recode am/pm to numbers of hours to add (0 for AM, 12 for PM).</li>
 </ul>
-<pre class="r"><code>addhealth$ampm &lt;- car::recode(addhealth$H4SP1T, &quot;1=0; 2=12&quot;)
-rm(test) # drop this test variable from the global environment</code></pre>
-<pre><code>## Warning in rm(test): object 'test' not found</code></pre>
+<pre class="r"><code>addhealth$ampm &lt;- car::recode(addhealth$H4SP1T, &quot;1=0; 2=12&quot;)</code></pre>
+<p>But we don’t want to add 12 hours to 12pm, so we need to change the rows when hours = 12 and time = pm to not add any time.</p>
+<pre class="r"><code>addhealth$ampm[addhealth$H4SP1H == 12 &amp; addhealth$H4SP1T == 2] &lt;- 0</code></pre>
 <ul>
-<li>Now create 24 hour time</li>
+<li>Now create 24 hour time by adding hours + am/pm + minutes</li>
 </ul>
 <pre class="r"><code>addhealth$wakeup &lt;- addhealth$H4SP1H + addhealth$ampm + addhealth$H4SP1M/60
 summary(addhealth$wakeup)</code></pre>
 <pre><code>##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
-##   1.000   5.750   6.500   7.164   7.500  24.500    1404</code></pre>
-<pre class="r"><code>head(addhealth)</code></pre>
-<pre><code>##   BIO_SEX H4SP1T H4SP1M H4SP1H female female_c ampm wakeup
-## 1       2     NA     NA     NA      1   Female   NA     NA
-## 2       2      1      0      6      1   Female    0      6
-## 3       1     NA     NA     NA      0     Male   NA     NA
-## 4       1      1      0      9      0     Male    0      9
-## 5       2     NA     NA     NA      1   Female   NA     NA
-## 6       1     NA     NA     NA      0     Male   NA     NA</code></pre>
-<p>Ah! Didn’t quite work. 12pm is becoming 24:00 becuase of the +12 from <code>ampm</code>. Need to go back and fix this.</p>
+##   1.000   5.750   6.500   7.023   7.500  23.500    1404</code></pre>
+<p>Wake up times range from 1am to 11:30 pm. No out of range times seen.</p>
+<p>Check to make sure the times added up correctly. Print out the top 5 rows (using <code>slice</code>) for only the time colums (<code>select</code>), and dropping the rows with missing values (<code>na.omit</code>)</p>
+<pre class="r"><code>addhealth %&gt;% select(H4SP1H, H4SP1M, ampm, wakeup) %&gt;% na.omit %&gt;% slice(1:5)</code></pre>
+<pre><code>## # A tibble: 5 x 4
+##   H4SP1H H4SP1M  ampm wakeup
+##    &lt;int&gt;  &lt;int&gt; &lt;dbl&gt;  &lt;dbl&gt;
+## 1      6      0     0    6.0
+## 2      9      0     0    9.0
+## 3      6     30     0    6.5
+## 4      9     30     0    9.5
+## 5      5      0     0    5.0</code></pre>
+<p>Row 1 check: 6 hours, 0 minutes, am, –&gt; 0600 (6). Row 3 check: 6 hours, 30 minutes, am –&gt; 0630 (6.5). Time was calculated correctly.</p>
 <ul>
 <li>Clean up: remove the component variables that I don’t need anymore.</li>
 </ul>
