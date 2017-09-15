@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Week 1: 8/21 - 8/27</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="css/customh5.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">MATH 315</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="schedule.html">
+    <span class="fa fa-book"></span>
+     
+    Schedule
+  </a>
+</li>
+<li>
+  <a href="http://www.norcalbiostat.com/data/">
+    <span class="fa fa-database"></span>
+     
+    Data
+  </a>
+</li>
+<li>
+  <a href="project.html">
+    <span class="fa fa-bar-chart"></span>
+     
+    Projects
+  </a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="docs/syllabus_f17.html">
+    <span class="fa fa-info-circle"></span>
+     
+    Syllabus
+  </a>
+</li>
+<li>
+  <a href="faq.html">
+    <span class="fa fa-question"></span>
+     
+    Help/FAQ
+  </a>
+</li>
+<li>
+  <a href="mailto:rdonatello@csuchico.edu">
+    <span class="fa fa-envelope-o"></span>
+     
+    Contact
+  </a>
+</li>
+<li>
+  <a href="http://www.norcalbiostat.com/">
+    <span class="fa fa-paw"></span>
+     
+    Dr. D's website
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Week 1: 8/21 - 8/27</h1>
+<h4 class="date"><em>Last Updated 2017-09-15 08:17:49</em></h4>
+
+</div>
+
+
+<div id="monday-gearing-up" class="section level1">
+<h1>Monday: Gearing up</h1>
+<div id="watch-the-introduction-video-in-blackboard-learn.-in-class-attendance-is-optional." class="section level2">
+<h2><span style="color:red">Watch the Introduction Video in Blackboard learn. In class attendance is optional.</span></h2>
+<p>On the wait list? Here is a <a href="https://www.youtube.com/watch?v=cVQPU59h6OY">[You Tube]</a> copy of the intro video.</p>
+<p>Goals:</p>
+<ul>
+<li>See an eclipse</li>
+<li>Understand how the class is run, common acronyms (OI/CN/DC/RAT/BBL/PDS)</li>
+<li>Understand how to navigate the course website</li>
+<li>Understand how learning is your first responsibility in this class, and how it is hard.</li>
+<li>Understand the concept of metacognition and how being aware of your learning can improve your chances of success</li>
+<li>Understand what it takes to get an A in this course, and what it takes “just to pass”</li>
+<li>Get connected to online accounts and resources</li>
+<li>Start learning R using Data Camp</li>
+</ul>
+</div>
+<div id="prepare" class="section level2">
+<h2>Prepare</h2>
+<ul>
+<li>Get your <a href="https://www.google.com/search?newwindow=1&amp;q=eclipse+viewing&amp;oq=eclipse+viewing&amp;gs_l=psy-ab.3..0i131k1l4.17103.18078.0.18326.7.7.0.0.0.0.137.579.4j2.6.0....0...1.1.64.psy-ab..1.6.577...0i20k1.k7WwLgNbPs0">eclipse viewing materials</a> prepared.</li>
+<li>Read the <a href="docs/syllabus_f17.pdf">Syllabus</a></li>
+<li>Complete the OH <a href="https://goo.gl/forms/nPjWFAosETEflXP32">Survey</a></li>
+<li>Bookmark this class website</li>
+<li>Purchase the Course Notes (CN) packet (required) from Chico Packet Pro ($18.23)
+<ul>
+<li>Chico Packet Pro store will be open from:
+<ul>
+<li>Friday, August 18 - Wednesday, September 6</li>
+<li>Mon-Thu 10-6, Fri 10-5, Sat 8/19 + 8/26 from 10-2</li>
+</ul></li>
+<li>Chico Packet Pro is located at 230 Salem Street and our entrance is on the city parking lot side of the building. We accept cash, debit and credit cards.</li>
+<li>Online at <a href="https://squareup.com/store/chico-packet-pro/item/math-course-notes-prof-donatello" class="uri">https://squareup.com/store/chico-packet-pro/item/math-course-notes-prof-donatello</a></li>
+</ul></li>
+<li>Join the class Data Camp group <strong>Use link in email</strong></li>
+<li>Join the <a href="https://groups.google.com/forum/#!forum/chico-rug">Chico R Users Google Group</a> - This is our discussion forum to ask (and answer) questions outside of class.</li>
+<li>Create a MATH315 folder on your computer - all course related files go in here.</li>
+<li>Download the <a href="docs/RAD_course_notes.pdf">color PDF version</a> of the course notes for reference - This is not a replacement for the print version.</li>
+<li>Download or purchase Open Intro (OI) <a href="https://www.openintro.org/stat/textbook.php?stat_book=os">Textbook</a></li>
+</ul>
+</div>
+<div id="in-class" class="section level2">
+<h2>In class</h2>
+<p>Open to questions / help getting your preparation and HW tasks done before Wednesday.</p>
+<div id="assignments" class="section level5">
+<h5>Assignments</h5>
+<ul>
+<li>Complete the Intro to R Data Camp Assignment (Assigned to you in the Data Camp Classroom). If you have completed any R Workshop prior to class you probably don’t need to do this.</li>
+<li>Complete the Intro to R BBL quiz (follows from the data camp assignment).</li>
+<li>Read <a href="https://www.nature.com/articles/s41559-017-0160">Our path to better science in less time using open data science tools (Nature: Ecology and Evolution)</a></li>
+<li>Read <a href="http://www.norcalbiostat.com/articles/articles.html">Learning - Your First Job</a></li>
+<li>Read <a href="http://www.norcalbiostat.com/articles/articles.html">Metacognition and academic achievement</a>
+<ul>
+<li>Take the <a href="http://www.norcalbiostat.com/articles/articles.html">Metacognition Awareness Inventory</a></li>
+<li>Complete the Metacognition Pre Assessment <a href="https://goo.gl/forms/Rj1rZ9yGv14zIecC3">Google Survey</a></li>
+</ul></li>
+</ul>
+<hr />
+</div>
+</div>
+</div>
+<div id="wednesday-starting-r" class="section level1">
+<h1>Wednesday: Starting R</h1>
+<p>Goals:</p>
+<ul>
+<li>Create support groups</li>
+<li>Get your computer prepared for data analysis</li>
+<li>Produce a reproducible document using R Markdown.</li>
+<li>Understand how R markdown will be used to submit homework</li>
+<li>Learn what data set you will be exploring throughout the class</li>
+</ul>
+<div id="prepare-1" class="section level2">
+<h2>Prepare</h2>
+<ul>
+<li>Follow the <a href="https://norcalbiostat.netlify.com/post/software-overview/">Software overview</a> blog post to install necessary programs onto your own computer</li>
+<li>Right click and “save link as” to download the HW 1 <a href="hw/HW1.Rmd">[RMD Template]</a> and <a href="hw/HW1.pdf">[PDF]</a> files into your class folder.</li>
+</ul>
+</div>
+<div id="in-class-1" class="section level2">
+<h2>In class</h2>
+<ul>
+<li>Ask questions about class logistics and structure</li>
+<li>Create support groups.</li>
+<li>Introduction to R Markdown. Or, “How do you turn in homework.”</li>
+</ul>
+<div id="assignments-1" class="section level5">
+<h5>Assignments</h5>
+<ul>
+<li>R Markdown Test file</li>
+<li>HW1 - Upload knitted WORD or PDF file to BBL</li>
+</ul>
+<hr />
+</div>
+</div>
+</div>
+<div id="friday-data-architecture" class="section level1">
+<h1>Friday: Data architecture</h1>
+<p>Goals:</p>
+<ul>
+<li>Learn about the data set on Adolescents you will be using</li>
+<li>Learn how to read a data dictionary (codebook)</li>
+</ul>
+<div id="prepare-2" class="section level2">
+<h2>Prepare</h2>
+<ul>
+<li>Watch Passion Driven Statistics (PDS) <a href="http://passiondrivenstatistics.com/2015/05/20/chapter-01-course-introduction/">Video 1</a>.</li>
+<li><a href="docs/PDS_Intro_Stat.pdf">The data analysis life cycle</a></li>
+<li>Download and review the <a href="https://norcalbiostat.netlify.com/data/raw_data/">Add Health</a> Wave IV PDF codebook and pick 3-5 sections you are interested in exploring.</li>
+</ul>
+</div>
+<div id="in-class-2" class="section level2">
+<h2>In class</h2>
+<ul>
+<li>Reading assessment (RAT) on class logistics, and metacognition</li>
+<li>Show FAQ page.</li>
+<li>Introduction to the Add Health data</li>
+<li>Form analysis pairs</li>
+</ul>
+<div id="assignments-2" class="section level5">
+<h5>Assignments</h5>
+<ul>
+<li>Read the Week 2 overview so you know how to prepare for Monday. (This is a recurring theme. Always look ahead to see how you need to manage your time.)</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

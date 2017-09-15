@@ -80,21 +80,7 @@ Goals:
 * Talk with Robin about your RQ and selected variables. 
 * Finish the two previous assignments on data management and graphing. 
 
-<<<<<<< HEAD
+
 ## In Class
 Open analysis work time. 
-=======
-## Prepare
 
-* Read: Writing about empirical research [[HTML]](https://norcalbiostat.netlify.com/lec/lec_writing_em/)
-
-## In class
-
-* Introduce research plan outline assignment. 
-* Finish the two previous assignments on data management and graphing. 
-
-
-##### Assignments
-* Research plan outline [[HTML instructions]](hw/research_plan_outline.html)
-
->>>>>>> 3490d7553f488689422b4d88c36cdc0666c2ae2e
