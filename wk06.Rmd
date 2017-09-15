@@ -1,0 +1,73 @@
+---
+title: 'Week 0'
+date: "Last Updated `r Sys.time()`"
+output:
+  html_document:
+    highlight: tango
+    theme: cerulean
+    toc: yes
+    toc_float: yes
+css: css/customh5.css
+---
+
+```{r,echo=FALSE, warning=FALSE, message=FALSE}
+library(knitr)
+#library(rmarkdown)
+opts_chunk$set(warning=FALSE, message=FALSE) 
+```
+
+
+# Monday: 
+Goals: 
+
+
+## Prepare
+
+* Read: Writing about empirical research [[HTML]](https://norcalbiostat.netlify.com/lec/lec_writing_em/)
+
+## In class
+
+Notes
+
+  * What is the difference between a research plan and an empirical paper? 
+      - RP has title, introduction, methodology, predicted results, implications, and references
+      - Something to start constructing now piece by piece so you are ready to turn it in in about 3 weeks
+  * Purpose is to develop a blueprint of what you are going to do and expect outcomes so you have a guide
+      - Won’t do predicted results
+      - EP has actual results and a full discussion
+  * You will put this in a poster form at the end of the semester
+  * Hourglass shape – Broad to specific, specific to broad
+
+
+
+##### Assignments
+* Research plan outline [[HTML instructions]](hw/research_plan_outline.html)
+
+----
+
+
+# Wednesday:
+Goals: 
+
+## Prepare
+
+
+## In class
+
+
+
+##### Assignments
+
+---- 
+
+# Friday:
+Goals: 
+
+## Prepare
+
+
+## In class
+
+
+
+##### Assignments

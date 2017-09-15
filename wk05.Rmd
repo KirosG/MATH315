@@ -11,11 +11,11 @@ css: css/customh5.css
 ---
 
 
-# Monday: Bivariate relationships
+# Monday: Understanding Bivariate relationships
 Goals: 
 
 * Identify appropriate methods to graphically examine the relationship between two variables. 
-* Correctly describe the relationship between two variables in English sentences. 
+* Describe the relationship between two variables in English sentences. 
 
 
 ## Prepare 
@@ -32,16 +32,18 @@ Goals:
 ----
 
 # Wednesday: Bivariate graphics
-Goals: 
+_Robin is out of town. Edward Roualdes cover 10am class, Kathy Gray covers 12pm class_
 
-* Identify methods to create bivariate graphics in R
+Goals: 
+* Visualize relationships between two variables. 
+
 
 ## Prepare
 * Review the bivariate graphing section of the [Data viz tutorial website](https://norcalbiostat.github.io/MATH130/materials/day56-data-viz.html). 
 
 
 ## In class
-* Creating bivariate graphics in R - Walk through the tutorial. 
+* Work on Bivariate graphing assignment.
 
 ##### Assignments
 * Bivariate graphing [assignment](hw/biv_graphing.html)
@@ -51,9 +53,8 @@ Goals:
 
 # Friday: Analysis work time
 
+_Robin is out of town. Edward Roualdes cover 10am class, Kathy Gray covers 12pm class_
+
 ## In class
+Open project work time. 
 
-Work on any open assignment
-
-* Research plan
-* Bivariate graphing assignment

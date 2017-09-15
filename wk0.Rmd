@@ -30,6 +30,7 @@ Goals:
 
 ##### Assignments
 
+----
 
 # Wednesday:
 Goals: 
@@ -42,6 +43,8 @@ Goals:
 
 
 ##### Assignments
+
+----
 
 # Friday:
 Goals: 
