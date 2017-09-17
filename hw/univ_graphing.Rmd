@@ -12,8 +12,8 @@ There are a variety of conventional ways to visualize data - tables, histograms,
 So you display a graph, then a table, then words to describe that distribution. Then a graph, a table, paragraph etc. 
 Because you know that to fully understand what is going on you need Twenty-seven 8 x 10 colored glossy photographs with circles and arrows and a paragraph on the back of each one explainin' what each one was. Or something like that (brownie points if you get the reference).
 
-* Knit your file to HTML and submit as a blog post by the deadline.
-* You will review 3-4 other team graphics as a separate assignment. 
+* Knit your file to HTML and submit to BBLearn by the deadline
+* You will review 2 other team graphics as a separate assignment. See [project page](https://norcalbiostat.github.io/MATH315/project.html) for details and links. 
  
  
 ## Instructions
@@ -23,7 +23,7 @@ Because you know that to fully understand what is going on you need Twenty-seven
 3. Completely describe at least 2 of your categorical variables. 
     - Be sure to apply appropriate titles and axes labels 
 4. Complete describe at least 2 of your quantitative variables. 
-    - If you DO NOT have truly quantitative variables, then consider if the quantitative variable age or some other quantitative variable(s) would be a variable(s) to include. If not, then you need to do additional categorical variables to bring the total variables described to 4.
+    - If you DO NOT have truly quantitative variables, then consider if the quantitative variable age or some other quantitative variable(s) would be a variable(s) to include. 
 
 
 ### To write a short description of this graph ask yourself (and answer!) the following questions:
@@ -32,10 +32,10 @@ Because you know that to fully understand what is going on you need Twenty-seven
 3. Describe the shape:
     - Symmetry/Skewness - Is it symmetric, skewed right, or skewed left?
     - Modality - Is it uniform, unimodal, or bimodal?             
-4. Describe the spread:
+4. Describe the spread: What is variability in responses?  
     - Variability - What is the approximate range of the data (x-axis)?
-    - Does the variable have a lot of variability in the data (visually, are the participants responded to many different responses or mainly just one)?
-5. Describe the center:
+    - Are there many different responses or mainly just one?
+5. Describe the center: What is the typical value reported? 
     - Midpoint - What is the approximate midpoint of the data?
     - Mode - What is the approximate mode of the data?
 6. Describe the outliers (note: there may not be any for every graph):

@@ -12,12 +12,26 @@ css: css/customh5.css
 
 # Research Questions
 
-Your Research questions are posted on [[THIS GOOGLE SPREADSHEET]](https://docs.google.com/a/mail.csuchico.edu/spreadsheets/d/17KyM74omyRXPa322ieiU0iv-hjiO7THhAD5TVkI1qgo/edit?usp=sharing)
+Each team's research questions are posted on the first two sheets of [[THIS GOOGLE SPREADSHEET]](https://docs.google.com/a/mail.csuchico.edu/spreadsheets/d/17KyM74omyRXPa322ieiU0iv-hjiO7THhAD5TVkI1qgo/edit?usp=sharing)
 
 * You must log in with your @mail.csuchico.edu email address to view and edit this file. 
 * It will be helpful to everyone if you help keep your teams entry up to date. 
 * There are comments in here from me to you. Heed them. 
-    
+
+# Peer Review Rotation
+* The peer review rotation is found on the "Peer Review" tab of the same Google Sheet above. 
+* For each assignment you are assigned to revew two other teams. 
+    - The review form for each assignment is linked below
+* All reviews are public. A link will be included to view the review responses. 
+* After the review deadline has passed each team should go examine the reviews they recieved and talk with the reviewer group for clarification if necessary. 
+
+# Univariate Graphics
+* [Peer Review Form](https://goo.gl/forms/IF1wd3YvAOVWfUkL2)
+
+
+# Bivariate Graphics
+_TBD_
+
 # Poster prep I 
 _tbd_
 
