@@ -26,6 +26,7 @@ Each team's research questions are posted on the first two sheets of [[THIS GOOG
 * After the review deadline has passed each team should go examine the reviews they recieved and talk with the reviewer group for clarification if necessary. 
 
 # Univariate Graphics
+* [Assignments ready for review](https://norcalbiostat.github.io/peer_review/univ_graphics.html)
 * [Peer Review Form](https://goo.gl/forms/IF1wd3YvAOVWfUkL2)
 
 

@@ -12,7 +12,7 @@ There are a variety of conventional ways to visualize data - tables, histograms,
 So you display a graph, then a table, then words to describe that distribution. Then a graph, a table, paragraph etc. 
 Because you know that to fully understand what is going on you need Twenty-seven 8 x 10 colored glossy photographs with circles and arrows and a paragraph on the back of each one explainin' what each one was. Or something like that (brownie points if you get the reference).
 
-* Knit your file to HTML and submit to BBLearn by the deadline
+* Knit your file to **HTML** and submit to BBLearn by the deadline.
 * You will review 2 other team graphics as a separate assignment. See [project page](https://norcalbiostat.github.io/MATH315/project.html) for details and links. 
  
  
