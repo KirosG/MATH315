@@ -19,15 +19,18 @@ Each team's research questions are posted on the first two sheets of [[THIS GOOG
 * There are comments in here from me to you. Heed them. 
 
 # Peer Review Rotation
-* The peer review rotation is found on the "Peer Review" tab of the same Google Sheet above. 
-* For each assignment you are assigned to revew two other teams. 
-    - The review form for each assignment is linked below
+* For each assignment your team is assigned to revew two other teams.
+    - The peer review assignment is found on the "Peer Review" tab of the same Google Sheet above. 
+    - The review form for each assignment is linked below that assignment. 
 * All reviews are public. A link will be included to view the review responses. 
 * After the review deadline has passed each team should go examine the reviews they recieved and talk with the reviewer group for clarification if necessary. 
 
 # Univariate Graphics
 * [Assignments ready for review](https://norcalbiostat.github.io/peer_review/univ_graphics.html)
 * [Peer Review Form](https://goo.gl/forms/IF1wd3YvAOVWfUkL2)
+* [Review Response Spreadsheet](https://docs.google.com/spreadsheets/d/1DqUSzcmMqBvOuSgWEy61th8Y7aBVQYcsT8_aaquNpWg/edit?usp=sharing). 
+    - Use column filters to more easily find your team's reviews. 
+    - These are highlighted green. 
 
 
 # Bivariate Graphics
