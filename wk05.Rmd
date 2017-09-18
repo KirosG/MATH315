@@ -20,6 +20,7 @@ Goals:
 
 ## Prepare 
 * Watch PDS Video [[Chapter 9]](http://passiondrivenstatistics.com/2016/03/28/r-chapter-9/)
+    - Follow along with the video and replicate the code and output on your computer. 
 
 ## In class
 * RAT on bivariate relationships (Course notes 2.4)
