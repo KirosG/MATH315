@@ -7,7 +7,7 @@ output:
 css: ../css/customh5.css
 ---
 
-# Step 1: Determine what variables for your two main constructs you want to graph based on your research topic.
+### Step 1: Determine what variables for your two main constructs you want to graph based on your research topic.
 You will need a mixture of categorical and quantitative variables for this assignment. 
 
 * One association with a categorical explanatory and categorical response variable. (C ~ C)
@@ -26,7 +26,7 @@ _Recall the following definitions:_
     - B: binary categorical
     - Q: quantitative numeric / continuous
     
-# Step 2: Recode variables as needed. 
+### Step 2: Recode variables as needed. 
 If your response variable is categorical with many levels, you may want to collapse it down to fewer levels.  The example code below uses the `diamonds` data set from the `ggplot2` package. Here I combine levels `D` and `E` into a single category `DE`, `F` and `G` are combined into `FG`, and the remaining three `H`, `I`, and `J` are combined into a `HIJ` category. 
 
 The code `car::recode()` means I am using the `recode()` function that is located in the `car` library. This is a shortcut to using a function inside a package without having to load that package. 
@@ -50,7 +50,7 @@ diamonds$ideal <- factor(diamonds$cut=="Ideal", labels=c("Less than Ideal", "Ide
 table(diamonds$ideal, diamonds$cut)
 ```
 
-# Step 3: Create appropriate graphics
+### Step 3: Create appropriate graphics
 * Create one bivariate graph for each of the four combinations listed in step 1. 
 * You can do any combination of the 4 types of bivariate graphs for a total of 4. 
     - Do as many different combinations as you can. Not just 4 graphics on one combination (i.e. C~C)
@@ -60,14 +60,16 @@ table(diamonds$ideal, diamonds$cut)
     - Use specific features of the graphic in your text explanation.
     - Calculate and use summary statistics and also use those in your text explanation. 
 
-# Step 4: Knit to WORD or PDF. Submit to Blackboard by the deadline. 
+### Step 4: Submit to Blackboard by the deadline
+* Knit to PDF or HTML.
+* This is a peer review assignment. 
 
 ----
 
 # Example
 
 
-```{r}
+```{r, message=FALSE, warning=FALSE}
 ggplot(diamonds, aes(x=carat, y=price)) + geom_point() + theme_bw() + geom_smooth()
 cor(diamonds$carat, diamonds$price)
 ```

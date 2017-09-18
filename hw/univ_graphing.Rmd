@@ -9,22 +9,21 @@ css: ../css/customh5.css
 
 There are a variety of conventional ways to visualize data - tables, histograms, bar graphs, etc. Now that your data have been managed, it is time to graph your variables one at a time and examine both center and spread. You will follow up each graphic with a table of summary statistics (for quantitative variables) or frequency and proportion table (for categorical), and then a summary paragraph that brings it all together. 
 
-So you display a graph, then a table, then words to describe that distribution. Then a graph, a table, paragraph etc. 
-Because you know that to fully understand what is going on you need Twenty-seven 8 x 10 colored glossy photographs with circles and arrows and a paragraph on the back of each one explainin' what each one was. Or something like that (brownie points if you get the reference).
+So you display a graph, then a table, then words to describe that distribution. Then a graph, a table, paragraph etc. Because you know that to fully understand what is going on you need Twenty-seven 8 x 10 colored glossy photographs with circles and arrows and a paragraph on the back of each one explainin' what each one was. Or something like that (brownie points if you get the reference).
 
-* Knit your file to **HTML** and submit to BBLearn by the deadline.
-* You will review 2 other team graphics as a separate assignment. See [project page](https://norcalbiostat.github.io/MATH315/project.html) for details and links. 
- 
- 
+
 ## Instructions
 
 1. Go through your variables and make sure that you know what variables are categorical and what are quantitative.
-2. Write a short summary paragraph as an intro letting the reader know what this post is about and what variables you are exploring. 
+2. Write a short summary paragraph as an intro letting the reader know what what variables you are exploring. 
 3. Completely describe at least 2 of your categorical variables. 
     - Be sure to apply appropriate titles and axes labels 
 4. Complete describe at least 2 of your quantitative variables. 
-    - If you DO NOT have truly quantitative variables, then consider if the quantitative variable age or some other quantitative variable(s) would be a variable(s) to include. 
-
+    - If you DO NOT have truly quantitative variables, then consider if the quantitative variable age, bmi or some other quantitative variable(s) to include. 
+5. Knit your file to PDF or HTML and submit to BBLearn by the deadline.
+    - This is a peer reviewed assignment. See [project page](https://norcalbiostat.github.io/MATH315/project.html) for details and links. 
+ 
+ 
 
 ### To write a short description of this graph ask yourself (and answer!) the following questions:
 1. What is the trend in the data? What exactly does the chart show? (Use the chart title to help you answer this question)
@@ -41,5 +40,33 @@ Because you know that to fully understand what is going on you need Twenty-seven
 6. Describe the outliers (note: there may not be any for every graph):
     - Are there any outliers for the variable?
     - If yes, are these true outliers or false (due to data management or input error) outliers?
+
+
+----
+
+# Example
+
+```{r, warning=FALSE, message=FALSE}
+library(ggplot2);library(descr);library(knitr)
+```
+
+## Categorical
+```{r, fig.align='center'}
+kable(freq(diamonds$color))
+```
+
+The most frequent color of diamond recorded was of color `G`, with 21% (n=11,292) diamonds reported with this color. The next most frequent colors were `E`, `F`, at 18% (n=9,797) and 17.7% (n=9,542) respectivly. The color `J` was the least frequent color at 5% (n=2,808). 
+
+## Continuous
+```{r, fig.align='center'}
+par(mfrow=c(1,2))
+hist(diamonds$carat); boxplot(diamonds$carat)
+summary(diamonds$carat)
+```
+
+The carat value of diamonds in the data set range from 0.2 to 5.01. The distribution of carats is right skewed, with an average of 0.79 and some high end outliers above a value of around 2. Half of the diamonds sampled have carat values between 0.4 and 1.04. 
+
+
+
 
 
