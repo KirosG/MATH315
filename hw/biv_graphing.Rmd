@@ -61,7 +61,7 @@ table(diamonds$ideal, diamonds$cut)
     - Calculate and use summary statistics and also use those in your text explanation. 
 
 ### Step 4: Submit to Blackboard by the deadline
-* Knit to PDF or HTML.
+* Knit to PDF or HTML. Don't hide your code. 
 * This is a peer review assignment. 
 
 ----

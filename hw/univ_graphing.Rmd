@@ -21,6 +21,7 @@ So you display a graph, then a table, then words to describe that distribution. 
 4. Complete describe at least 2 of your quantitative variables. 
     - If you DO NOT have truly quantitative variables, then consider if the quantitative variable age, bmi or some other quantitative variable(s) to include. 
 5. Knit your file to PDF or HTML and submit to BBLearn by the deadline.
+    - Don't hide your code. 
     - This is a peer reviewed assignment. See [project page](https://norcalbiostat.github.io/MATH315/project.html) for details and links. 
  
  
