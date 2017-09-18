@@ -5,7 +5,8 @@ This is the landing page for <span style="color:blue">**Applied Statistical Meth
 # Announcements
 
 ### 9/18/17 - Week 5
-* Univariate graphics assignment due this week. This is a peer reviewed assignment. 
+* Recap the DM assignment template/instructions. 
+* Univariate graphics assignment due this week. This is a peer reviewed assignment. Example template posted on [week 4](https://norcalbiostat.github.io/MATH315/wk04.html).
 * Peer review instructions have been added to the project page. 
 * Monday we will lecture on how to interpret bivariate comparisons. The rest of the week you will work on creating them. 
 

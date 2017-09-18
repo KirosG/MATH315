@@ -70,6 +70,7 @@ Goals:
 ##### Assignments
 * Univariate graphing assigment. [[HTML instructions]](hw/univ_graphing.html)
     - [Example assignment](docs/Univariate Graphing Assignment Examples.pdf)
+    - Assignment Template [[RMD]](docs/univ_graphing_template.Rmd)[[HTML]](docs/univ_graphing_template.Rmd)
 
 
 ----

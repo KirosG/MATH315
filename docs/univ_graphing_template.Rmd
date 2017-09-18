@@ -1,0 +1,39 @@
+---
+title: "Describing Univariate Distributions"
+author: "Put your team name here"
+output:
+  html_document:
+    highlight: tango
+    theme: cerulean
+---
+
+```{r, warning=FALSE, message=FALSE}
+library(ggplot2);library(descr);library(knitr)
+load("J:/MATH315/Project/addhealth_clean.Rdata") #Load in the cleaned Add Health data set
+# See the bottom of the DM example assignment if you don't know where this came from 
+```
+
+## Intro
+Write a short summary paragraph as an intro letting the reader know what what variables you are exploring. 
+
+
+## Categorical
+```{r, fig.align='center'}
+kable(freq(diamonds$color))
+```
+
+The most frequent color of diamond recorded was of color `G`, with 21% (n=11,292) diamonds reported with this color. The next most frequent colors were `E`, `F`, at 18% (n=9,797) and 17.7% (n=9,542) respectivly. The color `J` was the least frequent color at 5% (n=2,808). 
+
+## Continuous
+```{r, fig.align='center'}
+par(mfrow=c(1,2))
+hist(diamonds$carat); boxplot(diamonds$carat)
+summary(diamonds$carat)
+```
+
+The carat value of diamonds in the data set range from 0.2 to 5.01. The distribution of carats is right skewed, with an average of 0.79 and some high end outliers above a value of around 2. Half of the diamonds sampled have carat values between 0.4 and 1.04. 
+
+
+
+
+
