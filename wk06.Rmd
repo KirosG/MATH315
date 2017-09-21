@@ -1,5 +1,5 @@
 ---
-title: 'Week 0'
+title: 'Week 6: 9/25 - 10/1'
 date: "Last Updated `r Sys.time()`"
 output:
   html_document:
@@ -17,57 +17,50 @@ opts_chunk$set(warning=FALSE, message=FALSE)
 ```
 
 
-# Monday: 
+# Monday: Writing
 Goals: 
 
+* Describe the differences between writing a research proposal and and empirical paper. 
 
-## Prepare
-
-* Read: Writing about empirical research [[HTML]](https://norcalbiostat.netlify.com/lec/lec_writing_em/)
+## Prepare 
+* Read Writing about Empirical Research [[HTML]](http://www.norcalbiostat.com/lec/lec_writing_em.html)
 
 ## In class
-
-Notes
-
-  * What is the difference between a research plan and an empirical paper? 
-      - RP has title, introduction, methodology, predicted results, implications, and references
-      - Something to start constructing now piece by piece so you are ready to turn it in in about 3 weeks
-  * Purpose is to develop a blueprint of what you are going to do and expect outcomes so you have a guide
-      - Won’t do predicted results
-      - EP has actual results and a full discussion
-  * You will put this in a poster form at the end of the semester
-  * Hourglass shape – Broad to specific, specific to broad
-
+* Discuss the [Research Plan Outline](hw/research_plan_outline.html) assignment. 
 
 
 ##### Assignments
-* Research plan outline [[HTML instructions]](hw/research_plan_outline.html)
+* Research plan outline 
 
 ----
 
 
-# Wednesday:
-Goals: 
+# Wednesday: Exam 1
 
 ## Prepare
-
-
-## In class
-
-
-
-##### Assignments
+* Review the [sample exam](docs/Sample_Exam_1.pdf)
+* Go through your course reader and make sure you've filled out all the questions and examples. 
 
 ---- 
 
-# Friday:
+# Friday: Probability
 Goals: 
 
-## Prepare
+* Give an example of a random variable
+* Draw a normal distribution given the mean and variance
+* Use R to find a probability under a normal model
+* Be able to apply the empirical rule to estimate the proportion of data lying between two values assuming a normal model. 
 
+
+## Prepare
+* Watch two videos from our textbook authors on the [[Normal Distribution]](https://www.youtube.com/watch?list=PLkIselvEzpM6V9h55s0l9Kzivih9BUWeW&v=S_p5D-YXLS4) and [[Assessing Normality]](https://www.youtube.com/watch?v=smJBsZ4YQZw&index=2&list=PLkIselvEzpM6V9h55s0l9Kzivih9BUWeW)
+* Read Chapter 3 of the course notes and fill out as much of the examples and blank spots in the readers as possible. Come to class prepared with questions. 
 
 ## In class
+* Work through Chapter 3 in the course notes on probability and the normal distribution. 
 
 
+##### Assignments (Both BBLearn quizzes)
+* PS 3.1 Using the Normal Model
+* PS 3.2 Probability Densities and Assessing Normality
 
-##### Assignments

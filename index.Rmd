@@ -4,6 +4,11 @@ This is the landing page for <span style="color:blue">**Applied Statistical Meth
 
 # Announcements
 
+### 9/21/17 - Week 6
+* Monday: Writing your research plan. 
+* Wednesday: Exam 1. The weekly overview has details on how to prepare and a sample exam. 
+* Friday: Probability. Lots of prep work to do before class on Friday if it's been a while since you've had stats class. 
+
 ### 9/18/17 - Week 5
 * Recap the DM assignment template/instructions. 
 * Univariate graphics assignment due this week. This is a peer reviewed assignment. Example template posted on [week 4](https://norcalbiostat.github.io/MATH315/wk04.html).
