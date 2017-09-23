@@ -7,11 +7,13 @@ output:
 css: ../css/customh5.css
 ---
 
-Your research plan is an important component of your final research project. Not only is it worth about 10% of your project grade, it will also act as the basis for your final poster. You will spend the next several weeks writing your research plan. Before you do that, however, it is important to have an outline in place. For this assignment, you will use the outline template below to begin thinking about how your research plan paper will come together.
+Your research plan is an important component of your final research project. This assignment is worth about 10% of your project grade since it acts as the basis for your final poster. You will spend the next two weeks writing your research plan, using the outline template below to help organize your writing. You also should use the model sections found in the reading [writing about empirical research](https://norcalbiostat.netlify.com/lec/lec_writing_em/) to help guide your writing style. 
 
-Use the model sections found in the reading [writing about empirical research](https://norcalbiostat.netlify.com/lec/lec_writing_em/) to help guide your writing. 
+> This is not a trivial assignment that should be attempted the night before it's due. 
 
-Follow the template below to complete this assignment. Your outline should be submitted as a WORD or PDF through Blackboard.
+You should start this assignment immediately. That means work on it directly after the exam. Return to it every few days until complete. Reread it and edit for clarity and readability before you turn it in. Run Spellcheck!
+
+This assignment is to be submitted as a WORD or PDF document through Blackboard.
 
 
 # Title
@@ -26,17 +28,17 @@ Using what you know now about your project and the model title in the reading, d
 # Introduction 
 Write an opening statement or questions to grab the reader. This statement introduces your topic and gives your rationale for the study. This is going to be a working opening statement that will develop more as you go.	
     
-* Create a basic outline of topics you know you will need to discuss to be able to identify major trends in the literature and emphasize major findings. 
-* As you have been reading you should have been seeing some of the same topics/findings/themes reappearing, these would be good topics to put into a basic outline.
+* Create an outline of topics you know you will need to discuss to be able to identify major trends in the literature and emphasize major findings. 
+* As you have been reading you should have been seeing some of the same topics/findings/themes reappearing, these would be good topics to include.
 
-# Method
+# Methods
 * Name the data set and discuss at least 3 key features of the sample or way data were collected.
     - The three key features should have supporting data.
-* Create one outline point for each of your variables. 
+* Create one outline point for each of your variables directly used to answer your research question. 
     - What are they and how were they measured?
+    - Describe any data management you might have done on these variables. Specifically talk about any collapsing of variable categories, dichotomizing, and removing outliers. Do not talk about missing data recoding (i.e. 96 and 98 to missing)
  
 # Predicted Results
 * At least 2 outline points stating how you think your variables will be related/associated. 
     - Look back to your research question and think about “answering” it.
-    
-    
+
