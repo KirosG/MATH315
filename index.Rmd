@@ -5,9 +5,12 @@ This is the landing page for <span style="color:blue">**Applied Statistical Meth
 # Announcements
 
 ### 9/21/17 - Week 6
+I have gone through the gradebook and entered in 0's for missing assignments to date. This is done to provide you a better idea of where you stand grade-wise, going into this exam. Quizzes will remain open available up until the test on the 27th. So if you got a 0 on a Problem set or Data Camp quiz you have time to make up those points. This is also a good way to study for the exam. 
+
+
 * Monday: Writing your research plan. 
 * Wednesday: Exam 1. The weekly overview has details on how to prepare and a sample exam. 
-* Friday: Probability. Lots of prep work to do before class on Friday if it's been a while since you've had stats class. 
+* Friday: Probability. If it's been a while since you've had stats class you will have to spend some significant time preparing. 
 
 ### 9/18/17 - Week 5
 * Recap the DM assignment template/instructions. 
