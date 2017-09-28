@@ -1,0 +1,70 @@
+---
+title: 'Week 7: 10/2 - 10/8'
+date: "Last Updated `r Sys.time()`"
+output:
+  html_document:
+    highlight: tango
+    theme: cerulean
+    toc: yes
+    toc_float: yes
+css: css/customh5.css
+---
+
+```{r,echo=FALSE, warning=FALSE, message=FALSE}
+library(knitr)
+#library(rmarkdown)
+opts_chunk$set(warning=FALSE, message=FALSE) 
+```
+
+
+# Monday: Foundations
+
+Goals: 
+
+
+## Prepare
+* Watch [PDS Video 10](http://passiondrivenstatistics.com/2015/07/15/chapter-10/) (30 min)
+* Watch OI Video on the [[CLT]](https://www.youtube.com/watch?list=PLkIselvEzpM7Pjo94m1e7J5jkIZkbQAl4&v=lsCc_pS3O28) (5 min)
+* Prepare for a RAT from the course notes Section 4.1-4.4 and associated textbook reading
+
+
+## In class
+
+
+##### Assignments 
+* Data Camp: Foundations for Inference: Sampling Distributions (Due 10/3)
+* PS 4.1, 4.2 (Due 10/3)
+
+----
+
+
+# Wednesday: Confidence Intervals
+Goals: 
+
+
+## Prepare
+
+* Watch OI Video on [[Confidence Intervals]](https://www.youtube.com/watch?list=PLkIselvEzpM7Pjo94m1e7J5jkIZkbQAl4&v=FUaXoKdCre4) (6 min)
+
+## In class
+
+
+##### Assignments 
+* Data Camp: Foundations for Inference: Confidence Intervals (Due 10/5)
+* PS 4.4 (Due 10/5)
+
+---- 
+
+# Friday: Hypothesis Testing
+Goals: 
+
+
+## Prepare
+* Watch OI Video on [[Hypothesis testing]](https://www.youtube.com/watch?list=PLkIselvEzpM7Pjo94m1e7J5jkIZkbQAl4&v=NVbPE1_Cbx8) (8 min)
+
+
+## In class
+
+
+##### Assignments 
+* PS 4.7, 4.8 (Due 10/8)
