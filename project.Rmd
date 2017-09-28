@@ -18,6 +18,8 @@ Each team's research questions are posted on the first two sheets of [[THIS GOOG
 * It will be helpful to everyone if you help keep your teams entry up to date. 
 * There are comments in here from me to you. Heed them. 
 
+----
+
 # Peer Review Rotation
 * For each assignment your team is assigned to revew two other teams.
     - The peer review assignment is found on the "Peer Review" tab of the same Google Sheet above. 
@@ -25,23 +27,96 @@ Each team's research questions are posted on the first two sheets of [[THIS GOOG
 * All reviews are public. A link will be included to view the review responses. 
 * After the review deadline has passed each team should go examine the reviews they recieved and talk with the reviewer group for clarification if necessary. 
 
-# Univariate Graphics
+
+## Univariate Graphics
 * [Assignments ready for review](https://norcalbiostat.github.io/peer_review/univ_graphics.html)
 * [Peer Review Form](https://goo.gl/forms/IF1wd3YvAOVWfUkL2)
 * [Review Response Spreadsheet](https://docs.google.com/spreadsheets/d/1DqUSzcmMqBvOuSgWEy61th8Y7aBVQYcsT8_aaquNpWg/edit?usp=sharing). 
     - Use column filters to more easily find your team's reviews. 
     - These are highlighted green. 
 
+## Bivariate Graphics
+* [Assignments ready for review](https://norcalbiostat.github.io/peer_review/univ_graphics.html)
+* [Peer Review Form](https://goo.gl/forms/IF1wd3YvAOVWfUkL2)
+* [Review Response Spreadsheet](https://docs.google.com/spreadsheets/d/1DqUSzcmMqBvOuSgWEy61th8Y7aBVQYcsT8_aaquNpWg/edit?usp=sharing). 
+    - Use column filters to more easily find your team's reviews. 
+    - These are highlighted green. 
 
-# Bivariate Graphics
-_TBD_
+----
 
-# Poster prep I 
-_tbd_
+# Poster preparation
 
-# Poster prep II 
-_tbd_
+You will organize your research in stages by building a "powerpoint" type presentation. This will help you concicely explain your research topic and findings in a way that you can more easily translate (fit) onto a poster. 
 
-# Poster prep III
-_tbd_
+### Instructions
+* Create a Google Slides presentation directly in the MATH 315 [Google Drive](https://drive.google.com/drive/folders/0B83Z8_sNw3KPcGE1OUd6OGJFQTA?usp=sharing).
+* Name it using first_last name only. 
+* The required contents for each slide are listed below under **Stages**
+    
+### Peer Review
+* Peer review starts the date the assignment is due, with a review window of 2-5 days. 
+* Use the peer rotation spreadsheet to find your assignment. 
+* Use the commenting feature directly in Google Sheets to provide feedback and suggestions. 
+* Use the same type of reviewing criteria, make sure you have at least 1 positive comment and 1 suggestion for improvement. 
+* <span style="color:red">Once you have completed this peer review drop a note in Blackboard under the specific review assignment stating that you are done.</span>
+
+
+### Stages
+* At each stage you should update anything you need to change, such as correctly making graphics, writing results correctly etc. 
+* This includes reviewing the current set of feedback and mak the appropriate corrections. 
+    - Once you have addressed a particular piece of feedback mark it as "resolved" in Google Slides. 
+
+### Advice
+Resources on how to build a good poster will be posted here. 
+
+### List of slide contents
+
+#### <span style="color:blue">**Stage 1**</span>
+1. Title 
+2. Introduction 
+3. Background & lit review. 
+4. Explain the research problem
+5. State your Research Question. 
+6. Sample characteristics: How many people, what gender/age/ethnicity. 
+7. Description of measures (variables) being used. Explain any recoding and/or altering that was done. 
+8-9. Univariate graphics and descriptions of main explanatory and response variables. One variable per slide. 
+
+#### <span style="color:blue">**Stage 2**</span>
+10-11: Bivariate graphics and analysis (ANVOA/$\chi^2$/Correlation)
+
+#### <span style="color:blue">**Stage 3**</span>
+
+12-13:  Multivariate Analysis
+
+* For Moderation:
+    - If you found a moderator: Remove the bivariate graph and write up from your poster and replace with explanation of moderator and graph of significant bivariate at the 3rd variable level.
+    - If you did NOT find a moderator: Include a slide stating what relationships you tested for moderation and with what variable to see if it was a moderator, explaining that it was not a moderator. No graphs needed
+* For Confounding: 
+    - If you found a confound: Option 1: on slide with bivariate relationship that was confounded put a bullet point that explains what variable confounded the relationship and put the written results that are shown in the confounding assignment on how to write results. Make sure to explain if it helped improve prediction of response variable. 
+    - If you did NOT find a confounder: Include a slide stating what relationships you tested for confounds and with what variable to see if it was a confound, explaining that it was not a moderator. Make sure to explain if it helped improve prediction of response variable. 
+
+
+14. Discussion
+
+* Here you will explain what the results (i.e., the graphs, tables, associations, and APA results) mean/tell you about your topic.
+* Discuss if your research hypothesis was supported, if it was not, why you think that might be
+* Explain the overall story/trend/what you learned when you consider your univariate, bivariate & multivariate results about your topic.
+* Compare your results to previous research results.
+* What are the practical implications of your results?
+* What future research needs to be conducted?
+
+
+15. References  
+
+* You can use smaller font to get all references on one slide.
+* Use references from research plan.
+* Make sure these are correctly done in APA format.
+* These do not have to have the hanging right indent.
+* These do not have to have a line space between each.
+
+
+----
+
+# Final Posters
+Poster Drafts and Final posters will be linked here. 
 
