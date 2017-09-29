@@ -9,9 +9,7 @@ rawdat <- read_excel("schedule_315.xlsx")
 cdat   <- rawdat %>% mutate(Date = format(date, "%m/%d"), 
                             Topics = topic, Notes = notes,
                             Prepare = before, Together=during,
-                            HW = after, Wk=Week)
-
-cdat <- cdat[as.Date(cdat$date) > as.Date("2017-09-17"),] %>% 
+                            HW = after, Wk=Week) %>% 
               select(Notes, Date, Topics, Prepare, Together, HW, topic, before, during, after)
 
 # parse topics
