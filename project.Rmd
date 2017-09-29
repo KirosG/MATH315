@@ -29,14 +29,14 @@ Each team's research questions are posted on the first two sheets of [[THIS GOOG
 
 
 ## Univariate Graphics
-* [Assignments ready for review](https://norcalbiostat.github.io/peer_review/biv_graphics.html)
+* [Assignments ready for review](https://norcalbiostat.github.io/peer_review/univ_graphics.html)
 * [Peer Review Form](https://goo.gl/forms/P3aDmgvWxd91L8022)
 * [Review Response Spreadsheet](https://docs.google.com/spreadsheets/d/1DqUSzcmMqBvOuSgWEy61th8Y7aBVQYcsT8_aaquNpWg/edit?usp=sharing). 
     - Use column filters to more easily find your team's reviews. 
     - These are highlighted green. 
 
 ## Bivariate Graphics
-* [Assignments ready for review](https://norcalbiostat.github.io/peer_review/univ_graphics.html)
+* [Assignments ready for review](https://norcalbiostat.github.io/peer_review/biv_graphics.html)
 * [Peer Review Form](https://goo.gl/forms/2OxIQAcFIuPYotNC2)
 * [Summary of responses](https://docs.google.com/forms/d/e/1FAIpQLSdsWFU-T-UF7MKRGxh4t89uFa7TZJFB9oawVsChFwcea0Wjzg/viewanalytics). This is a diferent view from last time. You should be able to see common themes in recommendations this way.  
     
