@@ -16,19 +16,28 @@ library(knitr)
 opts_chunk$set(warning=FALSE, message=FALSE) 
 ```
 
-
 # Monday: Foundations
 
 Goals: 
+
+* Describe how a sample statistic can estimate a population parameter
+* Describe the difference between the standard deviation, and the standard error. 
 
 
 ## Prepare
 * Watch [PDS Video 10](http://passiondrivenstatistics.com/2015/07/15/chapter-10/) (30 min)
 * Watch OI Video on the [[CLT]](https://www.youtube.com/watch?list=PLkIselvEzpM7Pjo94m1e7J5jkIZkbQAl4&v=lsCc_pS3O28) (5 min)
+* Need more on Sampling Distributions? [MarinStats](https://www.youtube.com/watch?v=olK80ngCbXc) 9 minute YouTube video is pretty cool. 
 * Prepare for a RAT from the course notes Section 4.1-4.4 and associated textbook reading
+* Download [[inference_notes]](docs/inference_notes.Rmd) RMD template to work on during class. 
+    - Change the path to read in your `addhealth_clean.Rdata` data file from YOUR computer. 
+    - Answer all steps in the Setup section. 
+    - Do this ahead of time so you don't get behind in class! 
 
 
 ## In class
+* In class simulation using [ShinyEd](http://www2.stat.duke.edu/~mc301/shinyed/) (Yes this is built using R!)
+* Start worksheet on inference for Add Health
 
 
 ##### Assignments 
@@ -41,13 +50,18 @@ Goals:
 # Wednesday: Confidence Intervals
 Goals: 
 
+* Calculate the margin of error 
+* Construct a confidence interval to estimate a mean and a proportion. 
+
 
 ## Prepare
 
 * Watch OI Video on [[Confidence Intervals]](https://www.youtube.com/watch?list=PLkIselvEzpM7Pjo94m1e7J5jkIZkbQAl4&v=FUaXoKdCre4) (6 min)
+* More from [MarinStats](https://www.youtube.com/watch?v=9jTJD5SLweY)
 
 ## In class
-
+* Recap course notes
+* Finish worksheet on Add Health. 
 
 ##### Assignments 
 * Data Camp: Foundations for Inference: Confidence Intervals (Due 10/5)
@@ -58,13 +72,17 @@ Goals:
 # Friday: Hypothesis Testing
 Goals: 
 
+* Generate testable hypotheses for your research questions.
+* Identify two types of decision errors. 
 
 ## Prepare
 * Watch OI Video on [[Hypothesis testing]](https://www.youtube.com/watch?list=PLkIselvEzpM7Pjo94m1e7J5jkIZkbQAl4&v=NVbPE1_Cbx8) (8 min)
-
+* Consider re-watching the second half of [PDS Video 10](http://passiondrivenstatistics.com/2015/07/15/chapter-10/) on hypothesis testing. 
 
 ## In class
-
+* Review course notes. 
+* Generate testable hypotheses for your research questions. 
+* Describe what two types of errors you could potentially make using your hypothesis. 
 
 ##### Assignments 
 * PS 4.7, 4.8 (Due 10/8)

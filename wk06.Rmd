@@ -75,3 +75,4 @@ Goals:
 * PS 3.1 Using the Normal Model
 * PS 3.2 Probability Densities and Assessing Normality
 
+Check your work? Use the ShinyEd Distribution Calculator: http://www2.stat.duke.edu/~mc301/shinyed/ 

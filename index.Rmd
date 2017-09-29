@@ -1,6 +1,8 @@
 
 This is the landing page for <span style="color:blue">**Applied Statistical Methods 1**</span> course taught by [Dr. Robin Donatello](www.norcalbiostat.com)  in Fall 2017 (both sections). This landing page is used for posting of regular announcements and information for students of the class. 
 
+* Permanent link to the [course notes](docs/RAD_course_notes.pdf)
+
 
 # Announcements
 

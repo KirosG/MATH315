@@ -1,0 +1,48 @@
+---
+title: "Inference notes"
+author: "MATH 315"
+date: "September 28, 2017"
+output: html_document
+---
+
+## Setup
+1. Read in AddHealth data 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+load("J:/MATH315/Project/addhealth_clean.Rdata")
+```
+
+2. Pick 1 binary categorical and 1 continuous variable to work with. Replace `X` and `Y` below with your choices. 
+3. Ensure R agrees that your chosen variables are what you think they should be. 
+
+
+* Binary categorical variable: X
+* Continuous variable: Y
+
+```{r}
+is(addhealth$X)
+is(addhealth$Y)
+```
+
+## Point Estimates (Section 4.2)
+1. Calculate the sample proportion for your binary variable. 
+
+
+
+
+2. Calculate the mean for your continuous variable. 
+
+
+
+
+
+## Confidence Intervals (Section 4.5)
+
+
+
+
+
+## Hypothesis Testing using R (Section 5.1)
+
+
+

@@ -29,8 +29,8 @@ Each team's research questions are posted on the first two sheets of [[THIS GOOG
 
 
 ## Univariate Graphics
-* [Assignments ready for review](https://norcalbiostat.github.io/peer_review/univ_graphics.html)
-* [Peer Review Form](https://goo.gl/forms/IF1wd3YvAOVWfUkL2)
+* [Assignments ready for review](https://norcalbiostat.github.io/peer_review/biv_graphics.html)
+* [Peer Review Form](https://goo.gl/forms/2OxIQAcFIuPYotNC2)
 * [Review Response Spreadsheet](https://docs.google.com/spreadsheets/d/1DqUSzcmMqBvOuSgWEy61th8Y7aBVQYcsT8_aaquNpWg/edit?usp=sharing). 
     - Use column filters to more easily find your team's reviews. 
     - These are highlighted green. 
@@ -38,19 +38,17 @@ Each team's research questions are posted on the first two sheets of [[THIS GOOG
 ## Bivariate Graphics
 * [Assignments ready for review](https://norcalbiostat.github.io/peer_review/univ_graphics.html)
 * [Peer Review Form](https://goo.gl/forms/IF1wd3YvAOVWfUkL2)
-* [Review Response Spreadsheet](https://docs.google.com/spreadsheets/d/1DqUSzcmMqBvOuSgWEy61th8Y7aBVQYcsT8_aaquNpWg/edit?usp=sharing). 
-    - Use column filters to more easily find your team's reviews. 
-    - These are highlighted green. 
-
+* [Summary of responses](https://docs.google.com/forms/d/e/1FAIpQLSdsWFU-T-UF7MKRGxh4t89uFa7TZJFB9oawVsChFwcea0Wjzg/viewanalytics). This is a diferent view from last time. You should be able to see common themes in recommendations this way.  
+    
 ----
 
 # Poster preparation
 
-You will organize your research in stages by building a "powerpoint" type presentation. This will help you concicely explain your research topic and findings in a way that you can more easily translate (fit) onto a poster. 
+You will organize your research in stages by building a "powerpoint" type presentation. This will help you concicely explain your research topic and findings in a way that you can more easily translate (fit) onto a poster where your sizes are constrained. 
 
 ### Instructions
-* Create a Google Slides presentation directly in the MATH 315 [Google Drive](https://drive.google.com/drive/folders/0B83Z8_sNw3KPcGE1OUd6OGJFQTA?usp=sharing).
-* Name it using first_last name only. 
+* Create a Google Slides presentation directly in the Add Health Posters [Google Drive Folder](https://drive.google.com/drive/folders/0B83Z8_sNw3KPUWFRdXo3WUdiNUk?usp=sharing).
+* Name it using `first_last` or `team_name` only. 
 * The required contents for each slide are listed below under **Stages**
     
 ### Peer Review
@@ -58,16 +56,19 @@ You will organize your research in stages by building a "powerpoint" type presen
 * Use the peer rotation spreadsheet to find your assignment. 
 * Use the commenting feature directly in Google Sheets to provide feedback and suggestions. 
 * Use the same type of reviewing criteria, make sure you have at least 1 positive comment and 1 suggestion for improvement. 
-* <span style="color:red">Once you have completed this peer review drop a note in Blackboard under the specific review assignment stating that you are done.</span>
+* <span style="color:red">Once you have completed this peer review drop a note in Blackboard under the specific review assignment stating that you are done. </span> 
+    - If abuse of this honor system is found (i.e. you say you have reviewed someone but there is no record of it) your team will be removed from the reviewer pool and receive 0 points for all future reviews. 
 
+### Advice & Resources
+* Resources on how to build a good poster will be posted here. 
+* List links to poster templates. Like the ones used for the NSC Poster symposium. 
+* List where to print posters here and printing costs. 
 
 ### Stages
 * At each stage you should update anything you need to change, such as correctly making graphics, writing results correctly etc. 
-* This includes reviewing the current set of feedback and mak the appropriate corrections. 
+* This includes reviewing the current set of feedback and make the appropriate corrections. 
     - Once you have addressed a particular piece of feedback mark it as "resolved" in Google Slides. 
 
-### Advice
-Resources on how to build a good poster will be posted here. 
 
 ### List of slide contents
 
@@ -81,10 +82,10 @@ Resources on how to build a good poster will be posted here.
 7. Description of measures (variables) being used. Explain any recoding and/or altering that was done. 
 8-9. Univariate graphics and descriptions of main explanatory and response variables. One variable per slide. 
 
-#### <span style="color:blue">**Stage 2**</span>
+#### <span style="color:blue">**Stage 2 (In development)**</span>
 10-11: Bivariate graphics and analysis (ANVOA/$\chi^2$/Correlation)
 
-#### <span style="color:blue">**Stage 3**</span>
+#### <span style="color:blue">**Stage 3 (In development)**</span>
 
 12-13:  Multivariate Analysis
 
@@ -92,7 +93,7 @@ Resources on how to build a good poster will be posted here.
     - If you found a moderator: Remove the bivariate graph and write up from your poster and replace with explanation of moderator and graph of significant bivariate at the 3rd variable level.
     - If you did NOT find a moderator: Include a slide stating what relationships you tested for moderation and with what variable to see if it was a moderator, explaining that it was not a moderator. No graphs needed
 * For Confounding: 
-    - If you found a confound: Option 1: on slide with bivariate relationship that was confounded put a bullet point that explains what variable confounded the relationship and put the written results that are shown in the confounding assignment on how to write results. Make sure to explain if it helped improve prediction of response variable. 
+    - If you found a confounder: on slide with bivariate relationship that was confounded put a bullet point that explains what variable confounded the relationship and put the written results that are shown in the confounding assignment on how to write results. Make sure to explain if it helped improve prediction of response variable. 
     - If you did NOT find a confounder: Include a slide stating what relationships you tested for confounds and with what variable to see if it was a confound, explaining that it was not a moderator. Make sure to explain if it helped improve prediction of response variable. 
 
 
