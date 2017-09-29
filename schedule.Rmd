@@ -10,6 +10,7 @@ cdat   <- rawdat %>% mutate(Date = format(date, "%m/%d"),
                             Topics = topic, Notes = notes,
                             Prepare = before, Together=during,
                             HW = after, Wk=Week) %>% 
+              filter(date > "2017-09-24") %>%
               select(Notes, Date, Topics, Prepare, Together, HW, topic, before, during, after)
 
 # parse topics
