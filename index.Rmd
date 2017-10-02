@@ -8,7 +8,7 @@ This is the landing page for <span style="color:blue">**Applied Statistical Meth
 
 ### 9/28/17 - Week 7
 * Week 7 notes have been posted. 
-* An Error assessment assignment has been posted to Week 6 (Wed)
+* An Error assessment assignment has been posted to [Week 6:Wed](https://norcalbiostat.github.io/MATH315/wk06.html#wednesday:_exam_1)
 * The project page has been completed. Details about the poster prep assignments are linked there. 
 * The bivariate graphics assignment has been posted and ready for review. 
 * Blackboard learn and the schedule on this website have been cleaned up to remove old/closed assignments. 

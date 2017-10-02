@@ -51,6 +51,8 @@ Goals:
 
 You can earn up to half credit of the total missed points back by returning the form, corrected work and exam back to me by 10/6. 
 
+* Exam Materials: [NC Births Codebook](docs/Codebook_for_NCBirths.pdf), [R code](Exam1_F17_R_Code.pdf)
+
 
 ---- 
 
