@@ -1,0 +1,65 @@
+---
+title: 'Week 8: 10/9 - 10/15'
+date: "Last Updated `r Sys.time()`"
+output:
+  html_document:
+    highlight: tango
+    theme: cerulean
+    toc: yes
+    toc_float: yes
+css: css/customh5.css
+---
+
+```{r,echo=FALSE, warning=FALSE, message=FALSE}
+library(knitr)
+#library(rmarkdown)
+opts_chunk$set(warning=FALSE, message=FALSE) 
+```
+
+
+# Monday: 
+Goals: 
+
+
+## Prepare 
+
+
+## In class
+
+
+
+##### Assignments
+
+----
+
+# Wednesday:
+Goals: 
+
+## Prepare
+
+
+## In class
+
+
+
+##### Assignments
+
+----
+
+# Friday: Exam 2
+
+## Prepare
+* Review the [sample exam](docs/Sample_Exam_2.pdf)
+* Go through your course reader and make sure you've filled out all the questions and examples. 
+
+##### Assigments
+* Error Assessment (Optional)
+    - Take your returned exam and go over it carefully. 
+    - Print out [this form](docs/error_assessment.pdf) and use it to understand what types of mistakes you are making. 
+    - Correct your exam on a new piece of paper. 
+    - Go over your returned exam with a tutor, with a specific eye towards what _type_ of mistakes you made. **Do not go to a tutor until you have made your own corrections**
+    - Have the tutor sign off on your visit. 
+
+You can earn up to half credit of the total missed points back by returning the form, corrected work and exam back to me by 10/6. 
+
+
