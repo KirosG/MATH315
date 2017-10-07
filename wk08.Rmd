@@ -20,29 +20,44 @@ opts_chunk$set(warning=FALSE, message=FALSE)
 # Monday: 
 Goals: 
 
+* Use R to conduct 1 sample tests for a mean and a proportion
 
 ## Prepare 
+* Download the following data files and store in your `MATH315/Data` folder. (_You may already have the email data set. You do not need to redownload it._) 
+    - [Age at Marriage]()
+    - [Email]()
+* Download the following [Ch5_Notes.Rmd](docs/Ch5_notes.Rmd) code file and store in your `MATH315/Code` folder. 
+    - Open this and knit to make sure it works before class. 
+    - **We cannot spend time in class waiting for you to fix your problems loading data. You WILL fall behind.**
 
 
 ## In class
+* Walk through Chapter 5 examples in class. 
 
 
-
-##### Assignments
+##### References
+* Note sheet from martin Lindquist @ Columbia http://www.stat.columbia.edu/~martin/W2024/R2.pdf 
 
 ----
 
 # Wednesday:
 Goals: 
 
+* Conduct 1 sample t-tests on a categorical and continuous variables from YOUR research questions variables from Add Health. 
+
 ## Prepare
-
-
+* Start a new RMD file called `One_Sample_Analysis.Rmd`. Read in the `addhealth_clean.Rmd` data set
+* Make sure you have a binary categorical variable ready on your AddHealth Data set.
+    - This should be the same one that you used for the Foundation worksheet
+    - This must be a 0/1 indicator variable
+    - You may have to modify and then rerun your `addhealth_dm.Rmd` data management file to get this variable. 
+        - Never fear! As long as you have been saving your data as `addhealth_clean.Rmd` at the end of your DM file the rest of your code in other documents will still work! Long live reproducibility!
+    
 ## In class
 
-
-
-##### Assignments
+* Confirm your hand-written analysis results on the Founations worksheet by running the tests in R. 
+* Open analysis project work time. 
+* Exam 2 questions? 
 
 ----
 
@@ -50,9 +65,12 @@ Goals:
 
 ## Prepare
 * Review the [sample exam](docs/Sample_Exam_2.pdf)
-* Go through your course reader and make sure you've filled out all the questions and examples. 
+* Go through your course reader and make sure you've filled out all the questions and examples.
+* Complete your [Foundations for Inference](docs/Foundations Worksheet.pdf) worksheet. A blank one is linked in case you would like to reprint. 
+* Setting the stage. [This document](docs/Setting_the_Stage.pdf) is a set of student generated questions from previous semesters. You will have an opportunity to add to this list. 
+    - A good study technique would be to rephrase some of these questions as testable hypotheses. 
+    - Contributions including rephrasing/reworking/editing for typos and/or clarity that are submitted to me (via email) will be greatly appreciated, and added to the document. 
 
-##### Assigments
 * Error Assessment (Optional)
     - Take your returned exam and go over it carefully. 
     - Print out [this form](docs/error_assessment.pdf) and use it to understand what types of mistakes you are making. 
@@ -60,6 +78,6 @@ Goals:
     - Go over your returned exam with a tutor, with a specific eye towards what _type_ of mistakes you made. **Do not go to a tutor until you have made your own corrections**
     - Have the tutor sign off on your visit. 
 
-You can earn up to half credit of the total missed points back by returning the form, corrected work and exam back to me by 10/6. 
+You can earn up to half credit of the total missed points back by returning the form, corrected work and exam back to me by 10/27. 
 
 

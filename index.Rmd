@@ -1,12 +1,19 @@
 
 This is the landing page for <span style="color:blue">**Applied Statistical Methods 1**</span> course taught by [Dr. Robin Donatello](www.norcalbiostat.com)  in Fall 2017 (both sections). This landing page is used for posting of regular announcements and information for students of the class. 
 
-* Permanent link to the [course notes](docs/RAD_course_notes.pdf)
-
-
 # Announcements
 
-### 9/28/17 - Week 7
+### 10/6/17 - [Week 8](https://norcalbiostat.github.io/MATH315/wk08.html)
+
+* Computers will be used Monday & Wednesday. 
+* Conducting 1 sample analyses in R. 
+    - There are data and code files to prep before Monday. **Do not wait until class to do this.** 
+* Upcoming Assignments
+    - Research plan outline (10/8)
+    - Poster prep stage 1 (10/15)
+* Exam on Friday: Foundations for Inference. Course notes Ch 4-5. 
+
+### 9/28/17 - [Week 7](https://norcalbiostat.github.io/MATH315/wk07.html)
 * Week 7 notes have been posted. 
 * An Error assessment assignment has been posted to [Week 6:Wed](https://norcalbiostat.github.io/MATH315/wk06.html#wednesday:_exam_1)
 * The project page has been completed. Details about the poster prep assignments are linked there. 
@@ -14,7 +21,7 @@ This is the landing page for <span style="color:blue">**Applied Statistical Meth
 * Blackboard learn and the schedule on this website have been cleaned up to remove old/closed assignments. 
 
 
-### 9/21/17 - Week 6
+### 9/21/17 - [Week 6](https://norcalbiostat.github.io/MATH315/wk06.html)
 I have gone through the gradebook and entered in 0's for missing assignments to date. This is done to provide you a better idea of where you stand grade-wise, going into this exam. Quizzes will remain open available up until the test on the 27th. So if you got a 0 on a Problem set or Data Camp quiz you have time to make up those points. This is also a good way to study for the exam. 
 
 
@@ -22,7 +29,7 @@ I have gone through the gradebook and entered in 0's for missing assignments to 
 * Wednesday: Exam 1. The weekly overview has details on how to prepare and a sample exam. 
 * Friday: Probability. If it's been a while since you've had stats class you will have to spend some significant time preparing. 
 
-### 9/18/17 - Week 5
+### 9/18/17 - [Week 5](https://norcalbiostat.github.io/MATH315/wk05.html)
 * Recap the DM assignment template/instructions. 
 * Univariate graphics assignment due this week. This is a peer reviewed assignment. Example template posted on [week 4](https://norcalbiostat.github.io/MATH315/wk04.html).
 * Peer review instructions have been added to the project page. 
@@ -30,7 +37,7 @@ I have gone through the gradebook and entered in 0's for missing assignments to 
 
 
 
-### 9/11/17 - Week 4
+### 9/11/17 - [Week 4](https://norcalbiostat.github.io/MATH315/wk04.html)
 * Data Management, Graphing and Research Question Sharing, Oh My!
 * You should have been watching and following along with the PDS videos for about a week now. If you are not, do this ASAP or you will fall behind. Think of these as lecture, and in class as practice time. 
 * You Research questions are posted on [[THIS GOOGLE SPREADSHEET]](https://docs.google.com/a/mail.csuchico.edu/spreadsheets/d/17KyM74omyRXPa322ieiU0iv-hjiO7THhAD5TVkI1qgo/edit?usp=sharing)
@@ -44,14 +51,13 @@ I have gone through the gradebook and entered in 0's for missing assignments to 
 * The Project information page has been started. The link to the spreadsheet above is the first piece of info there. 
     
 
-### 9/3/17 - Week 3
-
+### 9/3/17 - [Week 3](https://norcalbiostat.github.io/MATH315/wk03.html)
 * Have a great three day weekend!
 * We're going to be learning how to describe the distribution of data using words, summary statistics and appropriate graphics.
 * This is your last chance to get all your R/R Studio bugs resolved. Next week we're hitting the coding ground hard. 
 * Be sure you're watching the PDS Videos. They contain lecture material directly related to your project. 
 
-### 8/27/17 - Week 2
+### 8/27/17 - [Week 2](https://norcalbiostat.github.io/MATH315/wk02.html)
 
 This week we're going to be talking about data, doing some data entry and importing data into R.
 You'll start to choose specific variables to address your research questions, conduct a literature review, and learn how to properly cite your sources. 
@@ -75,7 +81,7 @@ Here are the highlights for the week.
 
     
 
-### 8/20/17
+### 8/20/17 - [Week 1](https://norcalbiostat.github.io/MATH315/wk01.html)
 
 Happy Sunday and welcome to the Fall 2017 semester! 
 

@@ -36,7 +36,6 @@ cdat$Together[dolist] <- gsub("(+.)\\*", "</li><li>", cdat$Together[dolist])
 hwlist <- which(!is.na(cdat$after))
 cdat$HW[hwlist] <- paste0("<ul><li>", cdat$after[hwlist], "</li></ul>")
 cdat$HW[hwlist] <- gsub("(+.)\\*", "</li><li>", cdat$HW[hwlist])
-
 ```
 
 ```{r results='asis', echo=FALSE, eval=TRUE}
