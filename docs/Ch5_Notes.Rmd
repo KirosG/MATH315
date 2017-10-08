@@ -1,0 +1,107 @@
+---
+title: "Chapter 5 Notes"
+author: "MATH 315"
+date: "October 8, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+
+marriage <- read.csv("J:/MATH315/Data/ageAtMar.txt", sep="")
+email <- read.delim("J:/MATH315/Data/email.txt", header=TRUE, stringsAsFactors = FALSE, sep="\t")
+```
+
+# Section 5.2: Using R for Inference
+
+### Ex: 5.1 Age at Marriage
+According to Wikipedia, the average age for a woman in the US to get married is
+28 years (http://en.Wikipedia.org/wiki/Age_at_first_marriage). The average
+age at first marriage of 5,534 US women who responded to the National Survey of
+Family Growth (NSFG) conducted by the CDC in the 2006 and 2010 cycle was 23.4
+
+**Is there reason to believe that women who respond to the NSFG survey marry
+significantly earlier than the average woman?**
+
+
+I. 
+
+
+II. 
+
+
+III. 
+```{r, fig.height=4, fig.width=4}
+ggplot(marriage, aes(x=age)) +
+geom_histogram(aes(y=..density..), color="black", fill=NA) +
+stat_function(fun = dnorm, color="red",
+args = list(mean = mean(marriage$age), sd = sd(marriage$age)))
+qqnorm(marriage$age)
+qqline(marriage$age, col="red")
+```
+
+IV. 
+```{r}
+t.test(marriage$age, mu=28, alternative="less")
+```
+
+
+
+## 5.2.1 Calculating Confidence Intervals using R
+```{r}
+t.test(marriage$age, mu=28, alternative="two.sided")
+```
+
+## 5.3.2 Inference for a proportion using R 
+
+### Example 5.2: Proportion of spam emails - summary data only
+Consider the email data set that contains information about the contents in email,
+and whether or not the email was flagged as spam. It was found that 367 out of the
+3921 emails were flagged as spam. Can we say that the proportion of emails 
+fl agged as spam is less than 10%? **What is the sample proportion of spam?**
+
+
+
+I. 
+
+
+II. 
+
+
+III. 
+```{r}
+prop.test(x=367, n=3921, p=.1, alternative="less")
+```
+
+IV. 
+
+
+V. 
+
+
+
+**Construct a 90% CI for the true proportion of spam. Interpret in context of the problem.**
+```{r}
+prop.test(x=367, n=3921, p=.1, alternative="two.sided")
+```
+
+
+### Example 5.2: Proportion of spam emails - full data available. 
+
+```{r}
+table(email$spam)
+```
+
+```{r}
+t.test(email$spam, mu=.1, alternative="two.sided", correct=FALSE)
+```
+
+### Problem set 5.2: 
+```{r}
+email$anynum <- ifelse(email$number %in% c("big", "small"), 1, 0)
+```
+
+
+
+
