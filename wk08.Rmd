@@ -26,7 +26,7 @@ Goals:
 * Download the following data files and store in your `MATH315/Data` folder. (_You may already have the email data set. You do not need to redownload it._) 
     - [Age at Marriage](https://norcalbiostat.netlify.com/data/ageAtMar.txt)
     - [Email](https://norcalbiostat.netlify.com/data/email.txt)
-* Download the following [Ch5_Notes.Rmd](docs/Ch5_notes.Rmd) code file and store in your `MATH315/Code` folder. 
+* Download the following [Ch5_Notes.Rmd](docs/Ch5_Notes.Rmd) code file and store in your `MATH315/Code` folder. 
     - Open this and knit to make sure it works before class. 
     - **We cannot spend time in class waiting for you to fix your problems loading data. You WILL fall behind.**
 
