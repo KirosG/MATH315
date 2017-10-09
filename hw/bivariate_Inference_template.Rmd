@@ -1,0 +1,118 @@
+---
+title: "Bivariate Inference Template"
+name: "your name here"
+output:
+  html_document:
+    highlight: tango
+    theme: flatly
+  pdf_document: default
+---
+
+```{r, warning=FALSE, message=FALSE}
+library(knitr)
+opts_chunk$set(warning=FALSE, message=FALSE) 
+library(dplyr)
+library(ggplot2)
+library(descr)
+library(fifer) # New package for running post-hoc chi-squared tests
+load("J:/MATH315/Project/addhealth_clean.Rdata")
+```
+
+----
+
+# Analysis of Variance
+
+
+1. **Identify response and explanatory variables**
+
+
+2. **Visualize and summarise bivariate relationship** 
+
+
+3. **Write the relationship you want to examine in the form of a research question.**
+
+
+4. **Perform an appropriate statistical analysis.**
+ 
+    I. 
+Let $\mu_{i}$ 
+
+    II. 
+$H_{0}: \mu_{1} = \mu_{2} = \mu_{3}$   
+$H_{A}:$ At least one group mean is different. 
+
+
+    III. 
+
+
+    IV. 
+
+
+5. **Write a conclusion in context of the problem.**
+
+
+---- 
+ 
+# Chi-Square Analysis
+
+1. **Identify response and explanatory variables**
+
+
+2. **Visualize and summarise bivariate relationship** 
+
+
+3. **Write the relationship you want to examine in the form of a research question.**
+
+
+4. **Perform an appropriate statistical analysis.**
+ 
+    I. 
+Let $p_{i}$ be 
+
+    II. 
+$H_{0}: p_{1} = p_{2} = p_{3}$   
+$H_{A}:$ At least one proportion is different. 
+
+
+    III. 
+
+
+    IV. 
+
+
+5. **Write a conclusion in context of the problem.**
+
+
+---- 
+ 
+## Linear Regression Analysis
+
+
+
+1. **Identify response and explanatory variables**
+
+
+2. **Visualize and summarise bivariate relationship** 
+
+
+3. **Write the relationship you want to examine in the form of a research question.**
+
+
+4. **Perform an appropriate statistical analysis.**
+ 
+    I. 
+Let $\beta_{1}$ be 
+
+    II. 
+$H_{0}: \beta_{1} = 0$   
+$H_{A}: \beta_{1} \neq 0$   
+
+
+    III. 
+
+
+    IV. 
+
+
+5. **Write a conclusion in context of the problem.**
+

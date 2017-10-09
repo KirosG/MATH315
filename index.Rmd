@@ -5,6 +5,10 @@ This is the landing page for <span style="color:blue">**Applied Statistical Meth
 
 ### 10/6/17 - [Week 8](https://norcalbiostat.github.io/MATH315/wk08.html)
 
+* <span style="color:red">**Office Hours**</span>: 
+    - Mon, Tue, Thu 2pm in Holt 202
+    - Tue, Thu 10am in Holt 155 
+    - Eduardo should still be in Holt 155 MW at 3pm. 
 * Computers will be used Monday & Wednesday. 
 * Conducting 1 sample analyses in R. 
     - There are data and code files to prep before Monday. **Do not wait until class to do this.** 
