@@ -225,14 +225,16 @@ $(document).ready(function () {
 
 
 <p><em>Most of these resources come from <a href="www.cookbook-r.com/Graphs/">R Graphics Cookbook</a></em></p>
-<div id="missing-data-showing-up-in-ggplot" class="section level1">
-<h1>Missing data showing up in ggplot?</h1>
+<div id="plotting" class="section level1">
+<h1>Plotting</h1>
+<div id="missing-data-showing-up-in-ggplot" class="section level2">
+<h2>Missing data showing up in ggplot?</h2>
 <p><code>na.omit()</code> dat df. Use <code>dplyr</code> to select only the variables you are going to plot, then pipe in the <code>na.omit()</code> at the end. It will create a temporary data frame (e.g) <code>plot.data</code> that you then provide to <code>ggplot()</code>.</p>
 <pre><code>plot.data &lt;- addhealth %&gt;% select(var1, var2) %&gt;% na.omit()
 ggplot(plot.data, &lt;stuff&gt;...)</code></pre>
 </div>
-<div id="got-numerical-binary-01-data-but-want-to-plot-it-as-categorical" class="section level1">
-<h1>Got numerical binary 0/1 data but want to plot it as categorical?</h1>
+<div id="got-numerical-binary-01-data-but-want-to-plot-it-as-categorical" class="section level2">
+<h2>Got numerical binary 0/1 data but want to plot it as categorical?</h2>
 <ul>
 <li>Option 1: Create a second variable <code>var_factor</code> for plotting and keep the binary <code>var</code> as 0/1 for analysis.</li>
 <li>Option 2: <a href="http://www.cookbook-r.com/Graphs/Legends_(ggplot2)/#changing-the-factor-in-the-data-frame" class="uri">http://www.cookbook-r.com/Graphs/Legends_(ggplot2)/#changing-the-factor-in-the-data-frame</a></li>
@@ -245,25 +247,28 @@ ggplot(plot.data, &lt;stuff&gt;...)</code></pre>
                           breaks=c(&quot;Female&quot;, &quot;Male&quot;),
                           labels=c(&quot;Woman&quot;, &quot;Man&quot;))</code></pre>
 </div>
-<div id="add-means-to-boxplots" class="section level1">
-<h1>Add means to boxplots</h1>
+<div id="add-means-to-boxplots" class="section level2">
+<h2>Add means to boxplots</h2>
 <p>Boxplots are great. Even better with violin overlays. Know what makes them even better than butter? Adding a point for the mean. Check out <a href="https://stackoverflow.com/questions/23942959/ggplot2-show-separate-mean-values-in-box-plot-for-grouped-data">this stack overflow post</a> for context.</p>
 <pre><code>ggplot(df, aes(x=b, y=c, fill=a)) +
   geom_boxplot() +
   stat_summary(fun.y=&quot;mean&quot;, geom=&quot;point&quot;, size=5,
     position=position_dodge(width=0.75), color=&quot;white&quot;)</code></pre>
 </div>
-<div id="change-the-legend-title" class="section level1">
-<h1>Change the legend title?</h1>
+<div id="change-the-legend-title" class="section level2">
+<h2>Change the legend title?</h2>
 <p>Add the <code>name=</code> argument to whatever layer you added that created the legend. I.e. if you filed boxplots by a categorical <code>gender</code> variable you’d add the layer</p>
 <pre><code>scale_fill_discrete(name=&quot;Gender&quot;)</code></pre>
 </div>
-<div id="full-color-control---legend-name-colors-labels." class="section level1">
-<h1>Full color control - legend name, colors, labels.</h1>
-<pre><code>scale_fill_manual(values=c(&quot;#999999&quot;, &quot;#E69F00&quot;, &quot;#56B4E9&quot;), 
-                       name=&quot;Experimental\nCondition&quot;,
-                       breaks=c(&quot;ctrl&quot;, &quot;trt1&quot;, &quot;trt2&quot;),
-                       labels=c(&quot;Control&quot;, &quot;Treatment 1&quot;, &quot;Treatment 2&quot;))</code></pre>
+</div>
+<div id="data-management" class="section level1">
+<h1>Data management</h1>
+<div id="grouped-summary-statistics-using-dplyr" class="section level2">
+<h2>Grouped summary statistics using <code>dplyr</code></h2>
+<pre><code>data %&gt;% group_by(categorical_variable) %&gt;% 
+          summarise(mean=mean(continuous_variable, na.rm=TRUE), 
+                    sd = sd(continuous_variable, na.rm=TRUE))</code></pre>
+</div>
 </div>
 
 
