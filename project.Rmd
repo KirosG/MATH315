@@ -10,6 +10,10 @@ output:
 css: css/customh5.css
 ---
 
+# Helpful R code snippits
+
+Here is a collection of helpful R [code snippits](snippits.html) for plotting, subsetting, handling missing values and so forth. Think of it as a FAQ for R code. 
+
 # Research Questions
 
 Each team's research questions are posted on the first two sheets of [[THIS GOOGLE SPREADSHEET]](https://docs.google.com/a/mail.csuchico.edu/spreadsheets/d/17KyM74omyRXPa322ieiU0iv-hjiO7THhAD5TVkI1qgo/edit?usp=sharing)
