@@ -22,17 +22,20 @@ _page in development_
 * Navigataing data sets [[DOCX]](R_Resources/Navigating datasets in R.docx)
 * Graphing [[PDF]](R_Resources/QC201_Rgraphing.pdf)
 
+# Helpful R code snippits
+
+Here is a collection of helpful R [code snippits](snippits.html) for plotting, subsetting, handling missing values and so forth. 
+
 
 ### In Person: 
 
 * **Robin Donatello** - Stat professor. Holt 202
-    - MWF 3-4pm, Holt 155 (most weeks I won't be avb either M or W)
+    - MWF 3-4pm, Holt 155 (most weeks I won't be avb one of M or W)
     - TR 10-11am, Holt 155
     - T 9/19 2-4pm, BUTTE 211
 * **Edward Roualdes** - Stat professor. Holt 204 - eroualdes@csuchico.edu
     - MW 10-11am, 1-2pm
     - R 1-2pm
-    - T 9/26 - 10/17, 2-4pm, BUTTE 211
 * **Eduardo Gomez** - peer mentor - egomez42@mail.csuchico.edu
     - MW 3-4pm, Holt 155
     - Occasionally during 10am class

@@ -43,7 +43,13 @@ Each team's research questions are posted on the first two sheets of [[THIS GOOG
 * [Assignments ready for review](https://norcalbiostat.github.io/peer_review/biv_graphics.html)
 * [Peer Review Form](https://goo.gl/forms/2OxIQAcFIuPYotNC2)
 * [Summary of responses](https://docs.google.com/forms/d/e/1FAIpQLSdsWFU-T-UF7MKRGxh4t89uFa7TZJFB9oawVsChFwcea0Wjzg/viewanalytics). This is a diferent view from last time. You should be able to see common themes in recommendations this way.  
-    
+ 
+ 
+## Non-reviewed shared assignments
+* [Bivariate Inference](https://norcalbiostat.github.io/peer_review/biv_inference.html)   
+* [Multiple Linear Regression](https://norcalbiostat.github.io/peer_review/MLR.html)   
+* [Logistic Regression](https://norcalbiostat.github.io/peer_review/MLR.html)   
+
 ----
 
 # Poster preparation
@@ -54,6 +60,7 @@ You will organize your research in stages by building a "powerpoint" type presen
 * Create a Google Slides presentation directly in the Add Health Posters [Google Drive Folder](https://drive.google.com/drive/folders/0B83Z8_sNw3KPUWFRdXo3WUdiNUk?usp=sharing).
 * Name it using `first_last` or `team_name` only. 
 * The required contents for each slide are listed below under **Stages**
+* DO NOT UPLOAD A POWER POINT FILE. There's a reason I say use Google Slides.
     
 ### Peer Review
 * Peer review starts the date the assignment is due, with a review window of 2-5 days. 
@@ -84,10 +91,19 @@ You will organize your research in stages by building a "powerpoint" type presen
 5. State your Research Question. 
 6. Sample characteristics: How many people, what gender/age/ethnicity. 
 7. Description of measures (variables) being used. Explain any recoding and/or altering that was done. 
-8-9. Univariate graphics and descriptions of main explanatory and response variables. One variable per slide. 
+8. Univariate graphic and description of main explanatory variable. 
+9. Univariate graphic and description of at least one response variable.
 
-#### <span style="color:blue">**Stage 2 (In development)**</span>
-10-11: Bivariate graphics and analysis (ANVOA/$\chi^2$/Correlation)
+
+#### <span style="color:blue">**Stage 2**</span>
+Slide 10-11: Bivariate graphics and analysis. 
+
+Each slide should contain the following:  
+
+1. A fully labeled and cleaned up plot demonstrating the bivariate relationship under consideration.
+2. The results of an appropriate bivariate analysis. This should be a conclusion written in english, includes a confidence interval and a p-value. You also need to state the name of the test you used. 
+
+Refer to the [Bivariate Inference](hw/Bivariate_Inference.html) assignment on how to conduct and interpret these bivariate analyses.
 
 #### <span style="color:blue">**Stage 3 (In development)**</span>
 

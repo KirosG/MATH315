@@ -56,6 +56,7 @@ Goals:
 ## In class
 
 * Confirm your hand-written analysis results on the Founations worksheet by running the tests in R. 
+    -- **To be submitted for verification of completeness during the exam on Friday**
 * Open analysis project work time. 
 * Exam 2 questions? 
 
@@ -80,4 +81,11 @@ Goals:
 
 You can earn up to half credit of the total missed points back by returning the form, corrected work and exam back to me by 10/27. 
 
+
+##### Assignments
+* Don't forget Stage I of your project slides are due Sunday. 
+    - You had about two weeks for this assignment
+    - All the material in these first slides was material we covered up to Exam 1.
+    - You are sharing the Google Folder with 615 students. It's advised you see the quality and structure of their work and writing. 
+    - Read the instructions carefully. 
 

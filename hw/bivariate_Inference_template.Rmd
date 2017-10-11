@@ -1,6 +1,6 @@
 ---
-title: "Bivariate Inference Template"
-name: "your name here"
+title: "Bivariate Analysis Assignment"
+name: "your names here"
 output:
   html_document:
     highlight: tango
@@ -9,18 +9,52 @@ output:
 ---
 
 ```{r, warning=FALSE, message=FALSE}
-library(knitr)
-opts_chunk$set(warning=FALSE, message=FALSE) 
-library(dplyr)
-library(ggplot2)
-library(descr)
+library(knitr); library(dplyr)
+library(ggplot2); library(descr)
 library(fifer) # New package for running post-hoc chi-squared tests
+opts_chunk$set(warning=FALSE, message=FALSE) 
 load("J:/MATH315/Project/addhealth_clean.Rdata")
 ```
 
+Use the following template to conduct all <span style="color:blue">FIVE(5)</span> different types of bivariate analysis.
+
+
+# (Q ~ B) Two sample T-Test for Independent Groups
+
+1. **Identify response and explanatory variables**
+
+
+2. **Visualize and summarise bivariate relationship** 
+
+
+3. **Write the relationship you want to examine in the form of a research question.**
+
+* Null Hypothesis: 
+* Alternate Hypothesis: 
+
+4. **Perform an appropriate statistical analysis.**
+ 
+    I. Let $\mu_{1}$ be 
+
+    II. 
+$H_{0}: \mu_{1} - \mu_{2} = 0$  
+$H_{A}: \mu_{1} - \mu_{2} \neq 0$ 
+
+
+    III. 
+
+    IV. 
+
+
+
+
+5. **Write a conclusion in context of the problem.**
+
+
+
 ----
 
-# Analysis of Variance
+# (Q ~ C) Analysis of Variance
 
 
 1. **Identify response and explanatory variables**
@@ -35,7 +69,9 @@ load("J:/MATH315/Project/addhealth_clean.Rdata")
 4. **Perform an appropriate statistical analysis.**
  
     I. 
-Let $\mu_{i}$ 
+Let $\mu_{1}$ be the true mean
+Let $\mu_{2}$ be the true mean
+Let $\mu_{3}$ be the true mean
 
     II. 
 $H_{0}: \mu_{1} = \mu_{2} = \mu_{3}$   
@@ -51,9 +87,10 @@ $H_{A}:$ At least one group mean is different.
 5. **Write a conclusion in context of the problem.**
 
 
+
 ---- 
  
-# Chi-Square Analysis
+# (B ~ C) Chi-Square test of Association
 
 1. **Identify response and explanatory variables**
 
@@ -67,11 +104,46 @@ $H_{A}:$ At least one group mean is different.
 4. **Perform an appropriate statistical analysis.**
  
     I. 
-Let $p_{i}$ be 
+Let $p_{i}$ be the true proportion of 
 
     II. 
 $H_{0}: p_{1} = p_{2} = p_{3}$   
 $H_{A}:$ At least one proportion is different. 
+
+  
+
+    III. 
+
+
+    IV. 
+
+
+5. **Write a conclusion in context of the problem.**
+
+
+
+---- 
+ 
+# (Q ~ Q) Correlation  Analysis
+
+
+1. **Identify response and explanatory variables**
+
+
+2. **Visualize and summarise bivariate relationship** 
+
+
+3. **Write the relationship you want to examine in the form of a research question.**
+
+
+4. **Perform an appropriate statistical analysis.**
+ 
+    I. 
+Let $\rho$ be 
+
+    II. 
+$H_{0}: \rho = 0$   
+$H_{A}: \rho \neq 0$   
 
 
     III. 
@@ -83,9 +155,10 @@ $H_{A}:$ At least one proportion is different.
 5. **Write a conclusion in context of the problem.**
 
 
+
 ---- 
  
-## Linear Regression Analysis
+# (Q ~ Q) Linear Regression Analysis
 
 
 
