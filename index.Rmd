@@ -3,6 +3,15 @@ This is the landing page for <span style="color:blue">**Applied Statistical Meth
 
 # Announcements
 
+### 10/15/17 - [Week 9](https://norcalbiostat.github.io/MATH315/wk09.html)
+
+* This week is all about dat Bivariate inference.
+* RAT on Wednesday (not Monday) 
+* BIG assignment! Has multiple parts. Procrastinate and be doomed. 
+* Add Health analysis all week. Minimal lecture (<15 min). Must read & watch videos before class. 
+    - If it is clear you haven't done the prep work you will get little help from me. 
+* Exams returned Wednesday. [Error Assessment available](https://norcalbiostat.github.io/MATH315/wk06.html#wednesday:_exam_1)
+
 ### 10/6/17 - [Week 8](https://norcalbiostat.github.io/MATH315/wk08.html)
 
 * <span style="color:red">**Office Hours**</span>: 

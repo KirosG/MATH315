@@ -9,11 +9,12 @@ output:
 ---
 
 ```{r, warning=FALSE, message=FALSE}
-library(knitr); library(dplyr)
-library(ggplot2); library(descr)
-library(fifer) # New package for running post-hoc chi-squared tests
+library(fifer) # New package for running post-hoc chi-squared tests. Load before dplyr.
+library(knitr)
+library(dplyr)
+library(ggplot2)
 opts_chunk$set(warning=FALSE, message=FALSE) 
-load("J:/MATH315/Project/addhealth_clean.Rdata")
+load("YOUR PATH HERE / addhealth_clean.Rdata")
 ```
 
 Use the following template to conduct all <span style="color:blue">FIVE(5)</span> different types of bivariate analysis.
