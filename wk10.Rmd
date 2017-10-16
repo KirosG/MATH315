@@ -1,0 +1,60 @@
+---
+title: 'Week 10: 10/23 - 10/29'
+date: "Last Updated `r Sys.time()`"
+output:
+  html_document:
+    highlight: tango
+    theme: cerulean
+    toc: yes
+    toc_float: yes
+css: css/customh5.css
+---
+
+```{r,echo=FALSE, warning=FALSE, message=FALSE}
+library(knitr)
+#library(rmarkdown)
+opts_chunk$set(warning=FALSE, message=FALSE) 
+```
+
+
+# Monday: Correlation 
+
+
+## Prepare 
+* Watch PDS [[Correlation]](https://www.youtube.com/watch?v=qBwjKfytls8&list=PLDEF0B9CBD27AD37E&index=60) video
+
+## In class
+
+* Conduct a Correlation analysis on two quantitative variables in your Add Health data set. 
+* Write up your results as question 4 in the Bivariate analysis homework assignment.
+    - Knit and upload your document to the shared [[Google Drive Bivariate Inference]](https://drive.google.com/drive/folders/0B83Z8_sNw3KPWGQxU1FsNm1DcG8?usp=sharing). 
+
+----
+
+# Wednesday: Linear Regression
+
+
+## Prepare
+* Review Lec 05 - Linear Regression [[HTML]](docs/lec05_LinReg.html) or [[PDF]](docs/lec05_LinReg.pdf) notes. 
+
+## In class
+
+* Conduct a Correlation analysis on two quantitative variables in your Add Health data set. 
+* Write up your results as question 5 in the Bivariate analysis homework assignment.
+    - Knit and upload your document to the shared [[Google Drive Bivariate Inference]](https://drive.google.com/drive/folders/0B83Z8_sNw3KPWGQxU1FsNm1DcG8?usp=sharing). 
+
+----
+
+# Friday: Open work time
+
+Goals
+
+* Finish the Bivariate Inference Assignment. 
+
+## In Class
+
+* Double check the assignment for completion
+* Spellcheck!
+* Make sure it knits
+* Address any comments or suggestions provided thus far. 
+* Work on Poster Prep Stage II. 

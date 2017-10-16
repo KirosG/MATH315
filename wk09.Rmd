@@ -69,13 +69,15 @@ Goals:
 
 ## Goals
 
-* Use a $\chi^{2}$ test to make inference on a bivaraite categorical relationship. 
+* Explain the concept of "deviation away from expected" and how that pertains to testing equal proportions. 
+* Conduct a $\chi^2$ squared test of equal proportions.
 
 
 ## Prepare
 * Watch [[PDS video 12]](http://passiondrivenstatistics.com/2016/06/29/r-chapter-12/) 
+* Review Lec 04 - Categorical data analysis [[HTML]](docs/lec04_cda.html) or [[PDF]](docs/lec04_cda.pdf) notes.  
 
-## In Class
-
+## In class
+* Short lecture on construction of Chi-squared test statistic and necessary assumptions (skim through of lecture notes).
 * Conduct a $\chi^2$ test on your add health data. Write up your results as question 3 in the Bivariate analysis homework assignment. 
     - Knit and upload your document to the shared [[Google Drive Bivariate Inference]](https://drive.google.com/drive/folders/0B83Z8_sNw3KPWGQxU1FsNm1DcG8?usp=sharing). 
