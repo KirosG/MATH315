@@ -37,7 +37,7 @@ For each analysis you will do the following steps:
 
 ### Submission Guidelines:  
 
-* Use [this template](hw/bivariate_inference_template.Rmd) to answer the questions. 
+* Use [this template](hw/bivariate_Inference_template.Rmd) to answer the questions. 
     - Save the file as `team_name_bivariate.Rmd`
 * Show ALL analysis code. 
 * After each completed question - knit and upload your document to a shared [[Google Drive]](https://drive.google.com/drive/folders/0B83Z8_sNw3KPWGQxU1FsNm1DcG8?usp=sharing). 
@@ -56,7 +56,7 @@ library(ggplot2)
 #library(descr)
 
 iris<-iris # only used to run sample code
-load("/Volumes/LilGrnMchne/MATH315/Project/addhealth_clean.Rdata")
+load("E:/MATH315/Project/addhealth_clean.Rdata")
 ```
 
 ----
