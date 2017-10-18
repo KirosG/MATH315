@@ -76,6 +76,7 @@ Goals:
     - Take your returned exam and go over it carefully. 
     - Print out [this form](docs/error_assessment.pdf) and use it to understand what types of mistakes you are making. 
     - Correct your exam on a new piece of paper. 
+    - Here is the [[R Code]](docs/Exam2_F17_Rcode.pdf) from the exam
     - Go over your returned exam with a tutor, with a specific eye towards what _type_ of mistakes you made. **Do not go to a tutor until you have made your own corrections**
     - Have the tutor sign off on your visit. 
 
