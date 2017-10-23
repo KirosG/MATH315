@@ -35,7 +35,7 @@ Goals:
 
 ##### Assignments
 
-* [Moderation Assignment](hw/moderation_assignment.html)
+* [Moderation Assignment](hw/Moderation.html)
 
 ----
 
