@@ -38,11 +38,12 @@ opts_chunk$set(warning=FALSE, message=FALSE)
 
 
 ## Prepare
-* Review Lec 05 - Linear Regression [[HTML]](docs/lec05_LinReg.html) or [[PDF]](docs/lec05_LinReg.pdf) notes. 
+* Review Course Notes - chapter 7
+* Secondary set of notes on Linear Regression [[HTML]](docs/lec05_LinReg.html) or [[PDF]](docs/lec05_LinReg.pdf) from another class. 
 
 ## In class
 
-* Conduct a Correlation analysis on two quantitative variables in your Add Health data set. 
+* Conduct a Linear regression analysis on two quantitative variables in your Add Health data set. 
 * Write up your results as question 5 in the Bivariate analysis homework assignment.
     - Knit and upload your document to the shared [[Google Drive Bivariate Inference]](https://drive.google.com/drive/folders/0B83Z8_sNw3KPWGQxU1FsNm1DcG8?usp=sharing). 
 
@@ -53,6 +54,7 @@ opts_chunk$set(warning=FALSE, message=FALSE)
 Goals
 
 * Finish the Bivariate Inference Assignment. 
+* Work on (or finish) Poster Prep Stage II. 
 
 ## In Class
 
@@ -60,4 +62,3 @@ Goals
 * Spellcheck!
 * Make sure it knits
 * Address any comments or suggestions provided thus far. 
-* Work on Poster Prep Stage II. 
