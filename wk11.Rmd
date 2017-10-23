@@ -1,0 +1,63 @@
+---
+title: 'Week 10: 10/23 - 10/29'
+date: "Last Updated `r Sys.time()`"
+output:
+  html_document:
+    highlight: tango
+    theme: cerulean
+    toc: yes
+    toc_float: yes
+css: css/customh5.css
+---
+
+```{r,echo=FALSE, warning=FALSE, message=FALSE}
+library(knitr)
+#library(rmarkdown)
+opts_chunk$set(warning=FALSE, message=FALSE) 
+```
+
+
+# Monday: Moderation 
+
+Goals: 
+
+* Demonstrate how to determine if a third variable alters the relationship between your response and explanatory varibles. 
+
+
+## Prepare 
+
+* Watch Passion Driven Stats [Video 14](http://passiondrivenstatistics.com/2016/08/20/r-chapter-14/)
+
+## In class
+ 
+* Short lecture
+* Work on assignment
+
+##### Assignments
+
+* [Moderation Assignment](hw/moderation_assignment.html)
+
+----
+
+# Wednesday: Confounding
+
+
+## Prepare
+* Watch PDS [video 17](http://passiondrivenstatistics.com/2016/10/06/r-chapter-17/) 
+
+## In class
+
+##### Assignments
+
+* [Regression Assignment](hw/regression_assignment.html)
+
+----
+
+# Friday: Multiple Regression
+
+Goals
+
+## In Class
+
+
+## Assignment
