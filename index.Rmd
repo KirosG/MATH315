@@ -17,6 +17,17 @@ This is the landing page for <span style="color:blue">**Applied Statistical Meth
 * RAT on Linear Regression on **Wednesday**
 * Open work day on Friday. Finish those assignments! 
 
+<span style="color:red">**IMPORTANT POSTER PREP REMINDERS**</span>
+
+* Use Google Slides
+* Peer reviews are assigned per team, each team member is responsible for a review. 
+    - Teams of 3 need to find another team to review. 
+    - Write your review direcly in Google Slides as comments. 
+* Use the submission link in Blackboard to drop a note saying you are done with your review. 
+    - Do not upload your presentation to this link
+
+
+
 ### 10/15/17 - [Week 9](https://norcalbiostat.github.io/MATH315/wk09.html)
 
 * This week is all about dat Bivariate inference.
