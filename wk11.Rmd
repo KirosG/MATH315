@@ -1,5 +1,5 @@
 ---
-title: 'Week 10: 10/23 - 10/29'
+title: 'Week 11: 10/30 - 11/5'
 date: "Last Updated `r Sys.time()`"
 output:
   html_document:
@@ -31,33 +31,51 @@ Goals:
 ## In class
  
 * Short lecture
-* Work on assignment
+* Work on Moderation assignment
 
 ##### Assignments
 
 * [Moderation Assignment](hw/Moderation.html)
-
+    - Assignment [[template RMD]](hw/Moderation_template.Rmd) file. 
+    - Completed Assignments for review [[here]](https://drive.google.com/drive/folders/0B83Z8_sNw3KPU3dsamgwOWVHVzg?usp=sharing)
+    
 ----
 
-# Wednesday: Confounding
+# Wednesday: Confounding & Multiple Regression
 
+Goals: 
+
+* Fit and interpret a multivariable regression model
+* Identify if a variable is a confounder
 
 ## Prepare
 * Watch PDS [video 17](http://passiondrivenstatistics.com/2016/10/06/r-chapter-17/) 
+* Read Course Notes, Chapter 8.1, 8.2
+* Read Open Intro, Chapter 8.1
 
 ## In class
+* Short lecture on fitting and interpreting regression models
+
 
 ##### Assignments
 
 * [Regression Assignment](hw/regression_assignment.html)
-
+    - Assignment [[template RMD]](hw/regression_template.Rmd) file. 
+    - Completed Assignments for review [[here]](https://drive.google.com/drive/folders/0B83Z8_sNw3KPcFBabzNpNHFOdFU?usp=sharing)
+  
 ----
 
-# Friday: Multiple Regression
+# Friday: Building and fitting multivariable models
 
 Goals
 
+
+## Prepare
+* Read Course notes 8.3
+* Read Open Intro 8.2, 8.3
+
 ## In Class
 
+* Short lecture on model building and assessing model fit
+* Work on Regression Assignment
 
-## Assignment

@@ -25,11 +25,11 @@ Moderation occurs when the relationship between two variables depends on a third
     
 ## Instructions
 
-**Setup**
-
 1. Download the Moderation template file. [[RMD]](hw/Moderation_template.Rmd)
 2. Copy relevant content and code from Step 1-4 for the ANOVA, Chi-Squared, and Regression inferences from your bivariate inference assignment into the appropriate location in the moderation assignment template file. 
     - We are not doing the full 5 step analysis in this document. 
+3. Submit your assignment via Blackboard Learn by the due date. 
+    - A copy of your assignment will be uploaded to a [[Completed Moderation Assigment]](https://drive.google.com/drive/folders/0B83Z8_sNw3KPcFBabzNpNHFOdFU?usp=sharing) Google Drive Folder for you to see and learn from the work of other classmates. 
 
 **Analyze**
 

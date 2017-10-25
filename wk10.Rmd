@@ -43,6 +43,8 @@ opts_chunk$set(warning=FALSE, message=FALSE)
 
 ## In class
 
+* Work through course notes - chapter 7. 
+    - model writing, assumptions, interpretation of coefficients, model fit
 * Conduct a Linear regression analysis on two quantitative variables in your Add Health data set. 
 * Write up your results as question 5 in the Bivariate analysis homework assignment.
     - Knit and upload your document to the shared [[Google Drive Bivariate Inference]](https://drive.google.com/drive/folders/0B83Z8_sNw3KPWGQxU1FsNm1DcG8?usp=sharing). 
@@ -54,6 +56,7 @@ opts_chunk$set(warning=FALSE, message=FALSE)
 Goals
 
 * Finish the Bivariate Inference Assignment. 
+    - Upload the final document to Blackboard Learn
 * Work on (or finish) Poster Prep Stage II. 
 
 ## In Class

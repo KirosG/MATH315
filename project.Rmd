@@ -26,7 +26,7 @@ Each team's research questions are posted on the first two sheets of [[THIS GOOG
 
 # Peer Review Rotation
 * For each assignment your team is assigned to revew two other teams.
-    - The peer review assignment is found on the "Peer Review" tab of the same Google Sheet above. 
+    - The peer review assignment is found on the "[Peer Review](https://docs.google.com/a/mail.csuchico.edu/spreadsheets/d/17KyM74omyRXPa322ieiU0iv-hjiO7THhAD5TVkI1qgo/edit?usp=sharing)" tab of the same Google Sheet above. 
     - The review form for each assignment is linked below that assignment. 
 * All reviews are public. A link will be included to view the review responses. 
 * After the review deadline has passed each team should go examine the reviews they recieved and talk with the reviewer group for clarification if necessary. 
@@ -45,10 +45,11 @@ Each team's research questions are posted on the first two sheets of [[THIS GOOG
 * [Summary of responses](https://docs.google.com/forms/d/e/1FAIpQLSdsWFU-T-UF7MKRGxh4t89uFa7TZJFB9oawVsChFwcea0Wjzg/viewanalytics). This is a diferent view from last time. You should be able to see common themes in recommendations this way.  
  
  
-## Non-reviewed shared assignments
-* [Bivariate Inference](https://norcalbiostat.github.io/peer_review/biv_inference.html)   
-* [Multiple Linear Regression](https://norcalbiostat.github.io/peer_review/MLR.html)   
-* [Logistic Regression](https://norcalbiostat.github.io/peer_review/MLR.html)   
+## Other shared completed assignments
+* [Bivariate Inference](https://drive.google.com/drive/folders/0B83Z8_sNw3KPWGQxU1FsNm1DcG8?usp=sharing)   
+* [Moderation](https://drive.google.com/drive/folders/0B83Z8_sNw3KPU3dsamgwOWVHVzg?usp=sharing)   
+* [Regression and Confounding](https://drive.google.com/drive/folders/0B83Z8_sNw3KPcFBabzNpNHFOdFU?usp=sharing)   
+* [Poster Prep Slides](https://drive.google.com/drive/folders/0B83Z8_sNw3KPUWFRdXo3WUdiNUk?usp=sharing)
 
 ----
 
@@ -61,6 +62,7 @@ You will organize your research in stages by building a "powerpoint" type presen
 * Name it using `first_last` or `team_name` only. 
 * The required contents for each slide are listed below under **Stages**
 * DO NOT UPLOAD A POWER POINT FILE. There's a reason I say use Google Slides.
+* At each stage drop a note in Blackboard learn under the correct assignment stating that your project is ready for review. Do not upload your project slides to Blackboard learn, they will be ignored and deleted. 
     
 ### Peer Review
 * Peer review starts the date the assignment is due, with a review window of 2-5 days. 
@@ -105,7 +107,7 @@ Each slide should contain the following:
 
 Refer to the [Bivariate Inference](hw/Bivariate_Inference.html) assignment on how to conduct and interpret these bivariate analyses.
 
-#### <span style="color:blue">**Stage 3 (In development)**</span>
+#### <span style="color:blue">**Stage 3**</span>
 
 12-13:  Multivariate Analysis
 
@@ -119,7 +121,7 @@ Refer to the [Bivariate Inference](hw/Bivariate_Inference.html) assignment on ho
 
 14. Discussion
 
-* Here you will explain what the results (i.e., the graphs, tables, associations, and APA results) mean/tell you about your topic.
+* Here you will explain what your graphical and inferential results tell you about your topic.
 * Discuss if your research hypothesis was supported, if it was not, why you think that might be
 * Explain the overall story/trend/what you learned when you consider your univariate, bivariate & multivariate results about your topic.
 * Compare your results to previous research results.
@@ -130,11 +132,8 @@ Refer to the [Bivariate Inference](hw/Bivariate_Inference.html) assignment on ho
 15. References  
 
 * You can use smaller font to get all references on one slide.
-* Use references from research plan.
+* Use references from research plan, and any additional references gathered along the way. 
 * Make sure these are correctly done in APA format.
-* These do not have to have the hanging right indent.
-* These do not have to have a line space between each.
-
 
 ----
 
