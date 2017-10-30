@@ -15,28 +15,16 @@ _page in development_
 * R Examples repository http://dwoll.de/rexrepos/index.html 
 
 
-### PDS Helpful files for programming in R. 
-
-* Common errors [[DOCX]](R_Resources/Common Errors in R.docx)
-* Useful functions [[DOCX]](R_Resources/Useful functions in R.docx)
-* Navigataing data sets [[DOCX]](R_Resources/Navigating datasets in R.docx)
-* Graphing [[PDF]](R_Resources/QC201_Rgraphing.pdf)
-
-# Helpful R code snippits
-
-Here is a collection of helpful R [code snippits](snippits.html) for plotting, subsetting, handling missing values and so forth. 
-
-
 ### In Person: 
 
 * **Robin Donatello** - Stat professor. Holt 202
     - MWF 3-4pm, Holt 155 (most weeks I won't be avb one of M or W)
     - TR 10-11am, Holt 155
-    - T 11/2 2-3:30pm, SSC 426
+    - R 11/2 2-3:30pm, SSC 426
 * **Edward Roualdes** - Stat professor. Holt 204 - eroualdes@csuchico.edu
     - MW 10-11am, 1-2pm Holt 204
     - T 1-2pm Holt 204
-    - R 2-3:50pm MLIB 442
+    - T 2-3:50pm MLIB 442
 * **Eduardo Gomez** - peer mentor - egomez42@mail.csuchico.edu
     - MW 3-4pm, Holt 155
     - Occasionally during 10am class
@@ -50,6 +38,17 @@ Here is a collection of helpful R [code snippits](snippits.html) for plotting, s
 * **Math Learning Lab (MLIB 4th floor)** [[Tutor Schedule]](https://docs.google.com/spreadsheets/d/1xNQMfxpnIiS5bUCS9jB2_EE1Sc4C06JRaw6jyEO3nVE/edit#gid=0)
     - Mariby Cruz, Mitch Borgert, Matt Sterkel, Jerry Tucay
 
+
+### PDS Helpful files for programming in R. 
+
+* Common errors [[DOCX]](R_Resources/Common Errors in R.docx)
+* Useful functions [[DOCX]](R_Resources/Useful functions in R.docx)
+* Navigataing data sets [[DOCX]](R_Resources/Navigating datasets in R.docx)
+* Graphing [[PDF]](R_Resources/QC201_Rgraphing.pdf)
+
+# Helpful R code snippits
+
+Here is a collection of helpful R [code snippits](snippits.html) for plotting, subsetting, handling missing values and so forth. 
 
 # What other computers on campus have R? 
 
