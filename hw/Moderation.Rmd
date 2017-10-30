@@ -21,11 +21,13 @@ Moderation occurs when the relationship between two variables depends on a third
 * When testing a potential moderator, we are asking the question whether there is an association between two constructs, **but separately for different subgroups within the sample.**
     - This is also called a _stratified_ model, or a _subgroup analysis_.
 
-
+> _This assignment file demonstrates some advanced graphic adjustments, as well as uses the package `pander` to present model output in nicely formatted code (similar to `knitr` for tables). These are highly desirable, but not mandatory. If you are having difficulty with the plots and/or tables, remove the code and just include raw R output._
+> 
+> _It is **not** recommended that you copy the graph code that I present below directly, but instead start with the code used in the bivariate inference assignment and adjust from there_
     
 ## Instructions
 
-1. Download the Moderation template file. [[RMD]](hw/Moderation_template.Rmd)
+1. Download the Moderation template file. [[RMD]](Moderation_template.Rmd)
 2. Copy relevant content and code from Step 1-4 for the ANOVA, Chi-Squared, and Regression inferences from your bivariate inference assignment into the appropriate location in the moderation assignment template file. 
     - We are not doing the full 5 step analysis in this document. 
 3. Submit your assignment via Blackboard Learn by the due date. 
@@ -81,7 +83,7 @@ library(ggplot2); library(gridExtra)
 library(pander) # Used for printing nice linear model tables
 panderOptions("digits", 3)
 iris<-iris # only used to run sample code
-load("J:/MATH315/Project/addhealth_clean.Rdata")
+load("E:/MATH315/Project/addhealth_clean.Rdata")
 ```
 
 
@@ -96,10 +98,12 @@ load("J:/MATH315/Project/addhealth_clean.Rdata")
 
 2. **Visualize and summarise the potential effect of the moderator** 
 
-_These plots are modified for readability in several ways. These modifications may not apply to your situation. When running into trouble start taking off the fancy layers._
-1. `scale_x_discrete` is used to reverse the display order of the limits on general health.
-2. `coord_flip` is used to turn the boxplots horizontal, thereby removing the overlapping category labels. 
-3. `scale_fill_brewer` is used to apply a red-yellow-green color palette to the categories of general health. This is applicable because general health is an ordinal variable that has an interpretation of "good" to "bad". 
+> _These plots are modified for readability in several ways. These modifications may not apply to your situation. When running into trouble start taking off the fancy layers._
+> 
+> _1. `scale_x_discrete` is used to reverse the display order of the limits on general health._  
+> _2. `coord_flip` is used to turn the boxplots horizontal, thereby removing the overlapping category labels._  
+> _3. `scale_fill_brewer` is used to apply a red-yellow-green color palette to the categories of general health. This is applicable because general health is an ordinal variable that has an interpretation of "good" to "bad"._
+
 ```{r, fig.width=8, fig.height=4, fig.align='center'}
 bmi.plot <- addhealth %>% select(genhealth, BMI, eversmoke_c) %>% na.omit()
 
@@ -124,6 +128,10 @@ threeway.boxplot <- ggplot(bmi.plot, aes(x=genhealth, y=BMI, fill=genhealth)) +
 
 grid.arrange(twoway.boxplot, threeway.boxplot, ncol=2)
 ```
+
+> _The `grid.arrange` code takes each of the plots above, and places them side by side. Remove this line, and the `<-` object assignment for each plot above if the resulting plot for your analysis is too crammed and difficult to read._
+> 
+> _The `scale_x_discrete` and `scale_fill_brewer` code are specific to this analysis. Do not copy/paste this code to use in your analysis unless you can confirm that it is appropriate for your research question._
 
 ```{r}
 bmi.plot %>% group_by(eversmoke_c, genhealth) %>%
@@ -227,6 +235,7 @@ The gender difference across levels of general health seems to be due to the non
 
 There is likely reason to believe that smokers have a different view on their general health compared to non-smokers, and this viewpoint is pretty similar between males and females. 
 
+> **Optional** way of plotting a binary grouping variable
 
 Since this our explanatory variable is only two levels we can plot the proportion of "yes" values - here it would be females only. This makes for a more easily understood plot. Additional color names can be found here: http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf 
 
@@ -269,7 +278,9 @@ by(addhealth, addhealth$eversmoke_c, function(x) chisq.test(x$female_c, x$genhea
 
 5. **Determine if the Third Variable is a moderator or not.**
 
-The relationship between gender and general health is significant in both the main effects and the stratified model. The distribution of females across general health categories differs greatly between smokers and non-smokers. This fits into **Scenario 3**, so Smoking is a significant moderator. 
+The relationship between gender and general health is significant in both the main effects and the stratified model. The distribution of females across general health categories differs greatly between smokers and non-smokers. One could argue that the smoking status of an individual does not modify the relationship between gender and reported general health status _enough_ to warrent controlling for. However one could argue that the effect of gender on general health _is_ modified by smoking status since the strength of the relationship has been attenuated for the non-smoking group. The p-value in the stratified model is 10-100 magnitudes larger than in the overall model (.000025 vs .009 and .0003). 
+
+Either way you decide if a variable is a moderator or not, you must justify your choice by talking about changes in the sample statistics and inferential test results. 
 
 
 ----
