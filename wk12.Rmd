@@ -1,0 +1,55 @@
+---
+title: 'Week 12 11/6 - 11/12'
+date: "Last Updated `r Sys.time()`"
+output:
+  html_document:
+    highlight: tango
+    theme: cerulean
+    toc: yes
+    toc_float: yes
+css: css/customh5.css
+---
+
+```{r,echo=FALSE, warning=FALSE, message=FALSE}
+library(knitr)
+#library(rmarkdown)
+opts_chunk$set(warning=FALSE, message=FALSE) 
+```
+
+
+# Monday: Categorical Predictors 
+
+Goals: 
+
+* Fit a multiple regression model using a categorical predictor by means of several indicator variables, and interpret the results. 
+
+
+## Prepare 
+
+* Read Course Notes Ch 8.5
+
+## In class
+ 
+* Brief lecture / answer questions about interpreting indicator variables. 
+* Work on [Regression Assignment](hw/regression_assignment.html)
+
+---
+
+
+# Wednesday: Logistic Regression
+
+Goals: 
+
+* Fit and interpret a Logistic Regression on a binary response variable
+
+## Prepare
+* Rewatch PDS [video 17](http://passiondrivenstatistics.com/2016/10/06/r-chapter-17/) 
+* Read Open Intro chapter 8.4
+
+## In class
+* Brief lecture / answer questions about logistic regression
+* Work on [Regression Assignment](hw/regression_assignment.html)
+    
+----
+
+# Friday: No Class

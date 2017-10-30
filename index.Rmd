@@ -3,13 +3,13 @@ This is the landing page for <span style="color:blue">**Applied Statistical Meth
 
 # Announcements
 
-<!---
+
 ### 10/30/17 - [Week 11](https://norcalbiostat.github.io/MATH315/wk11.html)
 
 * What happens if we add a third variable to the mix? 
 * How can we tell if a third variable changes our bivariate relationship in question? 
-* Moderation, confounding and Multiple Regression
---->
+* What's the difference between an Observational study and an Experiment? 
+
 
 ### 10/23/17 - [Week 10](https://norcalbiostat.github.io/MATH315/wk10.html)
 

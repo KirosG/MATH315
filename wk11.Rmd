@@ -41,7 +41,27 @@ Goals:
     
 ----
 
-# Wednesday: Confounding & Multiple Regression
+
+# Wednesday: Study Design
+
+Goals: 
+
+* Explain the difference between an Experiment and an Observational study
+* Identify which can be used to make causal claims
+* Explain the difference between a moderator, mediator, confounder and covariate
+
+
+## Prepare 
+* Review Course notes Chapter 1. Fill out questions along the way in the notebook. 
+
+
+## In class
+* Lecture through the study design notes, answer questions along the way.  
+
+
+----
+
+# Friday: Multivariable Regression
 
 Goals: 
 
@@ -50,8 +70,8 @@ Goals:
 
 ## Prepare
 * Watch PDS [video 17](http://passiondrivenstatistics.com/2016/10/06/r-chapter-17/) 
-* Read Course Notes, Chapter 8.1, 8.2
-* Read Open Intro, Chapter 8.1
+* Read Course Notes, Chapter 8.1-8.4
+* Read Open Intro, Chapter 8.1-8.3
 
 ## In class
 * Short lecture on fitting and interpreting regression models
@@ -61,21 +81,5 @@ Goals:
 
 * [Regression Assignment](hw/regression_assignment.html)
     - Assignment [[template RMD]](hw/regression_template.Rmd) file. 
-    - Completed Assignments for review [[here]](https://drive.google.com/drive/folders/0B83Z8_sNw3KPcFBabzNpNHFOdFU?usp=sharing)
+    - Completed Assignments for sharing  [[here]](https://drive.google.com/drive/folders/0B83Z8_sNw3KPcFBabzNpNHFOdFU?usp=sharing)
   
-----
-
-# Friday: Building and fitting multivariable models
-
-Goals
-
-
-## Prepare
-* Read Course notes 8.3
-* Read Open Intro 8.2, 8.3
-
-## In Class
-
-* Short lecture on model building and assessing model fit
-* Work on Regression Assignment
-
