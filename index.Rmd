@@ -9,7 +9,10 @@ This is the landing page for <span style="color:blue">**Applied Statistical Meth
 * What happens if we add a third variable to the mix? 
 * How can we tell if a third variable changes our bivariate relationship in question? 
 * What's the difference between an Observational study and an Experiment? 
-
+* Examples of publication bias
+    - https://twitter.com/eturnermd1/status/737436322344927232
+    - http://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1001189#s4 
+    
 
 ### 10/23/17 - [Week 10](https://norcalbiostat.github.io/MATH315/wk10.html)
 
