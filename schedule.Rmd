@@ -4,7 +4,7 @@ library(dplyr);library(readxl); library(kableExtra)
 options(knitr.table.format = "html", knitr.kable.NA = '') 
 ```
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 rawdat <- read_excel("schedule_315.xlsx")
 cdat   <- rawdat %>% mutate(Date = format(date, "%m/%d"), 
                             Topics = topic, Notes = notes,

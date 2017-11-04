@@ -1,0 +1,51 @@
+---
+title: 'Analysis Poster Guidelines'
+date: "Last Updated `r Sys.time()`"
+output:
+  html_document:
+    highlight: tango
+    theme: cerulean
+    toc: yes
+    toc_float: yes
+---
+
+# Structure
+
+### Template
+* Build your poster using a powerpoint template, not Google Slides. 
+* Choose either a three, or four column layout. 
+* Find out how large of a poster you need to have and make sure 
+
+### Sections
+1. Abstract/introduction
+2. Sample characteristics
+    - Table 1
+3. Analysis methods
+4. Results
+5. Conclusions/discussion
+6. Implications
+7. References
+
+
+# Aestetics
+
+### Font size
+
+### Graphics
+
+### Tables
+* Build them in Excel, or powerpoint tables directly
+
+
+### Colors
+* Colors are good - but stick to a theme/pallet. 
+    - Make the colors meaningful
+* Use matching theme colors in graphics
+
+# Printing
+* Don't spend a fortune!
+
+# Examples
+Here are a few posters from previous years, chosen for their quality of content or appearance. 
+
+

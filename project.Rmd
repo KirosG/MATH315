@@ -63,7 +63,8 @@ You will organize your research in stages by building a "powerpoint" type presen
 * The required contents for each slide are listed below under **Stages**
 * DO NOT UPLOAD A POWER POINT FILE. There's a reason I say use Google Slides.
 * At each stage drop a note in Blackboard learn under the correct assignment stating that your project is ready for review. Do not upload your project slides to Blackboard learn, they will be ignored and deleted. 
-    
+
+
 ### Peer Review
 * Peer review starts the date the assignment is due, with a review window of 2-5 days. 
 * Use the peer rotation spreadsheet to find your assignment. 
@@ -72,11 +73,6 @@ You will organize your research in stages by building a "powerpoint" type presen
 * <span style="color:red">Once you have completed this peer review drop a note in Blackboard under the specific review assignment stating that you are done. </span> 
     - If abuse of this honor system is found (i.e. you say you have reviewed someone but there is no record of it) your team will be removed from the reviewer pool and receive 0 points for all future reviews. 
 
-### Advice & Resources
-* Resources on how to build a good poster will be posted here. 
-* List links to poster templates. Like the ones used for the NSC Poster symposium. 
-* List where to print posters here and printing costs. 
-
 ### Stages
 * At each stage you should update anything you need to change, such as correctly making graphics, writing results correctly etc. 
 * This includes reviewing the current set of feedback and make the appropriate corrections. 
@@ -84,6 +80,7 @@ You will organize your research in stages by building a "powerpoint" type presen
 
 
 ### List of slide contents
+Your presentation should be limited to approximately 16 slides. The contents of each slide are listed below. 
 
 #### <span style="color:blue">**Stage 1**</span>
 1. Title 
@@ -91,8 +88,11 @@ You will organize your research in stages by building a "powerpoint" type presen
 3. Background & lit review. 
 4. Explain the research problem
 5. State your Research Question. 
-6. Sample characteristics: How many people, what gender/age/ethnicity. 
+6. Sample characteristics: How many people are in your analysis sample, what is the % female, average (SD) age, and ethnicity breakdown.
 7. Description of measures (variables) being used. Explain any recoding and/or altering that was done. 
+    - This refers to changes to the data that are above and beyond setting missing codes such as 98 and 99 to `NA`. 
+    - Do not use variable names. 
+    - Restrict this list to only the variables you are using in your analysis. This is likely not to be more than 4-6. 
 8. Univariate graphic and description of main explanatory variable. 
 9. Univariate graphic and description of at least one response variable.
 
@@ -109,27 +109,34 @@ Refer to the [Bivariate Inference](hw/Bivariate_Inference.html) assignment on ho
 
 #### <span style="color:blue">**Stage 3**</span>
 
-12-13:  Multivariate Analysis
+Slide 12-13:  Multivariate Analysis
+Build a multivariable model to explain your outcome variable. 
+    * Test for moderators, and confounders
+    * Add other necessary covariates to controll for. 
+    * Assess the relationship between your explanatory and response variable after controlling for other measures. 
 
-* For Moderation:
+* Moderation:
     - If you found a moderator: Remove the bivariate graph and write up from your poster and replace with explanation of moderator and graph of significant bivariate at the 3rd variable level.
     - If you did NOT find a moderator: Include a slide stating what relationships you tested for moderation and with what variable to see if it was a moderator, explaining that it was not a moderator. No graphs needed
-* For Confounding: 
+* Confounding: 
     - If you found a confounder: on slide with bivariate relationship that was confounded put a bullet point that explains what variable confounded the relationship and put the written results that are shown in the confounding assignment on how to write results. Make sure to explain if it helped improve prediction of response variable. 
     - If you did NOT find a confounder: Include a slide stating what relationships you tested for confounds and with what variable to see if it was a confound, explaining that it was not a moderator. Make sure to explain if it helped improve prediction of response variable. 
 
 
-14. Discussion
+Slide 14. Discussion
 
 * Here you will explain what your graphical and inferential results tell you about your topic.
 * Discuss if your research hypothesis was supported, if it was not, why you think that might be
 * Explain the overall story/trend/what you learned when you consider your univariate, bivariate & multivariate results about your topic.
 * Compare your results to previous research results.
+
+Slide 15. Implications
+
 * What are the practical implications of your results?
 * What future research needs to be conducted?
 
 
-15. References  
+Slide 16. References  
 
 * You can use smaller font to get all references on one slide.
 * Use references from research plan, and any additional references gathered along the way. 
@@ -138,5 +145,18 @@ Refer to the [Bivariate Inference](hw/Bivariate_Inference.html) assignment on ho
 ----
 
 # Final Posters
+* During week 14 you will transfer all findings into a research poster. 
+* You will present your poster to half the class during dead week (week 15)
+*   - The day you are not presenting, you will be judging the other half of the class's posters. 
+* Use these [poster guidelines](poster_guidelines.html) to develop your poster. 
+* There will be one draft review process. 
+
+
 Poster Drafts and Final posters will be linked here. 
+
+## Poster Drafts for Review
+
+
+## Final posters for Review
+
 

@@ -3,6 +3,14 @@ This is the landing page for <span style="color:blue">**Applied Statistical Meth
 
 # Announcements
 
+### 11/6/17 - [Week 12](https://norcalbiostat.github.io/MATH315/wk12.html)
+* Identifying confounders
+* Adding and interpreting categorical predictors
+* Poster updates
+    - Start testing the relationship for your RQ for moderators and confounders. 
+    - Homework $\neq$ poster. Don't go overboard, but you are likely to need to do additional analyses for your poster. 
+    - Keep your RQ in mind - focus on answering a single RQ. One outcome. 
+
 
 ### 10/30/17 - [Week 11](https://norcalbiostat.github.io/MATH315/wk11.html)
 
