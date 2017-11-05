@@ -36,20 +36,13 @@ Goals:
 ---
 
 
-# Wednesday: Logistic Regression
+# Wednesday: Open work time
 
 Goals: 
 
-* Fit and interpret a Logistic Regression on a binary response variable
+* Work on the Regression Assignment
+* Work on your poster. 
 
-## Prepare
-* Rewatch PDS [video 17](http://passiondrivenstatistics.com/2016/10/06/r-chapter-17/) 
-* Read Open Intro chapter 8.4
-
-## In class
-* Brief lecture / answer questions about logistic regression
-* Work on [Regression Assignment](hw/regression_assignment.html)
-    
 ----
 
 # Friday: No Class
