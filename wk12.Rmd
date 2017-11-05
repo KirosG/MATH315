@@ -31,7 +31,7 @@ Goals:
 ## In class
  
 * Brief lecture / answer questions about interpreting indicator variables. 
-* Work on [Regression Assignment](hw/regression_assignment.html)
+* Work on [Regression Assignment](hw/Regression_Assignment.html)
 
 ---
 
@@ -41,7 +41,7 @@ Goals:
 Goals: 
 
 * Work on the Regression Assignment
-* Work on your poster. 
+* Work on poster prep stage III
 
 ----
 

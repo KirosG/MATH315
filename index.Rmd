@@ -10,6 +10,8 @@ This is the landing page for <span style="color:blue">**Applied Statistical Meth
     - Start testing the relationship for your RQ for moderators and confounders. 
     - Homework $\neq$ poster. Don't go overboard, but you are likely to need to do additional analyses for your poster. 
     - Keep your RQ in mind - focus on answering a single RQ. One outcome. 
+* **Class Attendance Required**: Due to a large number of people missing class lately, for the rest of the semester I will be taking attendance. You cannot work as a team if you don't bother to show up to class at the same time. 
+    - We only have a few weeks left in the semester. This is a critical time in your project development. 
 
 
 ### 10/30/17 - [Week 11](https://norcalbiostat.github.io/MATH315/wk11.html)
