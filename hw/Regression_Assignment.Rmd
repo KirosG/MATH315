@@ -3,12 +3,12 @@ title: "Regression Assignment"
 author: "Robin Donatello"
 date: "Last Updated `r Sys.time()`"
 output:
-  pdf_document: default
   html_document:
     highlight: tango
     theme: cerulean
     toc: yes
     toc_float: yes
+  pdf_document: default
 css: ../css/customh5.css
 ---
 
@@ -63,7 +63,7 @@ library(dplyr)
 library(ggplot2); library(gridExtra)
 library(pander) # Used for printing nice linear model tables
 panderOptions("digits", 3)
-load("J:/MATH315/Project/addhealth_clean.Rdata")
+load("E:/MATH315/Project/addhealth_clean.Rdata")
 ```
 
 # Multiple Linear Regression
@@ -149,9 +149,9 @@ Your outcome variable must be coded as 1 (event) and 0 (non-event). Recoding thi
 
 ## 2. State hypotheses
 
-* Null hypothesis: There is no relationship between the probability of living below the poverty level and the time you wake up in the morning. 
-* Alternative hypothesis: There is a relationship between the probability of living below the poverty level and the time you wake up in the morning. 
-* Confounding hypothesis: There _still is_ a relationship between the probability of living below the poverty level and the time you wake up in the morning after controlling for gender. 
+* Null hypothesis: There is no relationship between the probability of living below the poverty level ever being a smoker.
+* Alternative hypothesis: There is a relationship between the probability of living below the poverty level and ever being a smoker. 
+* Confounding hypothesis: There _still is_ a relationship between the probability of living below the poverty level and ever being a smoker, after controlling for gender. 
 
 ## 3. Fit the simple model
 Fit the logistic regression model (a.k.a generalized linear model) of the explanatory variable on the response variable. Decide to reject the null hypothesis in favor of the alternative. 

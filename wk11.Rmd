@@ -72,15 +72,15 @@ Goals:
 * Watch PDS [video 17](http://passiondrivenstatistics.com/2016/10/06/r-chapter-17/) 
 * Read Course Notes, Chapter 8.1-8.4
 * Read Open Intro, Chapter 8.1-8.3
+* Additional [lecture notes](https://norcalbiostat.github.io/MATH615/docs/lec07_MLR.html) on Multivariable Regression (from MATH 615)
+
 
 ## In class
-* Student Evaluations of Teaching (SETs) (20 min)
 * Short lecture on fitting and interpreting regression models
 
 
-##### Assignments (not finished as of 11/3)
+##### Assignments
 
 * [Regression Assignment](hw/Regression_Assignment.html)
-    - Assignment [[template RMD]](hw/Regression_template.Rmd) file. 
     - Completed Assignments for sharing  [[here]](https://drive.google.com/drive/folders/0B83Z8_sNw3KPcFBabzNpNHFOdFU?usp=sharing)
   

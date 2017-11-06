@@ -8,6 +8,9 @@ output:
     toc: yes
     toc_float: yes
 ---
+# Evaluation Rubric
+
+If you are a part of my class then rest assured your poster will be evaluated by me, and the rest of the class. [Here]() is the grading rubric that I use. 
 
 # Structure
 
@@ -43,9 +46,17 @@ output:
 * Use matching theme colors in graphics
 
 # Printing
-* Don't spend a fortune!
+* Don't spend a fortune! (i.e. don't go to Kinkos on Mangrove and spend $90)
+* Metagraphcs $50 36x48 --still pricey
+* Ellis Art (downtown and on Esplanade) $30
+* Staples ($65)
+* Kinkos downtown, B&W $10
 
 # Examples
-Here are a few posters from previous years, chosen for their quality of content or appearance. 
+Here are a few example posters from various locations. 
 
+* My [[personal publications]]()
+* [College of Natural Sciences Poster Session](http://www.csuchico.edu/nsci/poster-session). This page also contains guidance for how to build a good poster. The link at the bottom will take you to last year's winners. 
+* Previous [MATH 315]() classes
+* Previous [MATH 615]() classes
 

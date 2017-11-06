@@ -27,6 +27,7 @@ Goals:
 ## Prepare 
 
 * Read Course Notes Ch 8.5
+* Additional [[lecture notes]](https://norcalbiostat.github.io/MATH615/docs/lec07_MLR.html#categorical_predictors) on categorical predictors from MATH 615. 
 
 ## In class
  
@@ -35,13 +36,21 @@ Goals:
 
 ---
 
-
 # Wednesday: Open work time
 
 Goals: 
 
 * Work on the Regression Assignment
 * Work on poster prep stage III
+
+
+##### Necessary Poster Updates
+
+* Sample characteristics - this is from YOUR analysis sample. 
+* Trim down # of RQ's. work on answering 1 or 2 fully. 
+* Check for potential moderators, confounders.
+* Check your grade from poster prep I
+* Review any suggestions that are pending (from me or others) in your slides, or in the returned assignment. 
 
 ----
 
