@@ -3,12 +3,12 @@ title: "Regression Assignment"
 author: "Robin Donatello"
 date: "Last Updated `r Sys.time()`"
 output:
+  pdf_document: default
   html_document:
     highlight: tango
     theme: cerulean
     toc: yes
     toc_float: yes
-  pdf_document: default
 css: ../css/customh5.css
 ---
 
@@ -30,6 +30,7 @@ You will then take one of the above analyses (or a new model) and
 #### Submission Guidelines
 
 * Use the template provided: [[RMD]](Regression_template.Rmd)
+* This is an individual assignment. I expect you to work with your team/partner on this, but each person must submit their own work, and own writing. 
 * Upload to the corresponding assignment on Blackboard by the due date. 
 * Share and learn from others by post a copy of this assignment to this [Google Drive](https://drive.google.com/drive/folders/0B83Z8_sNw3KPcFBabzNpNHFOdFU?usp=sharing) folder as you complete each model. 
 
