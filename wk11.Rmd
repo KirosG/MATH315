@@ -81,6 +81,6 @@ Goals:
 ##### Assignments (not finished as of 11/3)
 
 * [Regression Assignment](hw/Regression_Assignment.html)
-    - Assignment [[template RMD]](hw/regression_template.Rmd) file. 
+    - Assignment [[template RMD]](hw/Regression_template.Rmd) file. 
     - Completed Assignments for sharing  [[here]](https://drive.google.com/drive/folders/0B83Z8_sNw3KPcFBabzNpNHFOdFU?usp=sharing)
   
