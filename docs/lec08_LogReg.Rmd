@@ -1,0 +1,236 @@
+---
+title: 'Logistic Regression'
+author: "Robin Donatello"
+date: "Last Updated `r Sys.time()`"
+output:
+  pdf_document:
+    toc: yes
+  html_document:
+    highlight: tango
+    theme: cerulean
+    toc: yes
+    toc_float: yes
+css: ../css/customh5.css
+---
+```{r,echo=FALSE, warning=FALSE, message=FALSE}
+library(knitr); library(rmarkdown);
+library(ggplot2); library(dplyr); 
+library(xtable); library(pander)
+options(xtable.comment = FALSE)
+opts_chunk$set(warning=FALSE, message=FALSE) 
+```
+
+
+# References
+
+* Open Intro Section 8.4
+* Article: When can odds ratios mislead? http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1112884/
+* Odds Ratios: http://www.ats.ucla.edu/stat/sas/faq/oratio.htm 
+* Marin Stats Lecture on OR and RR: https://www.youtube.com/watch?v=V_YNPQoAyCc 
+
+
+# Introduction
+
+* Logistic regression is a tool used to model a categorical outcome variable with two levels: Y = 1 if event, = 0 if no event. 
+* Instead of modeling the outcome directly $E(Y|X)$ as with linear regression, we model the probability of an event occurring: $P(Y=1|X)$. 
+
+## Uses of Logistic Regression
+* Assess the impact selected covariates have on the probability of an outcome occurring. 
+* Predict the likelihood / chance / probability of an event occurring given a certain covariate pattern.  
+
+# The Logistic Regression Model
+Let $p_{i} = P(y_{i}=1)$. 
+
+The logistic model relates the probability of an event based on a linear combination of X's. 
+
+$$
+log\left(
+\frac{p_{i}}{1-p_{i}}
+\right) = \beta_{0} + \beta_{1}x_{1i} + \beta_{2}x_{2i} + \ldots + \beta_{p}x_{pi}
+$$
+
+Since the _odds_ are defined as the probability an event occurs divided by the  probability it does not occur: $(p/(1-p))$, the function $log\left(\frac{p_{i}}{1-p_{i}}\right)$ is also known as the _log odds_, or more commonly called the **_logit_**. 
+
+```{r, fig.width=4, fig.height=3, echo=FALSE, fig.align='center'}
+p <- seq(0, 1, by=.01)
+logit.p <- log(p/(1-p))
+qplot(logit.p, p, geom="line", xlab = "logit(p)", main="The logit transformation")
+```
+
+This in essence takes a binary outcome 0/1 variable, turns it into a continuous probability (which only has a range from 0 to 1) Then the logit(p) has a continuous distribution ranging from $-\infty$ to $\infty$, which is the same form as a Multiple Linear Regression (continuous outcome modeled on a set of covariates)
+
+
+## Logistic Regression via GLM
+
+A logistic regression model can be fit in R using the `glm()` function. GLM stands for _Generalized Linear Model_. GLM's can fit an entire _family_ of distributions and can be thought of as $E(Y|X) = C(X)$ where $C$ is a **link** function that relates $Y$ to $X$.
+
+* Linear regression: C = Identity function (no change)
+* Logistic regression: C = logit function
+* Poisson regression: C = log function
+
+The outcome $y$ is a 0/1 Bernoulli random variable. The sum of a vector of Bernoulli's ($\sum_{i=1}^{n}y_{i}$) has a Binomial distribution. When we specify that `family = "binomial"` the `glm()` function auto-assigns "logit" link function. See `?family` for more information on this. 
+
+
+```{r, eval=FALSE}
+glm(y ~ x1 + x2 + x3, data=DATA, family="binomial")
+```
+
+
+##### Example: Gender effects on Depression
+
+Is gender associated with depression? Read in the `depression` data and recode sex to be an indicator of being male. 
+```{r}
+depress <- read.delim("https://norcalbiostat.netlify.com/data/depress_081217.txt")
+names(depress) <- tolower(names(depress)) # make all variable names lower case. 
+```
+
+* Binary outcome variable: Symptoms of Depression (`cases`)
+* Binary predictor variable: Gender (`sex`) as an indicator of being female
+
+We fit the logistic regression model using a _generalized linear model_, specifying that the `family=binomial`. This tells `R` to use a _logit_ link on the linear combination. SPSS users will choose the LOGISTIC function. 
+
+```{r}
+dep_sex_model <- glm(cases ~ sex, data=depress, family="binomial")
+summary(dep_sex_model)
+```
+
+We exponentiate the coefficients to back transform the $\beta$ estimates into Odds Ratios
+```{r}
+exp(coef(dep_sex_model))
+```
+
+Females have 2.8 times the odds of showing signs of depression compared to males. 
+
+## Confidence Intervals
+The OR is **not** a linear function of the $x's$, but $\beta$ is. This means that a CI for the OR is created by calculating a CI for $\beta$, and then exponentiating the endpoints. A 95% CI for the OR can be calculated as: 
+
+$$e^{\hat{\beta} \pm 1.96 SE_{\beta}} $$
+
+```{r}
+exp(confint(dep_sex_model))
+```
+
+
+# Multiple Logistic Regression
+Just like multiple linear regression, additional predictors are simply included in the model using a `+` symbol. 
+```{r}
+mvmodel <- glm(cases ~ age + income + sex, data=depress, family="binomial")
+summary(mvmodel)
+```
+
+* The sign of the $\beta$ coefficients can be interpreted in the same manner as with linear regression. 
+* The odds of being depressed are less if the respondent has a higher income and is older, and higher if the respondent is female. 
+
+### OR interpretation
+
+* The OR provides a directly understandable statistic for the relationship between $y$ and a specific $x$ given all other $x$'s in the model are fixed. 
+* For a continuous variable X with slope coefficient $\beta$, the quantity $e^{b}$ is interpreted as the ratio of the odds for a person with value (X+1) relative to the odds for a person with value X. 
+* $exp(kb)$ is the incremental odds ratio corresponding to an increase of $k$ units in the variable X, assuming that the values of all other X variables remain unchanged. 
+
+**Binary variables**
+Calculate the Odds Ratio of depression for women compared to men. 
+
+**WRITE OUT THE MODEL**
+$$log(odds) = -0.676 - 0.02096*age - .03656*income + 0.92945*gender$$
+
+$$ OR = \frac{Odds (Y=1|F)}{Odds (Y=1|M)} $$
+
+Write out the equations for men and women separately. 
+$$ = \frac{e^{-0.676 - 0.02096*age - .03656*income + 0.92945(1)}}
+          {e^{-0.676 - 0.02096*age - .03656*income + 0.92945(0)}}$$
+
+Applying rules of exponents to simplify.
+$$ = \frac{e^{-0.676}e^{- 0.02096*age}e^{- .03656*income}e^{0.92945(1)}}
+          {e^{-0.676}e^{- 0.02096*age}e^{- .03656*income}e^{0.92945(0)}}$$
+
+$$ = \frac{e^{0.92945(1)}}
+          {e^{0.92945(0)}}$$
+
+$$ = e^{0.92945} $$
+
+```{r}
+exp(.92945)
+exp(coef(mvmodel)[4])
+```
+
+The odds of a female being depressed are 2.53 times greater than the odds for Males after adjusting for the linear effects of age and income (p=.016). 
+
+**Continuous variables**
+
+```{r}
+exp(coef(mvmodel))
+exp(confint(mvmodel))
+```
+
+* The Adjusted odds ratio (AOR) for increase of 1 year of age is 0.98 (95%CI .96, 1.0)
+* How about a 10 year increase in age? $e^{10*\beta_{age}} = e^{-.21} = .81$
+```{r}
+exp(10*coef(mvmodel)[2])
+```
+with a confidence interval of
+```{r}
+round(exp(10*confint(mvmodel)[2,]),3)
+```
+Controlling for gender and income, an individual has 0.81 (95% CI 0.68, 0.97) times the odds of being depressed compared to someone who is 10 years younger than them. 
+
+
+# CAUTION
+
+Consider a hypothetical example where the probability of death is .4 for males and .6 for females. 
+
+The odds of death for males is `.4/(1-.4)` = `r round(.4/.6,2)`.
+The odds of death for females is `.6/(1-.6)` = `r round(.6/.4,2)`.
+
+The Odds Ratio of death for females compared to males is ` 1.5/.66` = `r round(1.5/.66,2)`.
+
+* If you were to say that females were 2.3 times as likely to die compare to males, you wouldn't necessarily translate that to a 40% vs 60% chance. 
+
+
+
+# Modeling the probability of an event. 
+
+Sometimes it is more explanatory, or easier to explain the results of a logistic model by providing a probability interpretation instead of an Odds Ratio. For a **specific** set of covariate values, you can calculate the probability of an event for one group, and compare it to the probability of an event for another group. 
+
+
+Back solving the logistic model for $p_{i} = e^{\beta X} / (1+e^{\beta X})$: 
+
+$$
+p_{i} = \frac{e^{\beta_{0} + \beta_{1}x_{1i} + \beta_{2}x_{2i} + \ldots + \beta_{p}x_{pi}}}
+{1 + e^{\beta_{0} + \beta_{1}x_{1i} + \beta_{2}x_{2i} + \ldots + \beta_{p}x_{pi}}}
+$$
+
+For the above model of depression on age, income and gender the probability of depression is: 
+$$
+P(depressed) = \frac{e^{-0.676 - 0.02096*age - .03656*income + 0.92945*gender}}
+{1 + e^{-0.676 - 0.02096*age - .03656*income + 0.92945*gender}}
+$$
+
+Let's compare the probability of being depressed for males and females separately, while holding age and income constant at their average value. 
+
+```{r}
+depress %>% summarize(age=mean(age), income=mean(income))
+```
+
+Plug the coefficient estimates and the values of the variables into the equation and calculate. 
+$$
+P(depressed|Female) = \frac{e^{-0.676 - 0.02096(44.4) - .03656(20.6) + 0.92945(1)}}
+{1 + e^{-0.676 - 0.02096(44.4) - .03656(20.6) + 0.92945(1)}}
+$$
+
+```{r}
+XB.f <- -0.676 - 0.02096*(44.4) - .03656*(20.6) + 0.92945
+exp(XB.f) / (1+exp(XB.f))
+```
+$$
+P(depressed|Male) = \frac{e^{-0.676 - 0.02096(44.4) - .03656(20.6) + 0.92945(0)}}
+{1 + e^{-0.676 - 0.02096(44.4) - .03656(20.6) + 0.92945(0)}}
+$$
+```{r}
+XB.m <- -0.676 - 0.02096*(44.4) - .03656*(20.6)
+exp(XB.m) / (1+exp(XB.m))
+```
+
+The probability for a 44.4 year old female who makes $20.6k annual income has a 0.19 probability of being depressed. The probability of depression for a male of equal age and income is 0.86. 
+
+
+

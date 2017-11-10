@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Week 13 11/3 - 11/17</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; background-color: #f8f8f8; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+pre, code { background-color: #f8f8f8; }
+code > span.kw { color: #204a87; font-weight: bold; } /* Keyword */
+code > span.dt { color: #204a87; } /* DataType */
+code > span.dv { color: #0000cf; } /* DecVal */
+code > span.bn { color: #0000cf; } /* BaseN */
+code > span.fl { color: #0000cf; } /* Float */
+code > span.ch { color: #4e9a06; } /* Char */
+code > span.st { color: #4e9a06; } /* String */
+code > span.co { color: #8f5902; font-style: italic; } /* Comment */
+code > span.ot { color: #8f5902; } /* Other */
+code > span.al { color: #ef2929; } /* Alert */
+code > span.fu { color: #000000; } /* Function */
+code > span.er { color: #a40000; font-weight: bold; } /* Error */
+code > span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #000000; } /* Constant */
+code > span.sc { color: #000000; } /* SpecialChar */
+code > span.vs { color: #4e9a06; } /* VerbatimString */
+code > span.ss { color: #4e9a06; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #000000; } /* Variable */
+code > span.cf { color: #204a87; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #ce5c00; font-weight: bold; } /* Operator */
+code > span.pp { color: #8f5902; font-style: italic; } /* Preprocessor */
+code > span.ex { } /* Extension */
+code > span.at { color: #c4a000; } /* Attribute */
+code > span.do { color: #8f5902; font-weight: bold; font-style: italic; } /* Documentation */
+code > span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #8f5902; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Information */
+</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="css/customh5.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">MATH 315</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="schedule.html">
+    <span class="fa fa-book"></span>
+     
+    Schedule
+  </a>
+</li>
+<li>
+  <a href="http://www.norcalbiostat.com/data/">
+    <span class="fa fa-database"></span>
+     
+    Data
+  </a>
+</li>
+<li>
+  <a href="project.html">
+    <span class="fa fa-bar-chart"></span>
+     
+    Projects
+  </a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="docs/syllabus_f17.html">
+    <span class="fa fa-info-circle"></span>
+     
+    Syllabus
+  </a>
+</li>
+<li>
+  <a href="faq.html">
+    <span class="fa fa-question"></span>
+     
+    Help/FAQ
+  </a>
+</li>
+<li>
+  <a href="mailto:rdonatello@csuchico.edu">
+    <span class="fa fa-envelope-o"></span>
+     
+    Contact
+  </a>
+</li>
+<li>
+  <a href="http://www.norcalbiostat.com/">
+    <span class="fa fa-paw"></span>
+     
+    Dr. D's website
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Week 13 11/3 - 11/17</h1>
+<h4 class="date"><em>Last Updated 2017-11-10 10:16:41</em></h4>
+
+</div>
+
+
+<div id="monday-logistic-regression" class="section level1">
+<h1>Monday: Logistic Regression</h1>
+<p>Goals:</p>
+<ul>
+<li>Learn how to fit a model to a binary outcome</li>
+<li>Interpret logistic regression coefficients as Odds Ratios</li>
+</ul>
+<div id="prepare" class="section level2">
+<h2>Prepare</h2>
+<ul>
+<li>Read Open Intro section 8.4</li>
+<li>Review last part of PDS Video 17</li>
+<li>Review the notes on Logistic Regression <a href="docs/lec08_LogReg.html">[HTML]</a> <a href="docs/lec08_LogReg.pdf">[PDF]</a></li>
+</ul>
+</div>
+<div id="in-class" class="section level2">
+<h2>In class</h2>
+<ul>
+<li>Primarily Lecture and discussion</li>
+</ul>
+<div id="assignments" class="section level5">
+<h5>Assignments</h5>
+<ul>
+<li>Work on <a href="hw/Regression_Assignment.html">Regression Assignment</a></li>
+</ul>
+<hr />
+</div>
+</div>
+</div>
+<div id="wednesday-model-building" class="section level1">
+<h1>Wednesday: Model building</h1>
+<div id="goals" class="section level3">
+<h3>Goals:</h3>
+<ul>
+<li>Compare the fit between two linear models</li>
+<li>Use the Wald Test to test if a categorical variable is associated with the outcome</li>
+</ul>
+</div>
+<div id="prepare-1" class="section level3">
+<h3>Prepare:</h3>
+<ul>
+<li>Install the <code>survey</code> package.</li>
+<li>Read Open Intro 8.2: Model Selection</li>
+</ul>
+</div>
+<div id="notes" class="section level3">
+<h3>Notes:</h3>
+<ul>
+<li><span class="math inline">\(R^{2}\)</span>: <a href="https://en.wikipedia.org/wiki/Coefficient_of_determination">Coefficient of Determiniation</a>. The proportion of variance in <span class="math inline">\(Y\)</span> explained by the model.
+<ul>
+<li>For use with Linear Regression only.</li>
+<li>A higher <span class="math inline">\(R^{2}\)</span> is better.</li>
+<li>Will always increase with the number of variable in the model, so an <em>Adjusted <span class="math inline">\(R^{2}\)</span></em> must be used.</li>
+</ul></li>
+<li><a href="https://en.wikipedia.org/wiki/Wald_test">Wald test</a>. A method of testing the sigificance of categorical predictors.</li>
+</ul>
+<div id="example-1" class="section level4">
+<h4>Example 1</h4>
+<p>Consider a logistic model on smoking status (0= never smoked, 1=has smoked) using gender, income, and general health as predictors.</p>
+<p><span class="math display">\[
+logit(Y) = \beta_{0} + \beta_{1}\mbox{(female)} + \beta_{2}\mbox{(income)} + \beta_{3}\mbox{(Very good)} 
++ \beta_{4}\mbox{(Good)} + \beta_{5}\mbox{(Fair)} + \beta_{6}\mbox{(Poor)}
+\]</span></p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">gh.mod &lt;-<span class="st"> </span><span class="kw">glm</span>(smoke <span class="op">~</span><span class="st"> </span>female_c <span class="op">+</span><span class="st"> </span>income <span class="op">+</span><span class="st"> </span>genhealth, <span class="dt">data=</span>addhealth, <span class="dt">family=</span><span class="st">&#39;binomial&#39;</span>)
+<span class="kw">summary</span>(gh.mod)</code></pre></div>
+<pre><code>## 
+## Call:
+## glm(formula = smoke ~ female_c + income + genhealth, family = &quot;binomial&quot;, 
+##     data = addhealth)
+## 
+## Deviance Residuals: 
+##     Min       1Q   Median       3Q      Max  
+## -1.7140  -1.3099   0.8081   0.9676   1.4121  
+## 
+## Coefficients:
+##                      Estimate Std. Error z value Pr(&gt;|z|)    
+## (Intercept)         7.619e-01  1.070e-01   7.124 1.05e-12 ***
+## female_cFemale     -6.154e-01  6.995e-02  -8.798  &lt; 2e-16 ***
+## income             -2.895e-06  1.404e-06  -2.062   0.0392 *  
+## genhealthVery good  2.320e-01  9.157e-02   2.534   0.0113 *  
+## genhealthGood       4.446e-01  9.737e-02   4.565 4.98e-06 ***
+## genhealthFair       3.723e-01  1.532e-01   2.431   0.0151 *  
+## genhealthPoor       5.481e-01  4.356e-01   1.258   0.2083    
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## (Dispersion parameter for binomial family taken to be 1)
+## 
+##     Null deviance: 4974.7  on 3814  degrees of freedom
+## Residual deviance: 4874.2  on 3808  degrees of freedom
+##   (2689 observations deleted due to missingness)
+## AIC: 4888.2
+## 
+## Number of Fisher Scoring iterations: 4</code></pre>
+<ul>
+<li><span class="math inline">\(b_{3}\)</span>: Those reporting very good health have <code>exp(.23)=1.25</code> higher odds of smoking compared to those in excellent health.</li>
+<li><span class="math inline">\(b_{4}\)</span>: Those reporting good health have <code>exp(.44)=1.55</code> higher odds of smoking compared to those in excellent health.</li>
+<li><span class="math inline">\(b_{5}\)</span>: Those reporting fair health have <code>exp(.37)=1.45</code> higher odds of smoking compared to those in excellent health.</li>
+<li><span class="math inline">\(b_{6}\)</span>: Those reporting poor health do not have significantly different odds of smoking compared to those in excellent health.</li>
+</ul>
+<p>To test if general health overall is associated with the likelihood of smoking, we need to test the hypothesis <span class="math inline">\(H_{0}: \beta_{3}=\beta_{4}=\beta_{5}=\beta_{6}=0\)</span> versions <span class="math inline">\(H_{A}\)</span>: at least one is not zero.</p>
+<p>We do this by using a <strong>Wald Test</strong>. This can be done in R by using the <code>regTermTest()</code> function in the <code>survey</code> package.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(survey)
+<span class="kw">regTermTest</span>(gh.mod, <span class="st">&quot;genhealth&quot;</span>)</code></pre></div>
+<pre><code>## Wald test for genhealth
+##  in glm(formula = smoke ~ female_c + income + genhealth, family = &quot;binomial&quot;, 
+##     data = addhealth)
+## F =  5.541973  on  4  and  3808  df: p= 0.00019062</code></pre>
+<p>The Wald test has a low p-value of 0.0002, thus general health overall is significantly associated with the probability of lifetime smoking.</p>
+</div>
+<div id="example-2-blood-pressure" class="section level4">
+<h4>Example 2: Blood pressure</h4>
+<p>Another example where we are testing blood pressure class (<code>bp_class</code>). our model is now <span class="math display">\[
+logit(Y) = \beta_{0} + \beta_{1}\mbox{(female)} + \beta_{2}\mbox{(income)} + \beta_{3}\mbox{(Pre-HTN)} 
++ \beta_{4}\mbox{(HTN-I)} + \beta_{5}\mbox{(HTN-II)}
+\]</span></p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">bp.mod &lt;-<span class="st"> </span><span class="kw">glm</span>(smoke <span class="op">~</span><span class="st"> </span>female_c <span class="op">+</span><span class="st"> </span>income <span class="op">+</span><span class="st"> </span>bp_class, <span class="dt">data=</span>addhealth, <span class="dt">family=</span><span class="st">&#39;binomial&#39;</span>)
+<span class="kw">summary</span>(bp.mod)</code></pre></div>
+<pre><code>## 
+## Call:
+## glm(formula = smoke ~ female_c + income + bp_class, family = &quot;binomial&quot;, 
+##     data = addhealth)
+## 
+## Deviance Residuals: 
+##     Min       1Q   Median       3Q      Max  
+## -1.6549  -1.3144   0.8072   1.0118   1.3630  
+## 
+## Coefficients:
+##                   Estimate Std. Error z value Pr(&gt;|z|)    
+## (Intercept)      1.046e+00  1.064e-01   9.836  &lt; 2e-16 ***
+## female_cFemale  -6.182e-01  7.617e-02  -8.117  4.8e-16 ***
+## income          -3.929e-06  1.411e-06  -2.785  0.00535 ** 
+## bp_classPre-HTN  7.289e-02  8.206e-02   0.888  0.37446    
+## bp_classHTN-I   -2.072e-02  1.093e-01  -0.190  0.84968    
+## bp_classHTN-II   2.736e-02  1.888e-01   0.145  0.88476    
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## (Dispersion parameter for binomial family taken to be 1)
+## 
+##     Null deviance: 4852.8  on 3728  degrees of freedom
+## Residual deviance: 4769.5  on 3723  degrees of freedom
+##   (2775 observations deleted due to missingness)
+## AIC: 4781.5
+## 
+## Number of Fisher Scoring iterations: 4</code></pre>
+<p>It is unlikely that blood pressure is associated with smoking status, all groups are not statistically significantly different from the reference group (all p-values are large). Let’s test that hypothesis formally using a Wald Test.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">regTermTest</span>(bp.mod, <span class="st">&quot;bp_class&quot;</span>)</code></pre></div>
+<pre><code>## Wald test for bp_class
+##  in glm(formula = smoke ~ female_c + income + bp_class, family = &quot;binomial&quot;, 
+##     data = addhealth)
+## F =  0.428004  on  3  and  3723  df: p= 0.73294</code></pre>
+<p>The Wald Test has a large p-value of 0.73, thus blood pressure classification is not associated with smoking status.</p>
+<hr />
+</div>
+</div>
+</div>
+<div id="friday-open-work-time" class="section level1">
+<h1>Friday: Open work time</h1>
+<p>Goals:</p>
+<ul>
+<li>Finish the Regression Assignment</li>
+<li>Finish poster prep stage III</li>
+</ul>
+<p>In class:</p>
+<ul>
+<li>Check for potential moderators, confounders.</li>
+<li>Check your grade from poster prep I &amp; II</li>
+<li>Review any suggestions that are pending (from me or others) in your slides, or in the returned assignment.</li>
+</ul>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

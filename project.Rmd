@@ -111,9 +111,10 @@ Refer to the [Bivariate Inference](hw/Bivariate_Inference.html) assignment on ho
 
 Slide 12-13:  Multivariate Analysis
 Build a multivariable model to explain your outcome variable. 
-    * Test for moderators, and confounders
-    * Add other necessary covariates to controll for. 
-    * Assess the relationship between your explanatory and response variable after controlling for other measures. 
+
+* Test for moderators, and confounders
+* Add other necessary covariates to controll for. 
+* Assess the relationship between your explanatory and response variable after controlling for other measures. 
 
 * Moderation:
     - If you found a moderator: Remove the bivariate graph and write up from your poster and replace with explanation of moderator and graph of significant bivariate at the 3rd variable level.

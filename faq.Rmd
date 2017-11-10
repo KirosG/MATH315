@@ -14,6 +14,15 @@ _page in development_
 * Cookbook for R http://www.cookbook-r.com/
 * R Examples repository http://dwoll.de/rexrepos/index.html 
 
+### [R Cheat Sheets](https://www.rstudio.com/resources/cheatsheets/)
+* [R Studio](https://github.com/rstudio/cheatsheets/raw/master/rstudio-ide.pdf)
+* [R Markdown](https://github.com/rstudio/cheatsheets/raw/master/rmarkdown-2.0.pdf)
+    - Another reference [[guide]](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
+* [Base R](http://github.com/rstudio/cheatsheets/raw/master/base-r.pdf)
+* [Data Transformation using dplyr](https://github.com/rstudio/cheatsheets/raw/master/data-transformation.pdf)
+* [Data Visualization using ggplot](https://github.com/rstudio/cheatsheets/raw/master/data-visualization-2.1.pdf)
+
+Translations into non-English languages are available. See [main cheatsheet page](https://www.rstudio.com/resources/cheatsheets/). 
 
 ### In Person: 
 
@@ -37,7 +46,7 @@ _page in development_
     - available for personal tutoring, including weekends
 * **Math Learning Lab (MLIB 4th floor)** [[Tutor Schedule]](https://docs.google.com/spreadsheets/d/1xNQMfxpnIiS5bUCS9jB2_EE1Sc4C06JRaw6jyEO3nVE/edit#gid=0)
     - Mariby Cruz, Mitch Borgert, Matt Sterkel, Jerry Tucay
-
+* **[R Meetup group](https://www.meetup.com/Chico-R-Users-Group)** Coding over coffee (or adult beverages) anyone? 
 
 ### PDS Helpful files for programming in R. 
 
