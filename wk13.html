@@ -26,49 +26,6 @@
 <link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
 
 
-<style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-div.sourceCode { overflow-x: auto; }
-table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
-  margin: 0; padding: 0; vertical-align: baseline; border: none; }
-table.sourceCode { width: 100%; line-height: 100%; background-color: #f8f8f8; }
-td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
-td.sourceCode { padding-left: 5px; }
-pre, code { background-color: #f8f8f8; }
-code > span.kw { color: #204a87; font-weight: bold; } /* Keyword */
-code > span.dt { color: #204a87; } /* DataType */
-code > span.dv { color: #0000cf; } /* DecVal */
-code > span.bn { color: #0000cf; } /* BaseN */
-code > span.fl { color: #0000cf; } /* Float */
-code > span.ch { color: #4e9a06; } /* Char */
-code > span.st { color: #4e9a06; } /* String */
-code > span.co { color: #8f5902; font-style: italic; } /* Comment */
-code > span.ot { color: #8f5902; } /* Other */
-code > span.al { color: #ef2929; } /* Alert */
-code > span.fu { color: #000000; } /* Function */
-code > span.er { color: #a40000; font-weight: bold; } /* Error */
-code > span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
-code > span.cn { color: #000000; } /* Constant */
-code > span.sc { color: #000000; } /* SpecialChar */
-code > span.vs { color: #4e9a06; } /* VerbatimString */
-code > span.ss { color: #4e9a06; } /* SpecialString */
-code > span.im { } /* Import */
-code > span.va { color: #000000; } /* Variable */
-code > span.cf { color: #204a87; font-weight: bold; } /* ControlFlow */
-code > span.op { color: #ce5c00; font-weight: bold; } /* Operator */
-code > span.pp { color: #8f5902; font-style: italic; } /* Preprocessor */
-code > span.ex { } /* Extension */
-code > span.at { color: #c4a000; } /* Attribute */
-code > span.do { color: #8f5902; font-weight: bold; font-style: italic; } /* Documentation */
-code > span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
-code > span.cv { color: #8f5902; font-weight: bold; font-style: italic; } /* CommentVar */
-code > span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Information */
-</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 
 
 <style type="text/css">
@@ -364,7 +321,7 @@ div.tocify {
 
 
 <h1 class="title toc-ignore">Week 13 11/3 - 11/17</h1>
-<h4 class="date"><em>Last Updated 2017-11-10 10:16:41</em></h4>
+<h4 class="date"><em>Last Updated 2017-11-13 22:48:51</em></h4>
 
 </div>
 
@@ -412,118 +369,15 @@ div.tocify {
 <ul>
 <li>Install the <code>survey</code> package.</li>
 <li>Read Open Intro 8.2: Model Selection</li>
+<li>Review the notes on Variable Selection <a href="docs/lec09_VarSelect.html">[HTML]</a> <a href="docs/lec09_VarSelect.pdf">[PDF]</a></li>
 </ul>
 </div>
-<div id="notes" class="section level3">
-<h3>Notes:</h3>
+<div id="in-class-1" class="section level2">
+<h2>In class</h2>
 <ul>
-<li><span class="math inline">\(R^{2}\)</span>: <a href="https://en.wikipedia.org/wiki/Coefficient_of_determination">Coefficient of Determiniation</a>. The proportion of variance in <span class="math inline">\(Y\)</span> explained by the model.
-<ul>
-<li>For use with Linear Regression only.</li>
-<li>A higher <span class="math inline">\(R^{2}\)</span> is better.</li>
-<li>Will always increase with the number of variable in the model, so an <em>Adjusted <span class="math inline">\(R^{2}\)</span></em> must be used.</li>
-</ul></li>
-<li><a href="https://en.wikipedia.org/wiki/Wald_test">Wald test</a>. A method of testing the sigificance of categorical predictors.</li>
+<li>Short Lecture</li>
 </ul>
-<div id="example-1" class="section level4">
-<h4>Example 1</h4>
-<p>Consider a logistic model on smoking status (0= never smoked, 1=has smoked) using gender, income, and general health as predictors.</p>
-<p><span class="math display">\[
-logit(Y) = \beta_{0} + \beta_{1}\mbox{(female)} + \beta_{2}\mbox{(income)} + \beta_{3}\mbox{(Very good)} 
-+ \beta_{4}\mbox{(Good)} + \beta_{5}\mbox{(Fair)} + \beta_{6}\mbox{(Poor)}
-\]</span></p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">gh.mod &lt;-<span class="st"> </span><span class="kw">glm</span>(smoke <span class="op">~</span><span class="st"> </span>female_c <span class="op">+</span><span class="st"> </span>income <span class="op">+</span><span class="st"> </span>genhealth, <span class="dt">data=</span>addhealth, <span class="dt">family=</span><span class="st">&#39;binomial&#39;</span>)
-<span class="kw">summary</span>(gh.mod)</code></pre></div>
-<pre><code>## 
-## Call:
-## glm(formula = smoke ~ female_c + income + genhealth, family = &quot;binomial&quot;, 
-##     data = addhealth)
-## 
-## Deviance Residuals: 
-##     Min       1Q   Median       3Q      Max  
-## -1.7140  -1.3099   0.8081   0.9676   1.4121  
-## 
-## Coefficients:
-##                      Estimate Std. Error z value Pr(&gt;|z|)    
-## (Intercept)         7.619e-01  1.070e-01   7.124 1.05e-12 ***
-## female_cFemale     -6.154e-01  6.995e-02  -8.798  &lt; 2e-16 ***
-## income             -2.895e-06  1.404e-06  -2.062   0.0392 *  
-## genhealthVery good  2.320e-01  9.157e-02   2.534   0.0113 *  
-## genhealthGood       4.446e-01  9.737e-02   4.565 4.98e-06 ***
-## genhealthFair       3.723e-01  1.532e-01   2.431   0.0151 *  
-## genhealthPoor       5.481e-01  4.356e-01   1.258   0.2083    
-## ---
-## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
-## 
-## (Dispersion parameter for binomial family taken to be 1)
-## 
-##     Null deviance: 4974.7  on 3814  degrees of freedom
-## Residual deviance: 4874.2  on 3808  degrees of freedom
-##   (2689 observations deleted due to missingness)
-## AIC: 4888.2
-## 
-## Number of Fisher Scoring iterations: 4</code></pre>
-<ul>
-<li><span class="math inline">\(b_{3}\)</span>: Those reporting very good health have <code>exp(.23)=1.25</code> higher odds of smoking compared to those in excellent health.</li>
-<li><span class="math inline">\(b_{4}\)</span>: Those reporting good health have <code>exp(.44)=1.55</code> higher odds of smoking compared to those in excellent health.</li>
-<li><span class="math inline">\(b_{5}\)</span>: Those reporting fair health have <code>exp(.37)=1.45</code> higher odds of smoking compared to those in excellent health.</li>
-<li><span class="math inline">\(b_{6}\)</span>: Those reporting poor health do not have significantly different odds of smoking compared to those in excellent health.</li>
-</ul>
-<p>To test if general health overall is associated with the likelihood of smoking, we need to test the hypothesis <span class="math inline">\(H_{0}: \beta_{3}=\beta_{4}=\beta_{5}=\beta_{6}=0\)</span> versions <span class="math inline">\(H_{A}\)</span>: at least one is not zero.</p>
-<p>We do this by using a <strong>Wald Test</strong>. This can be done in R by using the <code>regTermTest()</code> function in the <code>survey</code> package.</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(survey)
-<span class="kw">regTermTest</span>(gh.mod, <span class="st">&quot;genhealth&quot;</span>)</code></pre></div>
-<pre><code>## Wald test for genhealth
-##  in glm(formula = smoke ~ female_c + income + genhealth, family = &quot;binomial&quot;, 
-##     data = addhealth)
-## F =  5.541973  on  4  and  3808  df: p= 0.00019062</code></pre>
-<p>The Wald test has a low p-value of 0.0002, thus general health overall is significantly associated with the probability of lifetime smoking.</p>
-</div>
-<div id="example-2-blood-pressure" class="section level4">
-<h4>Example 2: Blood pressure</h4>
-<p>Another example where we are testing blood pressure class (<code>bp_class</code>). our model is now <span class="math display">\[
-logit(Y) = \beta_{0} + \beta_{1}\mbox{(female)} + \beta_{2}\mbox{(income)} + \beta_{3}\mbox{(Pre-HTN)} 
-+ \beta_{4}\mbox{(HTN-I)} + \beta_{5}\mbox{(HTN-II)}
-\]</span></p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">bp.mod &lt;-<span class="st"> </span><span class="kw">glm</span>(smoke <span class="op">~</span><span class="st"> </span>female_c <span class="op">+</span><span class="st"> </span>income <span class="op">+</span><span class="st"> </span>bp_class, <span class="dt">data=</span>addhealth, <span class="dt">family=</span><span class="st">&#39;binomial&#39;</span>)
-<span class="kw">summary</span>(bp.mod)</code></pre></div>
-<pre><code>## 
-## Call:
-## glm(formula = smoke ~ female_c + income + bp_class, family = &quot;binomial&quot;, 
-##     data = addhealth)
-## 
-## Deviance Residuals: 
-##     Min       1Q   Median       3Q      Max  
-## -1.6549  -1.3144   0.8072   1.0118   1.3630  
-## 
-## Coefficients:
-##                   Estimate Std. Error z value Pr(&gt;|z|)    
-## (Intercept)      1.046e+00  1.064e-01   9.836  &lt; 2e-16 ***
-## female_cFemale  -6.182e-01  7.617e-02  -8.117  4.8e-16 ***
-## income          -3.929e-06  1.411e-06  -2.785  0.00535 ** 
-## bp_classPre-HTN  7.289e-02  8.206e-02   0.888  0.37446    
-## bp_classHTN-I   -2.072e-02  1.093e-01  -0.190  0.84968    
-## bp_classHTN-II   2.736e-02  1.888e-01   0.145  0.88476    
-## ---
-## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
-## 
-## (Dispersion parameter for binomial family taken to be 1)
-## 
-##     Null deviance: 4852.8  on 3728  degrees of freedom
-## Residual deviance: 4769.5  on 3723  degrees of freedom
-##   (2775 observations deleted due to missingness)
-## AIC: 4781.5
-## 
-## Number of Fisher Scoring iterations: 4</code></pre>
-<p>It is unlikely that blood pressure is associated with smoking status, all groups are not statistically significantly different from the reference group (all p-values are large). Let’s test that hypothesis formally using a Wald Test.</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">regTermTest</span>(bp.mod, <span class="st">&quot;bp_class&quot;</span>)</code></pre></div>
-<pre><code>## Wald test for bp_class
-##  in glm(formula = smoke ~ female_c + income + bp_class, family = &quot;binomial&quot;, 
-##     data = addhealth)
-## F =  0.428004  on  3  and  3723  df: p= 0.73294</code></pre>
-<p>The Wald Test has a large p-value of 0.73, thus blood pressure classification is not associated with smoking status.</p>
 <hr />
-</div>
 </div>
 </div>
 <div id="friday-open-work-time" class="section level1">

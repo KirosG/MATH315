@@ -48,70 +48,10 @@ Goals:
 ### Prepare: 
 * Install the `survey` package. 
 * Read Open Intro 8.2: Model Selection
+* Review the notes on Variable Selection [[HTML]](docs/lec09_VarSelect.html) [[PDF]](docs/lec09_VarSelect.pdf)
 
-```{r, echo=FALSE}
-load("J:/MATH315/Project/addhealth_clean.Rdata")
-addhealth$smoke <- ifelse(addhealth$eversmoke_c=="Smoker", 1, 0)
-```
-
-### Notes:
-
-* $R^{2}$: [Coefficient of Determiniation](https://en.wikipedia.org/wiki/Coefficient_of_determination). The proportion of variance in $Y$ explained by the model. 
-    - For use with Linear Regression only. 
-    - A higher $R^{2}$ is better. 
-    - Will always increase with the number of variable in the model, so an _Adjusted $R^{2}$_ must be used. 
-
-* [Wald test](https://en.wikipedia.org/wiki/Wald_test). A method of testing the sigificance of categorical predictors. 
-
-#### Example 1
-Consider a logistic model on smoking status (0= never smoked, 1=has smoked) using gender, income, and general health as predictors. 
-
-$$
-logit(Y) = \beta_{0} + \beta_{1}\mbox{(female)} + \beta_{2}\mbox{(income)} + \beta_{3}\mbox{(Very good)} 
-+ \beta_{4}\mbox{(Good)} + \beta_{5}\mbox{(Fair)} + \beta_{6}\mbox{(Poor)}
-$$
-
-```{r}
-gh.mod <- glm(smoke ~ female_c + income + genhealth, data=addhealth, family='binomial')
-summary(gh.mod)
-```
-
-* $b_{3}$: Those reporting very good health have `exp(.23)=1.25` higher odds of smoking compared to those in excellent health. 
-* $b_{4}$: Those reporting good health have `exp(.44)=1.55` higher odds of smoking compared to those in excellent health. 
-* $b_{5}$: Those reporting fair health have `exp(.37)=1.45` higher odds of smoking compared to those in excellent health. 
-* $b_{6}$: Those reporting poor health do not have significantly different odds of smoking compared to those in excellent health. 
-
-To test if general health overall is associated with the likelihood of smoking, we need to test the hypothesis
-$H_{0}: \beta_{3}=\beta_{4}=\beta_{5}=\beta_{6}=0$ versions $H_{A}$: at least one is not zero. 
-
-We do this by using a **Wald Test**. This can be done in R by using the `regTermTest()` function in the `survey` package. 
-
-```{r}
-library(survey)
-regTermTest(gh.mod, "genhealth")
-```
-The Wald test has a low p-value of 0.0002, thus general health overall is significantly associated with the probability of lifetime smoking. 
-
-#### Example 2: Blood pressure
-Another example where we are testing blood pressure class (`bp_class`). our model is now
-$$
-logit(Y) = \beta_{0} + \beta_{1}\mbox{(female)} + \beta_{2}\mbox{(income)} + \beta_{3}\mbox{(Pre-HTN)} 
-+ \beta_{4}\mbox{(HTN-I)} + \beta_{5}\mbox{(HTN-II)}
-$$
-
-```{r}
-bp.mod <- glm(smoke ~ female_c + income + bp_class, data=addhealth, family='binomial')
-summary(bp.mod)
-```
-
-It is unlikely that blood pressure is associated with smoking status, all groups are not statistically significantly different from the reference group (all p-values are large). Let's test that hypothesis formally using a Wald Test. 
-
-```{r}
-regTermTest(bp.mod, "bp_class")
-```
-
-The Wald Test has a large p-value of 0.73, thus blood pressure classification is not associated with smoking status. 
-
+## In class
+* Short Lecture 
 
 ----
 
