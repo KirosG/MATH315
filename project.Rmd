@@ -155,9 +155,15 @@ Slide 16. References
 
 Poster Drafts and Final posters will be linked here. 
 
-## Poster Drafts for Review
+<button data-toggle="collapse" data-target="#draft">Show/Hide Drafts for Review</button>
+<div id="draft" class="collapse">
 
+</div>
 
-## Final posters for Review
+<button data-toggle="collapse" data-target="#final">Show/Hide Final Versions</button>
+<div id="final" class="collapse">
+
+</div>
+
 
 

@@ -320,29 +320,34 @@ div.tocify {
 
 
 <h1 class="title toc-ignore">Analysis Poster Guidelines</h1>
-<h4 class="date"><em>Last Updated 2017-11-04 15:10:18</em></h4>
+<h4 class="date"><em>Last Updated 2017-11-25 23:32:33</em></h4>
 
 </div>
 
 
+<div id="evaluation-rubric" class="section level1">
+<h1>Evaluation Rubric</h1>
+<p>If you are a part of my class then rest assured your poster will be evaluated by me, and the rest of the class. <a href="">Here</a> is the grading rubric that I use.</p>
+</div>
 <div id="structure" class="section level1">
 <h1>Structure</h1>
 <div id="template" class="section level3">
 <h3>Template</h3>
 <ul>
-<li>Build your poster using a powerpoint template, not Google Slides.</li>
+<li>Build your poster using a <a href="http://www.posterpresentations.com/html/free_poster_templates.html">powerpoint template</a>, not Google Slides.
+<ul>
+<li>Do not do a trifold tabletop template.</li>
+</ul></li>
 <li>Choose either a three, or four column layout.</li>
-<li>Find out how large of a poster you need to have and make sure</li>
+<li>Choose the correct scaling.</li>
+<li>Biology Student Research Symposium <a href="https://www.csuchico.edu/biol/research/student_research_symp.shtml">[website]</a> - Additional templates and guidelines included.</li>
 </ul>
 </div>
 <div id="sections" class="section level3">
 <h3>Sections</h3>
 <ol style="list-style-type: decimal">
 <li>Abstract/introduction</li>
-<li>Sample characteristics
-<ul>
-<li>Table 1</li>
-</ul></li>
+<li>Sample characteristics</li>
 <li>Analysis methods</li>
 <li>Results</li>
 <li>Conclusions/discussion</li>
@@ -355,14 +360,28 @@ div.tocify {
 <h1>Aestetics</h1>
 <div id="font-size" class="section level3">
 <h3>Font size</h3>
+<ul>
+<li>Readable from 10 feet</li>
+</ul>
 </div>
 <div id="graphics" class="section level3">
 <h3>Graphics</h3>
+<ul>
+<li>Not copy/paste from R, it won’t scale up well.
+<ul>
+<li>Finalize the plot, then save it to disk</li>
+<li>Save the file larger rather than smaller, then manually shrink down in PPT</li>
+<li>Specify height and width in inches</li>
+</ul></li>
+</ul>
+<pre><code>postscript(&quot;filename.eps&quot;, width=5, height=3) # open the graphics device.
+plot(iris$Species) # your plot goes here
+dev.off() # this closes the graphics device</code></pre>
 </div>
 <div id="tables" class="section level3">
 <h3>Tables</h3>
 <ul>
-<li>Build them in Excel, or powerpoint tables directly</li>
+<li>Build them in Excel, or PowerPoint tables directly</li>
 </ul>
 </div>
 <div id="colors" class="section level3">
@@ -379,12 +398,16 @@ div.tocify {
 <div id="printing" class="section level1">
 <h1>Printing</h1>
 <ul>
-<li>Don’t spend a fortune!</li>
+<li>Don’t spend a fortune! (i.e. don’t go to Kinko’s on Mangrove and spend $90)</li>
+<li>Metagraphcs $50 36x48 –still pricey</li>
+<li>Ellis Art (downtown and on Esplanade) $30</li>
+<li>Staples ($65)</li>
+<li>Kinko’s downtown, B&amp;W $10</li>
 </ul>
 </div>
 <div id="examples" class="section level1">
 <h1>Examples</h1>
-<p>Here are a few posters from previous years, chosen for their quality of content or appearance.</p>
+<p>Here are <a href="https://norcalbiostat.github.io/peer_review/Example_Posters.html">a few example posters</a> with comments from various locations.</p>
 </div>
 
 

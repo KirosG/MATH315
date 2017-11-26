@@ -3,6 +3,10 @@ This is the landing page for <span style="color:blue">**Applied Statistical Meth
 
 # Announcements
 
+### 11/27/17 - [Week 14](https://norcalbiostat.github.io/MATH315/wk14.html)
+* Poster building week! See [these guidelines] for creation
+* 
+
 ### 11/13/17 - [Week 13](https://norcalbiostat.github.io/MATH315/wk13.html)
 * RAT on Logistic Regression - Monday
     - Review the last part of PDS Video 17
