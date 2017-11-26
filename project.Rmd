@@ -177,19 +177,23 @@ Slide 16. **References**
 ## Draft version
 * This draft is graded on how complete the poster is. You should consider this a draft that you would circulate to your colleagues for final review and comments. 
 * Use the [evaluation criteria](https://norcalbiostat.netlify.com/lec/poster_guidelines/#evaluation-criteria) as a guide for what I am looking for.  
-* **Submit your poster** to [this Dropbox folder](https://www.dropbox.com/request/7pWvRwRGM1wRqCAl3jCB). 
-* **Peer Review** [Assignment list](https://docs.google.com/spreadsheets/d/17KyM74omyRXPa322ieiU0iv-hjiO7THhAD5TVkI1qgo/edit#gid=729121788)
+* **Submit your poster draft** to [this Dropbox folder](https://www.dropbox.com/request/7pWvRwRGM1wRqCAl3jCB). 
+* **Peer Review**
+    - Download your [Assigned](https://docs.google.com/spreadsheets/d/17KyM74omyRXPa322ieiU0iv-hjiO7THhAD5TVkI1qgo/edit#gid=729121788) poster to review. <button data-toggle="collapse" data-target="#draft">Show/Hide Drafts for Review</button> 
     - Write the comments directly into the poster file itself. 
     - provide at least two specific comments for each
         - something that can be improved
         - something that is good
+    - Save this file with your initials at the end of the file name. 
+* **Upload your revision** to [this Google folder](https://drive.google.com/drive/folders/1_CWqJt0L9QUguxWwcaNaH84ctkLTQlS7?usp=sharing). 
 
-<button data-toggle="collapse" data-target="#draft">Show/Hide Drafts for Review</button>
+
 <div id="draft" class="collapse">
+### Poster drafts to review. 
 
-### MATH 315-01 (12pm)
+#### MATH 315-01 (12pm)
 
-### MATH 315-02 (10am)
+#### MATH 315-02 (10am)
 
 </div>
 
