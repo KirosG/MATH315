@@ -31,25 +31,39 @@ Each team's research questions are posted on the first two sheets of [[THIS GOOG
 * All reviews are public. A link will be included to view the review responses. 
 * After the review deadline has passed each team should go examine the reviews they recieved and talk with the reviewer group for clarification if necessary. 
 
+<!---Univariate--->
+<button data-toggle="collapse" data-target="#univ">Show/Hide Univariate Graphics review links</button>
+<div id="univ" class="collapse">
 
-## Univariate Graphics
 * [Assignments ready for review](https://norcalbiostat.github.io/peer_review/univ_graphics.html)
 * [Peer Review Form](https://goo.gl/forms/P3aDmgvWxd91L8022)
 * [Review Response Spreadsheet](https://docs.google.com/spreadsheets/d/1DqUSzcmMqBvOuSgWEy61th8Y7aBVQYcsT8_aaquNpWg/edit?usp=sharing). 
     - Use column filters to more easily find your team's reviews. 
     - These are highlighted green. 
+</div>
 
-## Bivariate Graphics
+<br>
+<!---Bivariate--->
+<button data-toggle="collapse" data-target="#biv">Show/Hide Bivariate Graphics review links</button>
+<div id="biv" class="collapse">
+
 * [Assignments ready for review](https://norcalbiostat.github.io/peer_review/biv_graphics.html)
 * [Peer Review Form](https://goo.gl/forms/2OxIQAcFIuPYotNC2)
 * [Summary of responses](https://docs.google.com/forms/d/e/1FAIpQLSdsWFU-T-UF7MKRGxh4t89uFa7TZJFB9oawVsChFwcea0Wjzg/viewanalytics). This is a diferent view from last time. You should be able to see common themes in recommendations this way.  
- 
- 
-## Other shared completed assignments
+
+</div> 
+
+<br>
+<!---Other--->
+<button data-toggle="collapse" data-target="#oth">Show/Hide other shared assignments</button>
+<div id="oth" class="collapse">
+
 * [Bivariate Inference](https://drive.google.com/drive/folders/0B83Z8_sNw3KPWGQxU1FsNm1DcG8?usp=sharing)   
 * [Moderation](https://drive.google.com/drive/folders/0B83Z8_sNw3KPU3dsamgwOWVHVzg?usp=sharing)   
 * [Regression and Confounding](https://drive.google.com/drive/folders/0B83Z8_sNw3KPcFBabzNpNHFOdFU?usp=sharing)   
 * [Poster Prep Slides](https://drive.google.com/drive/folders/0B83Z8_sNw3KPUWFRdXo3WUdiNUk?usp=sharing)
+
+</div>
 
 ----
 
@@ -110,11 +124,10 @@ Refer to the [Bivariate Inference](hw/Bivariate_Inference.html) assignment on ho
 #### <span style="color:blue">**Stage 3**</span>
 
 Slide 12-13:  Multivariate Analysis
-Build a multivariable model to explain your outcome variable. 
 
-* Test for moderators, and confounders
-* Add other necessary covariates to controll for. 
-* Assess the relationship between your explanatory and response variable after controlling for other measures. 
+You are trying to understand the relationship between your explanatory and response variable, in presenece of information contained in other variables. 
+
+**Testing for moderators, and confounders**
 
 * Moderation:
     - If you found a moderator: Remove the bivariate graph and write up from your poster and replace with explanation of moderator and graph of significant bivariate at the 3rd variable level.
@@ -123,21 +136,30 @@ Build a multivariable model to explain your outcome variable.
     - If you found a confounder: on slide with bivariate relationship that was confounded put a bullet point that explains what variable confounded the relationship and put the written results that are shown in the confounding assignment on how to write results. Make sure to explain if it helped improve prediction of response variable. 
     - If you did NOT find a confounder: Include a slide stating what relationships you tested for confounds and with what variable to see if it was a confound, explaining that it was not a moderator. Make sure to explain if it helped improve prediction of response variable. 
 
+**Building a Multivariable Model**
 
-Slide 14. Discussion
+* If no confounders or modifiers were found, you should build a multivariable model. 
+* Include any third variables that were found to be significantly associated with the outcome (but not modifiers or confounders)
+* A table or a graphic of coefficients must be presented. 
+    - The `coefplot()` function in the `arm` package is an excellent way of displaying the results of a M model. Here is a [blog post on coefplot](https://druedin.com/2015/02/28/how-to-create-coefficient-plots-in-r-the-easy-way/), and [another one](https://www.r-bloggers.com/coefplot-new-package-for-plotting-model-coefficients/). It's pretty straightforward to create: `my.model <- lm(your model here)` then call `coefplot(my.model)`, 
+    - At least one coefficient, the primary explanatory variable, must be interpreted in context of the problem. 
+
+Slide 14. **Discussion**
 
 * Here you will explain what your graphical and inferential results tell you about your topic.
 * Discuss if your research hypothesis was supported, if it was not, why you think that might be
 * Explain the overall story/trend/what you learned when you consider your univariate, bivariate & multivariate results about your topic.
-* Compare your results to previous research results.
+* Compare your results to previous research results. Do they agree or disagree? 
 
-Slide 15. Implications
+Slide 15. **Implications**
 
 * What are the practical implications of your results?
+* What could others do with your findings? 
 * What future research needs to be conducted?
+    - This needs to be more specific than "other variables could be explored". Which variables and why? What other research articles indicate that those other variables are relevant? 
 
 
-Slide 16. References  
+Slide 16. **References**  
 
 * You can use smaller font to get all references on one slide.
 * Use references from research plan, and any additional references gathered along the way. 
@@ -146,22 +168,50 @@ Slide 16. References
 ----
 
 # Final Posters
-* During week 14 you will transfer all findings into a research poster. 
-* You will present your poster to half the class during dead week (week 15)
-*   - The day you are not presenting, you will be judging the other half of the class's posters. 
-* Use these [poster guidelines](poster_guidelines.html) to develop your poster. 
-* There will be one draft review process. 
+* You will transfer all findings into a research poster, and then present your research to your classmates. 
+    - The day you are not presenting, you will be judging the other half of the class's posters. 
+* All posters must be built in Powerpoint. No exceptions.
+* Use these [poster guidelines](https://norcalbiostat.netlify.com/lec/poster_guidelines/) to see templates and develop your poster.
 
 
-Poster Drafts and Final posters will be linked here. 
+## Draft version
+* This draft is graded on how complete the poster is. You should consider this a draft that you would circulate to your colleagues for final review and comments. 
+* Use the [evaluation criteria](https://norcalbiostat.netlify.com/lec/poster_guidelines/#evaluation-criteria) as a guide for what I am looking for.  
+* **Submit your poster** to [this Dropbox folder](https://www.dropbox.com/request/7pWvRwRGM1wRqCAl3jCB). 
+* **Peer Review** [Assignment list](https://docs.google.com/spreadsheets/d/17KyM74omyRXPa322ieiU0iv-hjiO7THhAD5TVkI1qgo/edit#gid=729121788)
+    - Write the comments directly into the poster file itself. 
+    - provide at least two specific comments for each
+        - something that can be improved
+        - something that is good
 
 <button data-toggle="collapse" data-target="#draft">Show/Hide Drafts for Review</button>
 <div id="draft" class="collapse">
 
+### MATH 315-01 (12pm)
+
+### MATH 315-02 (10am)
+
 </div>
+
+<br><br>
+
+## Final poster
+* Upload your final poster to [this Dropbox folder](https://www.dropbox.com/request/NtC88NHRbo5oIyRcSxoD). PDF preferred. PPTX ok.
+* Scoring will be done via [Google Forms](https://goo.gl/forms/QORgO0jjqNzp3T5i2). It looks exactly like the [evaluation criteria](https://norcalbiostat.netlify.com/lec/poster_guidelines/#evaluation-criteria).
+    - When not presenting, you will walk around and learn about others research. Ask them questions, fill out the evaluation on your phone as you go. Printed copies will be available upon request. 
+* The final grade will be determined by
+    - Base score = **30%** student score + **70%** instructor score **+ bonus pts** for best in show awards **- 1** point penalty for each day late. 
+    - Final score will be modified by your [team evaluation](https://goo.gl/forms/o7XsKk4C491jBuXk1) score. 
+        - If you did not contribute fully to the project, you do not get full credit. 
+        - i.e. 90-100% contribution = 100% of points, 80-90% contribution = 90% of points, 70-80% contribution = 80% of points, and so on. 
+    
 
 <button data-toggle="collapse" data-target="#final">Show/Hide Final Versions</button>
 <div id="final" class="collapse">
+
+### MATH 315-01 (12pm)
+
+### MATH 315-02 (10am)
 
 </div>
 

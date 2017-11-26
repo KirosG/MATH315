@@ -3,9 +3,11 @@ This is the landing page for <span style="color:blue">**Applied Statistical Meth
 
 # Announcements
 
-### 11/27/17 - [Week 14](https://norcalbiostat.github.io/MATH315/wk14.html)
-* Poster building week! See [these guidelines] for creation
-* 
+### 11/27/17 - Week 14
+* All Data Camp and Problem set Blackboard learn quizzes due this Friday. No extensions given. 
+* Poster building week! See the project page for instructions. 
+    - Drafts are due Wednesday, reviews due Friday
+    - Suggestions on how to make a nice plot for multivariable models has been added to the project page. 
 
 ### 11/13/17 - [Week 13](https://norcalbiostat.github.io/MATH315/wk13.html)
 * RAT on Logistic Regression - Monday
@@ -15,9 +17,8 @@ This is the landing page for <span style="color:blue">**Applied Statistical Meth
     - Read Open Intro 8.2: Model Selection
 * Friday Statistics Seminar. Extra credit opportunity. 
     - Robert Weiss, UCLA Biostatistics. 
-    - Talk on comparing the efficacy between two biologic compounds for FDA approval [[Abstract]]()
+    - Talk on comparing the efficacy between two biologic compounds for FDA approval
     - Friday 3:30, refreshments at 3, Holt 175. 
-
 * R Cheat sheets have been added to the FAQ page
 
 
