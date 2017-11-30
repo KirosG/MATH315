@@ -364,7 +364,7 @@ div.tocify {
 
 
 <h1 class="title toc-ignore">Project Information</h1>
-<h4 class="date"><em>Last Updated 2017-11-30 07:20:30</em></h4>
+<h4 class="date"><em>Last Updated 2017-11-30 07:27:18</em></h4>
 
 </div>
 
@@ -594,7 +594,7 @@ Show/Hide Drafts for Review
 <div id="draft" class="collapse">
 <h3 id="poster-drafts-to-review.">Poster drafts to review.</h3>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(stringr); <span class="kw">library</span>(dplyr)
-dta &lt;-<span class="st"> </span><span class="kw">data.frame</span>(<span class="dt">filenames =</span> <span class="kw">list.files</span>(<span class="st">&quot;PosterDraft/&quot;</span>))
+dta &lt;-<span class="st"> </span><span class="kw">data.frame</span>(<span class="dt">filenames =</span> <span class="kw">paste0</span>(<span class="st">&#39;PosterDraft/&#39;</span>, <span class="kw">list.files</span>(<span class="st">&quot;PosterDraft/&quot;</span>)))
 
 out &lt;-<span class="st"> </span>dta <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">mutate</span>(<span class="dt">sec=</span><span class="kw">str_extract</span>(filenames, <span class="st">&quot;[0-9]+&quot;</span>), 
                <span class="dt">name=</span><span class="kw">str_split_fixed</span>(filenames, <span class="st">&quot;_&quot;</span>, <span class="dv">2</span>)[,<span class="dv">1</span>], 
@@ -611,67 +611,67 @@ x =<span class="st"> </span><span class="kw">kable</span>(sec01, <span class="dt
 <tbody>
 <tr>
 <td style="text-align:left;">
-<a href="EstradaMatson_sec01.pptx">EstradaMatson</a>
+<a href="PosterDraft/EstradaMatson_sec01.pptx">PosterDraft/EstradaMatson</a>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-<a href="GomezPharn_sec01.ppt">GomezPharn</a>
+<a href="PosterDraft/GomezPharn_sec01.ppt">PosterDraft/GomezPharn</a>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-<a href="JusticeLeague_sec01.pptx">JusticeLeague</a>
+<a href="PosterDraft/JusticeLeague_sec01.pptx">PosterDraft/JusticeLeague</a>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-<a href="MataStrickland_sec01.ppt">MataStrickland</a>
+<a href="PosterDraft/MataStrickland_sec01.ppt">PosterDraft/MataStrickland</a>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-<a href="MyrickRizzo_sec01.pptx">MyrickRizzo</a>
+<a href="PosterDraft/MyrickRizzo_sec01.pptx">PosterDraft/MyrickRizzo</a>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-<a href="PaytonHurley_sec01.pptx">PaytonHurley</a>
+<a href="PosterDraft/PaytonHurley_sec01.pptx">PosterDraft/PaytonHurley</a>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-<a href="RatedR_sec01.pptx">RatedR</a>
+<a href="PosterDraft/RatedR_sec01.pptx">PosterDraft/RatedR</a>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-<a href="Remainders_sec01.pptx">Remainders</a>
+<a href="PosterDraft/Remainders_sec01.pptx">PosterDraft/Remainders</a>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-<a href="RynewiczMcNamara_sec01.pptx">RynewiczMcNamara</a>
+<a href="PosterDraft/RynewiczMcNamara_sec01.pptx">PosterDraft/RynewiczMcNamara</a>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-<a href="SelzerBrown_sec01.pptx">SelzerBrown</a>
+<a href="PosterDraft/SelzerBrown_sec01.pptx">PosterDraft/SelzerBrown</a>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-<a href="Shippen_Klemm_sec01.pptx">Shippen</a>
+<a href="PosterDraft/Shippen_Klemm_sec01.pptx">PosterDraft/Shippen</a>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-<a href="SilvaAngelonides_sec01.pptx">SilvaAngelonides</a>
+<a href="PosterDraft/SilvaAngelonides_sec01.pptx">PosterDraft/SilvaAngelonides</a>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-<a href="WhiteStroup_sec01.ppt">WhiteStroup</a>
+<a href="PosterDraft/WhiteStroup_sec01.ppt">PosterDraft/WhiteStroup</a>
 </td>
 </tr>
 </tbody>
@@ -686,106 +686,106 @@ x =<span class="st"> </span><span class="kw">kable</span>(sec02, <span class="dt
 <tbody>
 <tr>
 <td style="text-align:left;">
-BarajasThao
+PosterDraft/BarajasThao
 </td>
 <td style="text-align:left;">
-<a href="BarajasThao_sec02.pptx">BarajasThao</a>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-CouchTilton
-</td>
-<td style="text-align:left;">
-<a href="CouchTilton_sec02.pptx">CouchTilton</a>
+<a href="PosterDraft/BarajasThao_sec02.pptx">PosterDraft/BarajasThao</a>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-DhillonHennessey
+PosterDraft/CouchTilton
 </td>
 <td style="text-align:left;">
-<a href="DhillonHennessey_sec02.ppt">DhillonHennessey</a>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-DutraGleaton
-</td>
-<td style="text-align:left;">
-<a href="DutraGleaton_sec02.pptx">DutraGleaton</a>
+<a href="PosterDraft/CouchTilton_sec02.pptx">PosterDraft/CouchTilton</a>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-FloresTurner
+PosterDraft/DhillonHennessey
 </td>
 <td style="text-align:left;">
-<a href="FloresTurner_sec02.pptx">FloresTurner</a>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-KubirPerez
-</td>
-<td style="text-align:left;">
-<a href="KubirPerez_sec02.pptx">KubirPerez</a>
+<a href="PosterDraft/DhillonHennessey_sec02.ppt">PosterDraft/DhillonHennessey</a>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-LeeLee
+PosterDraft/DutraGleaton
 </td>
 <td style="text-align:left;">
-<a href="LeeLee_sec02.pptx">LeeLee</a>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-PossiblyMaybe
-</td>
-<td style="text-align:left;">
-<a href="PossiblyMaybe_sec02.pptx">PossiblyMaybe</a>
+<a href="PosterDraft/DutraGleaton_sec02.pptx">PosterDraft/DutraGleaton</a>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-PradoSterback
+PosterDraft/FloresTurner
 </td>
 <td style="text-align:left;">
-<a href="PradoSterback_sec02.pptx">PradoSterback</a>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-RodriguezMcColm
-</td>
-<td style="text-align:left;">
-<a href="RodriguezMcColm_sec02.ppt">RodriguezMcColm</a>
+<a href="PosterDraft/FloresTurner_sec02.pptx">PosterDraft/FloresTurner</a>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-RudyCoia
+PosterDraft/KubirPerez
 </td>
 <td style="text-align:left;">
-<a href="RudyCoia_sec02.pptx">RudyCoia</a>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-SimpsonStainton
-</td>
-<td style="text-align:left;">
-<a href="SimpsonStainton_sec02.pptx">SimpsonStainton</a>
+<a href="PosterDraft/KubirPerez_sec02.pptx">PosterDraft/KubirPerez</a>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Vindicators
+PosterDraft/LeeLee
 </td>
 <td style="text-align:left;">
-<a href="Vindicators_sec02.pptx">Vindicators</a>
+<a href="PosterDraft/LeeLee_sec02.pptx">PosterDraft/LeeLee</a>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+PosterDraft/PossiblyMaybe
+</td>
+<td style="text-align:left;">
+<a href="PosterDraft/PossiblyMaybe_sec02.pptx">PosterDraft/PossiblyMaybe</a>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+PosterDraft/PradoSterback
+</td>
+<td style="text-align:left;">
+<a href="PosterDraft/PradoSterback_sec02.pptx">PosterDraft/PradoSterback</a>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+PosterDraft/RodriguezMcColm
+</td>
+<td style="text-align:left;">
+<a href="PosterDraft/RodriguezMcColm_sec02.ppt">PosterDraft/RodriguezMcColm</a>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+PosterDraft/RudyCoia
+</td>
+<td style="text-align:left;">
+<a href="PosterDraft/RudyCoia_sec02.pptx">PosterDraft/RudyCoia</a>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+PosterDraft/SimpsonStainton
+</td>
+<td style="text-align:left;">
+<a href="PosterDraft/SimpsonStainton_sec02.pptx">PosterDraft/SimpsonStainton</a>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+PosterDraft/Vindicators
+</td>
+<td style="text-align:left;">
+<a href="PosterDraft/Vindicators_sec02.pptx">PosterDraft/Vindicators</a>
 </td>
 </tr>
 </tbody>

@@ -192,7 +192,7 @@ Slide 16. **References**
 ### Poster drafts to review. 
 ```{r, message=FALSE, warning=FALSE}
 library(stringr); library(dplyr)
-dta <- data.frame(filenames = list.files("PosterDraft/"))
+dta <- data.frame(filenames = paste0('PosterDraft/', list.files("PosterDraft/")))
 
 out <- dta %>% mutate(sec=str_extract(filenames, "[0-9]+"), 
                name=str_split_fixed(filenames, "_", 2)[,1], 
