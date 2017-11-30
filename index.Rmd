@@ -3,6 +3,15 @@ This is the landing page for <span style="color:blue">**Applied Statistical Meth
 
 # Announcements
 
+### 12/4/17 - Week 15
+* Fill out [This google form](https://goo.gl/forms/o3O43feULJFDGUun2) to provide input as to when I should hold OH during finals week. 
+* Poster presentations MW
+    - Your poster must be printed and ready for class on Monday. 
+    - We will randomly choose people to present on Monday, the rest will present on Wednesday. (I can hold your posters in my office until Wednesday.)
+    - Exam review on Friday. Be ready with questions on the **[practice final]()** by then. 
+* Build your own [exam questions](hw/roll_your_own.html) - **Due Wednesday**
+    
+
 ### 11/27/17 - Week 14
 * All Data Camp and Problem set Blackboard learn quizzes due this Friday. No extensions given. 
 * Poster building week! See the project page for instructions. 

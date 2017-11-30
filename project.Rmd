@@ -190,11 +190,36 @@ Slide 16. **References**
 
 <div id="draft" class="collapse">
 ### Poster drafts to review. 
+```{r, message=FALSE, warning=FALSE}
+library(stringr); library(dplyr)
+dta <- data.frame(filenames = list.files("PosterDraft/"))
+
+out <- dta %>% mutate(sec=str_extract(filenames, "[0-9]+"), 
+               name=str_split_fixed(filenames, "_", 2)[,1], 
+               link = sprintf("[%s](%s)",name, filenames))
+
+```
 
 #### MATH 315-01 (12pm)
+```{r, message=FALSE, warning=FALSE}
+library(knitr); library(kableExtra)
+
+sec01 <- filter(out, sec=="01") %>% select(link)
+x = kable(sec01, format="html") %>%
+    kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), 
+                  full_width=FALSE,  position = "left")
+gsub("<thead>.*</thead>", "", x)
+```
+
 
 #### MATH 315-02 (10am)
-
+```{r}
+sec02 <- filter(out, sec=="02") %>% select(name, link)
+x = kable(sec02, format="html") %>%
+    kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), 
+                  full_width=FALSE,  position = "left")
+gsub("<thead>.*</thead>", "", x)
+```
 </div>
 
 <br><br>
@@ -211,11 +236,17 @@ Slide 16. **References**
     
 
 <button data-toggle="collapse" data-target="#final">Show/Hide Final Versions</button>
+
 <div id="final" class="collapse">
 
 ### MATH 315-01 (12pm)
+```{r}
+
+```
+
 
 ### MATH 315-02 (10am)
+
 
 </div>
 

@@ -1,0 +1,72 @@
+---
+title: "Create your own exam question"
+output:
+  html_document:
+    highlight: tango
+    theme: cerulean
+css: ../css/customh5.css
+---
+
+# Instructions
+* This is an individual assignment. 
+* You are not allowed to use the example I am using in this example file
+* Upload the raw markdown file to Blackboard by the due date. 
+    - I will change the path to where my raw data is at, and compile your code. If it does not run, you get 0 credit. 
+
+## 1. Import the raw AddHealth data, load any necessary (and only necessary) libraries. 
+```{r}
+rawdata <- read.csv("E:/MATH315/Project/addHealth_Wave_IV.csv", header=TRUE)
+```
+
+## 2. Perform _the minimal amount_ of data management needed for this assignment.
+* Explain the variables you are using
+```{r}
+rawdata$female <- rawdata$BIO_SEX-1
+rawdata$female[rawdata$BIO_SEX==6] <- NA
+rawdata$BMI <- ifelse(rawdata$H4BMI < 100, rawdata$H4BMI, NA)
+```
+
+> For this assignment I am using the following variables
+> * `gender` as a binary variable with  0=Male and 1=Female
+> * `BMI` as a continuous variable
+
+## 3. Choose any bivariate or multivariate analysis that we have done in the last half of the class. 
+* Two sample T-test for a difference in means.
+* Two sample T-test for a difference in proportions.
+* ANOVA for a difference between many means.
+    - Consider following up a significant result with a post-hoc test. 
+* Chi-squared test for difference between many proportions.
+    - Consider following up a significant result with a post-hoc test. 
+* Correlation analysis
+* Linear regression analysis
+* Logistic regression analysis
+* Moderation Analysis
+* Confounding Analysis
+
+**1. Define your response and explanatory variable(s)**
+**2. State your research question**
+**3. State the statistical analysis procedure you will use **
+
+> 1. `BMI` is my continuous response variable, and `gender` is my categorical explanatory variable
+> 2. I am testing if the mean BMI is equal between males and females
+> 3. I will use a Two-sample t-test for a difference in means.
+
+## 4. Write the code to conduct this analysis. 
+```{r}
+t.test(BMI~gender, data=rawdata)
+```
+
+
+## 5. Write two multiple choice questions about this analysis. 
+* State which answer is correct
+* Expain why your answer is right, and your wrong answers are wrong. 
+* The questions should address an important concept, not something as trivial as "what's the p-value". 
+    - A good exam question tests for **comprehension, or interpretation, not recognition**. 
+* The questions should each have a single, clear, correct answer. 
+* Eliminate excessive verbiage or irrleevant information from the question. 
+
+> 1. 
+
+
+
+
