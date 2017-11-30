@@ -195,7 +195,8 @@ library(stringr); library(dplyr)
 dta <- data.frame(filenames = paste0('PosterDraft/', list.files("PosterDraft/")))
 
 out <- dta %>% mutate(sec=str_extract(filenames, "[0-9]+"), 
-               name=str_split_fixed(filenames, "_", 2)[,1], 
+               file=str_split_fixed(filenames, "_", 2)[,1],
+               name = gsub("PosterDraft/",  "", file), 
                link = sprintf("[%s](%s)",name, filenames))
 
 ```
