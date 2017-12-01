@@ -9,13 +9,16 @@ css: ../css/customh5.css
 
 # Instructions
 * This is an individual assignment. 
-* You are not allowed to use the example I am using in this example file
-* Upload the raw markdown file to Blackboard by the due date. 
-    - I will change the path to where my raw data is at, and compile your code. If it does not run, you get 0 credit. 
+* You are not allowed to use the example I am using in this example file. 
+* Upload the **raw markdown file** to Blackboard by the due date. 
+    - I will change the path to where my raw data is at, and compile your code. If it does not run, you get 0 credit.
+* Scored on a 0-5 scale, based on quality of question and answers. Half credit if you don't explain your answers. 
 
-## 1. Import the raw AddHealth data, load any necessary (and only necessary) libraries. 
+
+## 1. Import the raw AddHealth data.
+Include any _necessary_ libraries (i.e. `fiefer`)
 ```{r}
-rawdata <- read.csv("E:/MATH315/Project/addHealth_Wave_IV.csv", header=TRUE)
+rawdata <- read.csv("J:/MATH315/Project/addHealth_Wave_IV.csv", header=TRUE)
 ```
 
 ## 2. Perform _the minimal amount_ of data management needed for this assignment.
@@ -27,7 +30,8 @@ rawdata$BMI <- ifelse(rawdata$H4BMI < 100, rawdata$H4BMI, NA)
 ```
 
 > For this assignment I am using the following variables
-> * `gender` as a binary variable with  0=Male and 1=Female
+>
+> * `female` as a binary variable with  0=Male and 1=Female
 > * `BMI` as a continuous variable
 
 ## 3. Choose any bivariate or multivariate analysis that we have done in the last half of the class. 
@@ -43,30 +47,43 @@ rawdata$BMI <- ifelse(rawdata$H4BMI < 100, rawdata$H4BMI, NA)
 * Moderation Analysis
 * Confounding Analysis
 
-**1. Define your response and explanatory variable(s)**
-**2. State your research question**
-**3. State the statistical analysis procedure you will use **
+**1. Define your response and explanatory variable(s)**  
+**2. State your research question**  
+**3. State the statistical analysis procedure you will use **  
 
-> 1. `BMI` is my continuous response variable, and `gender` is my categorical explanatory variable
-> 2. I am testing if the mean BMI is equal between males and females
-> 3. I will use a Two-sample t-test for a difference in means.
+> 1. `BMI` is my continuous response variable, and `gender` is my categorical explanatory variable  
+> 2. I am testing if the mean BMI is equal between males and females  
+> 3. I will use a Two-sample t-test for a difference in means.  
 
 ## 4. Write the code to conduct this analysis. 
 ```{r}
-t.test(BMI~gender, data=rawdata)
+t.test(BMI~female, data=rawdata)
 ```
 
 
-## 5. Write two multiple choice questions about this analysis. 
+## 5. Write 1 multiple choice questions about this analysis. 
+* Write 1 correct response and 3 incorrect responses (4 choices total)
 * State which answer is correct
-* Expain why your answer is right, and your wrong answers are wrong. 
+* Explain why your correct answer is correct, and your wrong answers are wrong. 
 * The questions should address an important concept, not something as trivial as "what's the p-value". 
     - A good exam question tests for **comprehension, or interpretation, not recognition**. 
 * The questions should each have a single, clear, correct answer. 
-* Eliminate excessive verbiage or irrleevant information from the question. 
+* Eliminate excessive verbiage or irrelevant information from the question. 
 
-> 1. 
+> **Choose the correct interpretation of this analysis**  
+> 
+> * A) On average females may have lower BMI compared to males (p=.06).  
+> * B) Females have, on average, 0.4 greater BMI compared to males (29.3 vs 28.9, 95% CI for the difference -0.8, 0.2).  
+> * C) The average BMI significantly differs between males and females because the confidence interval for the differenc covers 0.   
+> * D) I can be 95% confident that the average BMI for males compared to females is (28.9, 29.3).   
 
+
+Answers
+
+> * A) Incorrect. Females are group 1, which has a higher BMI than males in group 0  
+> * B) Correct. The difference in means is 0.4, the direction is correct, and the 95% Interval was reported correctly.   
+> * C) Incorrect. If the interval for the difference covers zero, then there is no differnece in means.   
+> * D) Incorrect. Those values reported are the group means, not a confidence interval.   
 
 
 

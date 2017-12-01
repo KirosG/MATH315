@@ -165,6 +165,13 @@ Slide 16. **References**
 * Use references from research plan, and any additional references gathered along the way. 
 * Make sure these are correctly done in APA format.
 
+* Proper citations for 
+    - [Add Health](http://www.cpc.unc.edu/projects/addhealth/faqs/addhealth#how-do-i-cite-the-add-health-contractual-data-)
+    - *R*: Type `citation()`
+    - [R Studio](https://support.rstudio.com/hc/en-us/articles/206212048-Citing-RStudio): 
+    - [How to cite software in Text](http://blog.apastyle.org/apastyle/2015/01/how-to-cite-software-in-apa-style.html)
+    
+
 ----
 
 # Final Posters

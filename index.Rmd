@@ -8,7 +8,6 @@ This is the landing page for <span style="color:blue">**Applied Statistical Meth
 * Poster presentations MW
     - Your poster must be printed and ready for class on Monday. 
     - We will randomly choose people to present on Monday, the rest will present on Wednesday. (I can hold your posters in my office until Wednesday.)
-    - Exam review on Friday. Be ready with questions on the **[practice final]()** by then. 
 * Build your own [exam questions](hw/roll_your_own.html) - **Due Wednesday**
     
 
@@ -17,6 +16,10 @@ This is the landing page for <span style="color:blue">**Applied Statistical Meth
 * Poster building week! See the project page for instructions. 
     - Drafts are due Wednesday, reviews due Friday
     - Suggestions on how to make a nice plot for multivariable models has been added to the project page. 
+* Citation information has been udpated to Project page (slide 16) on how to cite addhealth, R, and R studio
+* See [this abstract](http://www.cpc.unc.edu/projects/addhealth/publications/database/6893) for a demonstration on how to describe using the Add Health data set in an analysis.  
+
+
 
 ### 11/13/17 - [Week 13](https://norcalbiostat.github.io/MATH315/wk13.html)
 * RAT on Logistic Regression - Monday
