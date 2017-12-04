@@ -228,9 +228,15 @@ x = kable(sec02, format="html") %>%
                   full_width=FALSE,  position = "left")
 gsub("<thead>.*</thead>", "", x)
 ```
+
 </div>
 
 <br><br>
+
+```{r, echo=FALSE}
+invisible(rm(dta, out, sec01, sec02, x))
+```
+
 
 ## Final poster
 * Upload your final poster to [this Dropbox folder](https://www.dropbox.com/request/NtC88NHRbo5oIyRcSxoD). PDF preferred. PPTX ok.
@@ -246,16 +252,35 @@ gsub("<thead>.*</thead>", "", x)
 <button data-toggle="collapse" data-target="#final">Show/Hide Final Versions</button>
 
 <div id="final" class="collapse">
+### Final posters - as printed
+```{r, message=FALSE, warning=FALSE, echo=FALSE}
+dta <- data.frame(filenames = paste0('FinalPoster/', list.files("FinalPoster/")))
 
-### MATH 315-01 (12pm)
-```{r}
+out <- dta %>% mutate(sec=str_extract(filenames, "[0-9]+"), 
+               file=str_split_fixed(filenames, "_", 2)[,1],
+               name = gsub("FinalPoster/",  "", file), 
+               link = sprintf("[%s](%s)",name, filenames))
 
 ```
 
+#### MATH 315-01 (12pm)
+```{r, message=FALSE, warning=FALSE, echo=FALSE}
+sec01 <- filter(out, sec=="01") %>% select(link)
+x = kable(sec01, format="html") %>%
+    kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), 
+                  full_width=FALSE,  position = "left")
+gsub("<thead>.*</thead>", "", x)
+```
 
-### MATH 315-02 (10am)
 
-
+#### MATH 315-02 (10am)
+```{r, echo=FALSE}
+sec02 <- filter(out, sec=="02") %>% select(name, link)
+x = kable(sec02, format="html") %>%
+    kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), 
+                  full_width=FALSE,  position = "left")
+gsub("<thead>.*</thead>", "", x)
+```
 </div>
 
 
