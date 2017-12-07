@@ -27,7 +27,12 @@ The final exam will revolve around The Outlook on Life Survey.
     - Your poster must be printed and ready for class on Monday. 
     - We will randomly choose people to present on Monday, the rest will present on Wednesday. (I can hold your posters in my office until Wednesday.)
 * Build your own [exam questions](hw/roll_your_own.html) - **Due Wednesday**
-    
+* **Final Exam Info** On Friday we'll talk a little bit about the Final Exam. Here are some supplemental files for you to download and look over before then. 
+    - Outlook on Life Survey: 
+        - [Codebook](https://norcalbiostat.github.io/MATH615/FinalDocs/OOL%20Codebook.pdf)
+        - [Survey](https://norcalbiostat.github.io/MATH615/FinalDocs/OOL%20Questionnaire.pdf)
+    - [Supplemental Info for Final Exam](https://norcalbiostat.github.io/MATH615/FinalDocs/FinalExam_Fall17_Supplemental_Sample.pdf)
+   
 
 ### 11/27/17 - Week 14
 * All Data Camp and Problem set Blackboard learn quizzes due this Friday. No extensions given. 
