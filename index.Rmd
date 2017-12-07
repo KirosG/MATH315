@@ -27,7 +27,6 @@ The final exam will revolve around The Outlook on Life Survey.
     - Your poster must be printed and ready for class on Monday. 
     - We will randomly choose people to present on Monday, the rest will present on Wednesday. (I can hold your posters in my office until Wednesday.)
 * Build your own [exam questions](hw/roll_your_own.html) - **Due Wednesday**
-    
 
 ### 11/27/17 - Week 14
 * All Data Camp and Problem set Blackboard learn quizzes due this Friday. No extensions given. 
