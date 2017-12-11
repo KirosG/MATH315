@@ -11,14 +11,19 @@ This is the landing page for <span style="color:blue">**Applied Statistical Meth
 * Wednesday 1-3pm, Holt 202
 * Wednesday 8-9pm, Online Google Hangouts. Link will be included here a few minutes prior to the start of the session.
 
+<span style="color:red">**Allowed Exam Materials**</span> 
+All exam materials (except course notes) will be turned in with the exam. Make sure your name is on everything.  
 
-The final exam will revolve around The Outlook on Life Survey. 
-
-* Supplemental Info for Final Exam [[OFFICIAL]](https://norcalbiostat.github.io/MATH615/FinalDocs/FinalExam_Fall17_Supplemental.pdf). This document consists of a summary of the survey, data management, univariate descriptions for variables used, and a few pages of analysis. 
-* Print these pages. Ensure that you understand what models are being fit and how to read the output. You are allowed to write notes on these pages. Bring them to the final. 
+* The [[OFFICIAL]](https://norcalbiostat.github.io/MATH615/FinalDocs/FinalExam_Fall17_Supplemental.pdf) supplemental information and analyses for the Outlook on Life Survey. 
+    - Print these pages. Ensure that you understand what models are being fit and how to read the output. You are allowed to write notes on these pages.
     - Be prepared to answer questions about modeling and interpreting these analyses. 
-* Additional information, such as full wording of the question on how the variables were coded can be found in the [[codebook]](https://norcalbiostat.github.io/MATH615/FinalDocs/OOL%20Codebook.pdf) and [[survey questionnaire]](https://norcalbiostat.github.io/MATH615/FinalDocs/OOL%20Questionnaire.pdf), both are linked below. 
-    - **Do not bring these to the final**. They are for you to use as referece material while you are learning to understand this survey.   
+* A calculator
+* Your course notes
+* An additional 1 page of notes
+
+
+    
+Additional information on this new survey, such as full wording of the question on how the variables were coded can be found in the [[codebook]](https://norcalbiostat.github.io/MATH615/FinalDocs/OOL%20Codebook.pdf) and [[survey questionnaire]](https://norcalbiostat.github.io/MATH615/FinalDocs/OOL%20Questionnaire.pdf). **Do not bring these to the final**. They are for you to use as reference material while you are learning to understand this survey.   
 
 <span style="color:red">**Review List**</span> 
 This final exam is comprehensive in that everything in this class builds upon previous topics. 
@@ -50,7 +55,7 @@ Here are a list of topics to review. All topics have equal importance, regardles
 * Poster building week! See the project page for instructions. 
     - Drafts are due Wednesday, reviews due Friday
     - Suggestions on how to make a nice plot for multivariable models has been added to the project page. 
-* Citation information has been udpated to Project page (slide 16) on how to cite addhealth, R, and R studio
+* Citation information has been updated to Project page (slide 16) on how to cite addhealth, R, and R studio
 * See [this abstract](http://www.cpc.unc.edu/projects/addhealth/publications/database/6893) for a demonstration on how to describe using the Add Health data set in an analysis.  
 
 
